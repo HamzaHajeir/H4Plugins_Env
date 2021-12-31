@@ -1,0 +1,19 @@
+SHORTTERM
+    lynx slave -> http transport not obvious! ... multi armadillo?
+// ? h4poutput object in vector causes -> illegal x
+// fix crap example for asynhttp
+    fix write length return for 32/8266
+    fix dump / locallogger to avoid large file crash
+    adv docs + / example creating your own commands
+MEDIUMTERM
+    outfactor signal functions to H4PE_SIGNAL:
+    grid??
+    ESp32 MDNS detector
+    ESp32 tonecontroller
+LONGTERM
+    upnp analyser device
+    dynamic add gpio / thing etc
+    ESP32 bluetooth PD
+    rf bridge
+    fix switch.ps1 to use soap etc (revert a la esparto)
+    schedule in cheztoi - now node red :)
