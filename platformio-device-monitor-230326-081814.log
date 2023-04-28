@@ -1,0 +1,1919 @@
+08:18:18.613 > Registered to start:
+08:18:18.613 >  upnp
+08:18:18.613 >  tick
+08:18:18.613 >  gpio
+08:18:18.613 >  mqtt
+08:18:18.613 >  cmd
+08:18:18.613 >  wifi
+08:18:18.613 >  wink
+08:18:18.613 >  beat
+08:18:18.613 > GPIOs defined:
+08:18:18.613 >  02 S=0 C=4 NPL=1
+08:18:18.613 > 
+08:18:18.613 > *INFO: H4P 3.2.1
+08:18:18.613 > H4P_PinMachine::svcUp 1
+08:18:18.613 > START PINS:  P02 S=LO P=1 L=1 C=BLACK V=1 O=1 A=0
+08:18:18.613 > 
+08:18:18.613 > *INFO: H4P upnp waits wifi
+08:18:18.613 > 
+08:18:18.613 > 
+08:18:18.613 > *INFO: H4P mqtt waits wifi
+08:18:18.613 > 
+08:18:18.613 > 
+08:18:18.613 > ****************** WARNING ***********************
+08:18:18.613 > *
+08:18:18.613 > *    H4P wifi ZOMBIE!!
+08:18:18.613 >  
+08:18:18.613 > *
+08:18:18.613 > **************************************************
+08:18:18.613 > 
+08:18:18.613 > *INFO: H4P beat waits wifi
+08:18:18.613 > 
+08:18:18.613 > 
+08:18:18.613 > *INFO: H4P Ready: Heap=235568
+08:18:18.613 > WiFi Disconnected
+08:18:18.613 > PANG:1: USER DCX
+08:18:18.613 > PANG:1: NOTIFY e=8 inf=0
+08:18:18.613 > 
+08:18:18.613 > ****************** WARNING ***********************
+08:18:18.613 > *
+08:18:18.613 > *    mqtt 8,0 
+08:18:18.613 > *
+08:18:18.613 > **************************************************
+08:18:18.613 > 
+08:18:18.613 > *INFO: wifi IP=192.168.1.51
+08:18:18.613 > Connected, IP: 192.168.1.51
+08:18:18.613 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+08:18:18.613 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+08:18:18.613 > AARD:1: ----> TX 51 bytes
+08:18:21.572 > E (13488) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+08:18:21.581 > E (13488) task_wdt:  - async_tcp (CPU 0/1)
+08:18:21.590 > E (13488) task_wdt: Tasks currently running:
+08:18:21.594 > E (13488) task_wdt: CPU 0: IDLE
+08:18:21.597 > E (13488) task_wdt: CPU 1: IDLE
+08:18:21.600 > E (13488) task_wdt: Aborting.
+08:18:21.602 > 
+08:18:21.602 > abort() was called at PC 0x400fe8f8 on core 0
+08:18:21.607 > 
+08:18:21.607 > 
+08:18:21.607 > Backtrace: 0x40083765:0x3ffbec1c |<-CORRUPTED
+08:18:21.634 > 
+08:18:21.634 >   #0  0x40083765:0x3ffbec1c in panic_abort at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_system/panic.c:408
+08:18:21.634 > 
+08:18:21.634 > 
+08:18:21.634 > 
+08:18:21.634 > 
+08:18:21.634 > ELF file SHA256: f2bcf6c2ce23e223
+08:18:21.634 > 
+08:18:21.939 > Rebooting...
+08:18:21.942 > ets Jun  8 2016 00:22:57
+08:18:21.944 > 
+08:18:21.944 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:18:21.950 > configsip: 0, SPIWP:0xee
+08:18:21.952 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:18:21.959 > mode:DIO, clock div:2
+08:18:21.960 > load:0x3fff0030,len:1184
+08:18:21.962 > load:0x40078000,len:13192
+08:18:21.965 > load:0x40080400,len:3028
+08:18:21.968 > entry 0x400805e4
+08:18:22.432 > Registered to start:
+08:18:22.432 >  upnp
+08:18:22.442 >  tick
+08:18:22.442 >  gpio
+08:18:22.443 >  mqtt
+08:18:22.443 >  cmd
+08:18:22.443 >  wifi
+08:18:22.443 >  wink
+08:18:22.444 >  beat
+08:18:22.444 > GPIOs defined:
+08:18:22.446 >  02 S=0 C=4 NPL=1
+08:18:22.561 > 
+08:18:22.564 > *INFO: H4P 3.2.1
+08:18:22.575 > H4P_PinMachine::svcUp 1
+08:18:22.578 > START PINS:  P02 S=LO P=1 L=0 C=BLACK V=0 O=1 A=0
+08:18:22.692 > 
+08:18:22.701 > *INFO: H4P upnp waits wifi
+08:18:22.704 > 
+08:18:22.704 > 
+08:18:22.704 > *INFO: H4P mqtt waits wifi
+08:18:22.706 > 
+08:18:22.706 > 
+08:18:22.707 > ****************** WARNING ***********************
+08:18:22.710 > *
+08:18:22.710 > *    H4P wifi ZOMBIE!!
+08:18:22.713 >  
+08:18:22.713 > *
+08:18:22.713 > **************************************************
+08:18:22.718 > 
+08:18:22.718 > *INFO: H4P beat waits wifi
+08:18:22.720 > 
+08:18:22.720 > 
+08:18:22.720 > *INFO: H4P Ready: Heap=235564
+08:18:22.734 > WiFi Disconnected
+08:18:22.737 > PANG:1: USER DCX
+08:18:22.738 > PANG:1: NOTIFY e=8 inf=0
+08:18:22.740 > 
+08:18:22.740 > ****************** WARNING ***********************
+08:18:22.744 > *
+08:18:22.744 > *    mqtt 8,0 
+08:18:22.745 > *
+08:18:22.747 > **************************************************
+08:18:22.862 > 
+08:18:22.862 > *INFO: wifi IP=192.168.1.51
+08:18:22.869 > Connected, IP: 192.168.1.51
+08:18:22.873 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+08:18:22.907 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+08:18:22.913 > AARD:1: ----> TX 51 bytes
+08:18:23.854 > AARD:1: <---- RX 3FFDB226 len=4 PSH=1 stored=0 FH=110580
+08:18:23.862 > PANG:1: MQTT CONNACK
+08:18:23.864 > PANG:2:  Data @ 0x3ffdb226 len=4 RL=2
+08:18:23.867 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+08:18:23.872 > AARD:1: ----> TX 12 bytes
+08:18:28.875 > E (13229) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+08:18:28.882 > E (13229) task_wdt:  - async_tcp (CPU 0/1)
+08:18:28.888 > E (13229) task_wdt: Tasks currently running:
+08:18:28.894 > E (13229) task_wdt: CPU 0: IDLE
+08:18:28.897 > E (13229) task_wdt: CPU 1: IDLE
+08:18:28.899 > E (13229) task_wdt: Aborting.
+08:18:28.902 > 
+08:18:28.902 > abort() was called at PC 0x400fe8f8 on core 0
+08:18:28.932 > 
+08:18:28.932 > 
+08:18:28.932 > Backtrace: 0x40083765:0x3ffbec1c |<-CORRUPTED
+08:18:28.932 > 
+08:18:28.932 >   #0  0x40083765:0x3ffbec1c in panic_abort at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_system/panic.c:408
+08:18:28.932 > 
+08:18:28.932 > 
+08:18:28.932 > 
+08:18:28.932 > 
+08:18:28.932 > ELF file SHA256: f2bcf6c2ce23e223
+08:18:28.933 > 
+08:18:29.241 > Rebooting...
+08:18:29.241 > ets Jun  8 2016 00:22:57
+08:18:29.247 > 
+08:18:29.247 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:18:29.253 > configsip: 0, SPIWP:0xee
+08:18:29.255 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:18:29.260 > mode:DIO, clock div:2
+08:18:29.263 > load:0x3fff0030,len:1184
+08:18:29.265 > load:0x40078000,len:13192
+08:18:29.268 > load:0x40080400,len:3028
+08:18:29.270 > entry 0x400805e4
+08:18:29.742 > Registered to start:
+08:18:29.742 >  upnp
+08:18:29.744 >  tick
+08:18:29.744 >  gpio
+08:18:29.745 >  mqtt
+08:18:29.745 >  cmd
+08:18:29.745 >  wifi
+08:18:29.745 >  wink
+08:18:29.747 >  beat
+08:18:29.747 > GPIOs defined:
+08:18:29.749 >  02 S=0 C=4 NPL=1
+08:18:29.862 > 
+08:18:29.867 > *INFO: H4P 3.2.1
+08:18:29.879 > H4P_PinMachine::svcUp 1
+08:18:29.882 > START PINS:  P02 S=LO P=1 L=0 C=BLACK V=0 O=1 A=0
+08:18:30.002 > 
+08:18:30.003 > *INFO: H4P upnp waits wifi
+08:18:30.005 > 
+08:18:30.005 > 
+08:18:30.005 > *INFO: H4P mqtt waits wifi
+08:18:30.007 > 
+08:18:30.007 > 
+08:18:30.007 > ****************** WARNING ***********************
+08:18:30.013 > *
+08:18:30.013 > *    H4P wifi ZOMBIE!!
+08:18:30.015 >  
+08:18:30.015 > *
+08:18:30.015 > **************************************************
+08:18:30.020 > 
+08:18:30.020 > *INFO: H4P beat waits wifi
+08:18:30.022 > 
+08:18:30.022 > 
+08:18:30.022 > *INFO: H4P Ready: Heap=235752
+08:18:30.037 > WiFi Disconnected
+08:18:30.040 > PANG:1: USER DCX
+08:18:30.042 > PANG:1: NOTIFY e=8 inf=0
+08:18:30.043 > 
+08:18:30.043 > ****************** WARNING ***********************
+08:18:30.048 > *
+08:18:30.049 > *    mqtt 8,0 
+08:18:30.050 > *
+08:18:30.050 > **************************************************
+08:18:30.201 > 
+08:18:30.206 > *INFO: wifi IP=192.168.1.51
+08:18:30.209 > Connected, IP: 192.168.1.51
+08:18:30.211 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+08:18:30.459 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+08:18:30.466 > AARD:1: ----> TX 51 bytes
+08:18:30.478 > AARD:1: <---- RX 3FFDA812 len=4 PSH=1 stored=0 FH=110580
+08:18:30.484 > PANG:1: MQTT CONNACK
+08:18:30.486 > PANG:2:  Data @ 0x3ffda812 len=4 RL=2
+08:18:30.489 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+08:18:30.493 > AARD:1: ----> TX 12 bytes
+08:18:30.498 > PANG:1: MQTT PUBLISH
+08:18:30.502 > PANG:2:  Data @ 0x3ffdaafc len=66 RL=64
+08:18:30.505 > 
+08:18:30.505 > *INFO: mqtt CNX http://192.168.1.34:1883
+08:18:30.509 > AARD:1: ----> TX 15 bytes
+08:18:30.511 > AARD:1: <---- RX 3FFDA922 len=5 PSH=1 stored=0 FH=110580
+08:18:30.515 > PANG:1: MQTT SUBACK
+08:18:30.517 > PANG:2:  Data @ 0x3ffda922 len=5 RL=3
+08:18:30.520 > AARD:1: ----> TX 20 bytes
+08:18:30.523 > AARD:1: <---- RX 3FFDA886 len=5 PSH=1 stored=0 FH=110580
+08:18:30.528 > PANG:1: MQTT SUBACK
+08:18:30.530 > PANG:2:  Data @ 0x3ffda886 len=5 RL=3
+08:18:30.533 > AARD:1: ----> TX 18 bytes
+08:18:30.536 > AARD:1: <---- RX 3FFDA976 len=5 PSH=1 stored=0 FH=110580
+08:18:30.540 > PANG:1: MQTT SUBACK
+08:18:30.542 > PANG:2:  Data @ 0x3ffda976 len=5 RL=3
+08:18:30.544 > AARD:1: ----> TX 18 bytes
+08:18:30.548 > AARD:1: <---- RX 3FFD9DB2 len=5 PSH=1 stored=0 FH=110580
+08:18:30.553 > PANG:1: MQTT SUBACK
+08:18:30.555 > PANG:2:  Data @ 0x3ffd9db2 len=5 RL=3
+08:18:30.558 > AARD:1: ----> TX 66 bytes
+08:18:30.559 > AARD:1: <---- RX 3FFDAA66 len=5 PSH=1 stored=0 FH=110580
+08:18:30.565 > PANG:1: MQTT SUBACK
+08:18:30.567 > PANG:2:  Data @ 0x3ffdaa66 len=5 RL=3
+08:18:35.496 > Publishing 0 to uptime
+08:18:35.502 > PANG:1: MQTT PUBLISH
+08:18:35.502 > PANG:2:  Data @ 0x3ffe3e38 len=25 RL=23
+08:18:35.507 > AARD:1: ----> TX 25 bytes
+08:18:38.091 > E (17062) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+08:18:38.102 > E (17062) task_wdt:  - async_tcp (CPU 0/1)
+08:18:38.109 > E (17062) task_wdt: Tasks currently running:
+08:18:38.113 > E (17062) task_wdt: CPU 0: IDLE
+08:18:38.115 > E (17062) task_wdt: CPU 1: IDLE
+08:18:38.117 > E (17062) task_wdt: Aborting.
+08:18:38.120 > 
+08:18:38.120 > abort() was called at PC 0x400fe8f8 on core 0
+08:18:38.124 > 
+08:18:38.124 > 
+08:18:38.125 > Backtrace: 0x40083765:0x3ffbec1c |<-CORRUPTED
+08:18:38.152 > 
+08:18:38.152 >   #0  0x40083765:0x3ffbec1c in panic_abort at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_system/panic.c:408
+08:18:38.152 > 
+08:18:38.152 > 
+08:18:38.152 > 
+08:18:38.152 > 
+08:18:38.152 > ELF file SHA256: f2bcf6c2ce23e223
+08:18:38.152 > 
+08:18:38.462 > Rebooting...
+08:18:38.464 > ets Jun  8 2016 00:22:57
+08:18:38.467 > 
+08:18:38.467 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:18:38.472 > configsip: 0, SPIWP:0xee
+08:18:38.473 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:18:38.480 > mode:DIO, clock div:2
+08:18:38.482 > load:0x3fff0030,len:1184
+08:18:38.484 > load:0x40078000,len:13192
+08:18:38.486 > load:0x40080400,len:3028
+08:18:38.488 > entry 0x400805e4
+08:18:38.957 > Registered to start:
+08:18:38.961 >  upnp
+08:18:38.961 >  tick
+08:18:38.964 >  gpio
+08:18:38.965 >  mqtt
+08:18:38.965 >  cmd
+08:18:38.966 >  wifi
+08:18:38.966 >  wink
+08:18:38.967 >  beat
+08:18:38.967 > GPIOs defined:
+08:18:38.968 >  02 S=0 C=4 NPL=1
+08:18:39.082 > 
+08:18:39.087 > *INFO: H4P 3.2.1
+08:18:39.099 > H4P_PinMachine::svcUp 1
+08:18:39.101 > START PINS:  P02 S=LO P=1 L=0 C=BLACK V=0 O=1 A=0
+08:18:39.221 > 
+08:18:39.221 > *INFO: H4P upnp waits wifi
+08:18:39.226 > 
+08:18:39.226 > 
+08:18:39.226 > *INFO: H4P mqtt waits wifi
+08:18:39.228 > 
+08:18:39.228 > 
+08:18:39.228 > ****************** WARNING ***********************
+08:18:39.233 > *
+08:18:39.233 > *    H4P wifi ZOMBIE!!
+08:18:39.235 >  
+08:18:39.235 > *
+08:18:39.235 > **************************************************
+08:18:39.240 > 
+08:18:39.240 > *INFO: H4P beat waits wifi
+08:18:39.242 > 
+08:18:39.242 > 
+08:18:39.242 > *INFO: H4P Ready: Heap=235540
+08:18:39.257 > WiFi Disconnected
+08:18:39.260 > PANG:1: USER DCX
+08:18:39.261 > PANG:1: NOTIFY e=8 inf=0
+08:18:39.262 > 
+08:18:39.262 > ****************** WARNING ***********************
+08:18:39.268 > *
+08:18:39.268 > *    mqtt 8,0 
+08:18:39.269 > *
+08:18:39.269 > **************************************************
+08:18:39.391 > 
+08:18:39.393 > *INFO: wifi IP=192.168.1.51
+08:18:39.396 > Connected, IP: 192.168.1.51
+08:18:39.399 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+08:18:39.672 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+08:18:39.682 > AARD:1: ----> TX 51 bytes
+08:18:39.693 > AARD:1: <---- RX 3FFDB7F6 len=4 PSH=1 stored=0 FH=110580
+08:18:39.698 > PANG:1: MQTT CONNACK
+08:18:39.700 > PANG:2:  Data @ 0x3ffdb7f6 len=4 RL=2
+08:18:39.703 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+08:18:39.708 > AARD:1: ----> TX 12 bytes
+08:18:39.714 > PANG:1: MQTT PUBLISH
+08:18:39.716 > PANG:2:  Data @ 0x3ffdbafc len=66 RL=64
+08:18:39.719 > 
+08:18:39.720 > *INFO: mqtt CNX http://192.168.1.34:1883
+08:18:39.723 > AARD:1: ----> TX 15 bytes
+08:18:39.725 > AARD:1: <---- RX 3FFDBC6E len=5 PSH=1 stored=0 FH=110580
+08:18:39.730 > PANG:1: MQTT SUBACK
+08:18:39.732 > PANG:2:  Data @ 0x3ffdbc6e len=5 RL=3
+08:18:39.735 > AARD:1: ----> TX 20 bytes
+08:18:39.738 > AARD:1: <---- RX 3FFDBE7A len=5 PSH=1 stored=0 FH=110580
+08:18:39.743 > PANG:1: MQTT SUBACK
+08:18:39.744 > PANG:2:  Data @ 0x3ffdbe7a len=5 RL=3
+08:18:39.748 > AARD:1: ----> TX 18 bytes
+08:18:39.750 > AARD:1: <---- RX 3FFDB7F6 len=5 PSH=1 stored=0 FH=110580
+08:18:39.755 > PANG:1: MQTT SUBACK
+08:18:39.756 > PANG:2:  Data @ 0x3ffdb7f6 len=5 RL=3
+08:18:39.760 > AARD:1: ----> TX 18 bytes
+08:18:39.762 > AARD:1: <---- RX 3FFDBE46 len=5 PSH=1 stored=0 FH=110580
+08:18:39.767 > PANG:1: MQTT SUBACK
+08:18:39.769 > PANG:2:  Data @ 0x3ffdbe46 len=5 RL=3
+08:18:39.772 > AARD:1: ----> TX 66 bytes
+08:18:39.775 > AARD:1: <---- RX 3FFD9DD2 len=5 PSH=1 stored=0 FH=110580
+08:18:39.780 > PANG:1: MQTT SUBACK
+08:18:39.782 > PANG:2:  Data @ 0x3ffd9dd2 len=5 RL=3
+08:18:44.712 > Publishing 98292 to heap
+08:18:44.712 > PANG:1: MQTT PUBLISH
+08:18:44.720 > PANG:2:  Data @ 0x3ffe7734 len=27 RL=25
+08:18:44.724 > AARD:1: ----> TX 27 bytes
+08:18:46.761 > E (15972) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+08:18:46.773 > E (15972) task_wdt:  - async_tcp (CPU 0/1)
+08:18:46.782 > E (15972) task_wdt: Tasks currently running:
+08:18:46.787 > E (15972) task_wdt: CPU 0: IDLE
+08:18:46.789 > E (15972) task_wdt: CPU 1: IDLE
+08:18:46.792 > E (15972) task_wdt: Aborting.
+08:18:46.795 > 
+08:18:46.795 > abort() was called at PC 0x400fe8f8 on core 0
+08:18:46.799 > 
+08:18:46.799 > 
+08:18:46.799 > Backtrace: 0x40083765:0x3ffbec1c |<-CORRUPTED
+08:18:46.823 > 
+08:18:46.823 >   #0  0x40083765:0x3ffbec1c in panic_abort at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_system/panic.c:408
+08:18:46.823 > 
+08:18:46.823 > 
+08:18:46.823 > 
+08:18:46.823 > 
+08:18:46.823 > ELF file SHA256: f2bcf6c2ce23e223
+08:18:46.823 > 
+08:18:47.132 > Rebooting...
+08:18:47.132 > ets Jun  8 2016 00:22:57
+08:18:47.144 > 
+08:18:47.144 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:18:47.149 > configsip: 0, SPIWP:0xee
+08:18:47.151 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:18:47.157 > mode:DIO, clock div:2
+08:18:47.159 > load:0x3fff0030,len:1184
+08:18:47.161 > load:0x40078000,len:13192
+08:18:47.164 > load:0x40080400,len:3028
+08:18:47.166 > entry 0x400805e4
+08:18:47.638 > Registered to start:
+08:18:47.638 >  upnp
+08:18:47.641 >  tick
+08:18:47.641 >  gpio
+08:18:47.642 >  mqtt
+08:18:47.643 >  cmd
+08:18:47.643 >  wifi
+08:18:47.643 >  wink
+08:18:47.644 >  beat
+08:18:47.645 > GPIOs defined:
+08:18:47.646 >  02 S=0 C=4 NPL=1
+08:18:47.762 > 
+08:18:47.764 > *INFO: H4P 3.2.1
+08:18:47.776 > H4P_PinMachine::svcUp 1
+08:18:47.778 > START PINS:  P02 S=LO P=1 L=0 C=BLACK V=0 O=1 A=0
+08:18:47.901 > 
+08:18:47.902 > *INFO: H4P upnp waits wifi
+08:18:47.904 > 
+08:18:47.904 > 
+08:18:47.904 > *INFO: H4P mqtt waits wifi
+08:18:47.906 > 
+08:18:47.907 > 
+08:18:47.907 > ****************** WARNING ***********************
+08:18:47.911 > *
+08:18:47.911 > *    H4P wifi ZOMBIE!!
+08:18:47.912 >  
+08:18:47.912 > *
+08:18:47.914 > **************************************************
+08:18:47.918 > 
+08:18:47.918 > *INFO: H4P beat waits wifi
+08:18:47.920 > 
+08:18:47.921 > 
+08:18:47.921 > *INFO: H4P Ready: Heap=235752
+08:18:47.937 > WiFi Disconnected
+08:18:47.939 > PANG:1: USER DCX
+08:18:47.939 > PANG:1: NOTIFY e=8 inf=0
+08:18:47.943 > 
+08:18:47.943 > ****************** WARNING ***********************
+08:18:47.947 > *
+08:18:47.947 > *    mqtt 8,0 
+08:18:47.949 > *
+08:18:47.949 > **************************************************
+08:18:48.088 > 
+08:18:48.091 > *INFO: wifi IP=192.168.1.51
+08:18:48.094 > Connected, IP: 192.168.1.51
+08:18:48.096 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+08:18:48.272 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+08:18:48.282 > AARD:1: ----> TX 51 bytes
+08:18:48.289 > AARD:1: <---- RX 3FFDAEBE len=4 PSH=1 stored=0 FH=110580
+08:18:48.295 > PANG:1: MQTT CONNACK
+08:18:48.297 > PANG:2:  Data @ 0x3ffdaebe len=4 RL=2
+08:18:48.300 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+08:18:48.305 > AARD:1: ----> TX 12 bytes
+08:18:48.310 > PANG:1: MQTT PUBLISH
+08:18:48.313 > PANG:2:  Data @ 0x3ffdaa0c len=66 RL=64
+08:18:48.316 > 
+08:18:48.316 > *INFO: mqtt CNX http://192.168.1.34:1883
+08:18:48.320 > AARD:1: ----> TX 15 bytes
+08:18:48.322 > AARD:1: <---- RX 3FFDA922 len=5 PSH=1 stored=0 FH=110580
+08:18:48.327 > PANG:1: MQTT SUBACK
+08:18:48.329 > PANG:2:  Data @ 0x3ffda922 len=5 RL=3
+08:18:48.331 > AARD:1: ----> TX 20 bytes
+08:18:48.334 > AARD:1: <---- RX 3FFDA922 len=5 PSH=1 stored=0 FH=110580
+08:18:48.339 > PANG:1: MQTT SUBACK
+08:18:48.341 > PANG:2:  Data @ 0x3ffda922 len=5 RL=3
+08:18:48.344 > AARD:1: ----> TX 18 bytes
+08:18:48.346 > AARD:1: <---- RX 3FFDB18E len=5 PSH=1 stored=0 FH=110580
+08:18:48.351 > PANG:1: MQTT SUBACK
+08:18:48.352 > PANG:2:  Data @ 0x3ffdb18e len=5 RL=3
+08:18:48.356 > AARD:1: ----> TX 18 bytes
+08:18:48.359 > AARD:1: <---- RX 3FFDA922 len=5 PSH=1 stored=0 FH=110580
+08:18:48.364 > PANG:1: MQTT SUBACK
+08:18:48.365 > PANG:2:  Data @ 0x3ffda922 len=5 RL=3
+08:18:48.369 > AARD:1: ----> TX 66 bytes
+08:18:48.371 > AARD:1: <---- RX 3FFDB18E len=5 PSH=1 stored=0 FH=110580
+08:18:48.376 > PANG:1: MQTT SUBACK
+08:18:48.378 > PANG:2:  Data @ 0x3ffdb18e len=5 RL=3
+08:18:53.328 > Publishing 110580 to heap
+08:18:53.331 > PANG:1: MQTT PUBLISH
+08:18:53.333 > PANG:2:  Data @ 0x3ffd9bc8 len=28 RL=26
+08:18:53.336 > AARD:1: ----> TX 28 bytes
+08:18:53.398 > Publishing 0 to uptime
+08:18:53.433 > PANG:1: MQTT PUBLISH
+08:18:53.435 > PANG:2:  Data @ 0x3ffdffa0 len=25 RL=23
+08:18:53.439 > Publishing Hello from uiinputs to hello
+08:18:53.453 > PANG:1: MQTT PUBLISH
+08:18:53.455 > PANG:2:  Data @ 0x3ffddc80 len=42 RL=40
+08:18:53.458 > Publishing 5883 to millis
+08:18:53.463 > PANG:1: MQTT PUBLISH
+08:18:53.465 > PANG:2:  Data @ 0x3ffddcc4 len=28 RL=26
+08:18:53.469 > Heap: 110580
+08:18:53.711 > AARD:1: ----> TX 25 bytes
+08:18:53.711 > AARD:1: <---- RX 3FFDFF32 len=4 PSH=1 stored=0 FH=110580
+08:18:53.724 > PANG:1: MQTT PUBACK
+08:18:53.726 > PANG:2:  Data @ 0x3ffdff32 len=4 RL=2
+08:18:53.739 > AARD:1: ----> TX 42 bytes
+08:18:53.742 > AARD:1: <---- RX 3FFDA9BA len=4 PSH=1 stored=0 FH=110580
+08:18:53.747 > PANG:1: MQTT PUBACK
+08:18:53.749 > PANG:2:  Data @ 0x3ffda9ba len=4 RL=2
+08:18:53.751 > AARD:1: ----> TX 28 bytes
+08:18:53.755 > AARD:1: <---- RX 3FFDB202 len=4 PSH=1 stored=0 FH=110580
+08:18:53.760 > PANG:1: MQTT PUBACK
+08:18:53.761 > PANG:2:  Data @ 0x3ffdb202 len=4 RL=2
+08:18:53.809 > AARD:1: <---- RX 3FFDDEA6 len=4 PSH=1 stored=0 FH=110580
+08:18:53.814 > PANG:1: MQTT PUBACK
+08:18:53.816 > PANG:2:  Data @ 0x3ffddea6 len=4 RL=2
+08:18:58.398 > Publishing 98292 to heap
+08:18:58.400 > PANG:1: MQTT PUBLISH
+08:18:58.402 > PANG:2:  Data @ 0x3ffe3e00 len=27 RL=25
+08:18:58.405 > AARD:1: ----> TX 27 bytes
+08:19:01.732 > E (28544) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+08:19:01.742 > E (28544) task_wdt:  - async_tcp (CPU 0/1)
+08:19:01.746 > E (28544) task_wdt: Tasks currently running:
+08:19:01.750 > E (28544) task_wdt: CPU 0: IDLE
+08:19:01.752 > E (28544) task_wdt: CPU 1: IDLE
+08:19:01.756 > E (28544) task_wdt: Aborting.
+08:19:01.758 > 
+08:19:01.758 > abort() was called at PC 0x400fe8f8 on core 0
+08:19:01.762 > 
+08:19:01.762 > 
+08:19:01.762 > Backtrace: 0x40083765:0x3ffbec1c |<-CORRUPTED
+08:19:01.789 > 
+08:19:01.789 >   #0  0x40083765:0x3ffbec1c in panic_abort at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_system/panic.c:408
+08:19:01.789 > 
+08:19:01.789 > 
+08:19:01.789 > 
+08:19:01.789 > 
+08:19:01.789 > ELF file SHA256: f2bcf6c2ce23e223
+08:19:01.789 > 
+08:19:02.097 > Rebooting...
+08:19:02.098 > ets Jun  8 2016 00:22:57
+08:19:02.100 > 
+08:19:02.100 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:19:02.106 > configsip: 0, SPIWP:0xee
+08:19:02.108 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:19:02.115 > mode:DIO, clock div:2
+08:19:02.117 > load:0x3fff0030,len:1184
+08:19:02.119 > load:0x40078000,len:13192
+08:19:02.121 > load:0x40080400,len:3028
+08:19:02.123 > entry 0x400805e4
+08:19:02.596 > Registered to start:
+08:19:02.598 >  upnp
+08:19:02.598 >  tick
+08:19:02.599 >  gpio
+08:19:02.599 >  mqtt
+08:19:02.600 >  cmd
+08:19:02.600 >  wifi
+08:19:02.600 >  wink
+08:19:02.600 >  beat
+08:19:02.602 > GPIOs defined:
+08:19:02.603 >  02 S=0 C=4 NPL=1
+08:19:02.721 > 
+08:19:02.721 > *INFO: H4P 3.2.1
+08:19:02.733 > H4P_PinMachine::svcUp 1
+08:19:02.736 > START PINS:  P02 S=LO P=1 L=0 C=BLACK V=0 O=1 A=0
+08:19:02.857 > 
+08:19:02.857 > *INFO: H4P upnp waits wifi
+08:19:02.860 > 
+08:19:02.860 > 
+08:19:02.860 > *INFO: H4P mqtt waits wifi
+08:19:02.863 > 
+08:19:02.863 > 
+08:19:02.863 > ****************** WARNING ***********************
+08:19:02.867 > *
+08:19:02.867 > *    H4P wifi ZOMBIE!!
+08:19:02.869 >  
+08:19:02.870 > *
+08:19:02.870 > **************************************************
+08:19:02.874 > 
+08:19:02.874 > *INFO: H4P beat waits wifi
+08:19:02.877 > 
+08:19:02.877 > 
+08:19:02.877 > *INFO: H4P Ready: Heap=233452
+08:19:02.895 > WiFi Disconnected
+08:19:02.897 > PANG:1: USER DCX
+08:19:02.899 > PANG:1: NOTIFY e=8 inf=0
+08:19:02.900 > 
+08:19:02.900 > ****************** WARNING ***********************
+08:19:02.906 > *
+08:19:02.906 > *    mqtt 8,0 
+08:19:02.907 > *
+08:19:02.907 > **************************************************
+08:19:03.074 > 
+08:19:03.075 > *INFO: wifi IP=192.168.1.51
+08:19:03.077 > Connected, IP: 192.168.1.51
+08:19:03.079 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+08:19:03.669 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+08:19:03.675 > AARD:1: ----> TX 51 bytes
+08:19:09.101 > E (13368) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+08:19:09.101 > E (13368) task_wdt:  - async_tcp (CPU 0/1)
+08:19:09.115 > E (13368) task_wdt: Tasks currently running:
+08:19:09.119 > E (13368) task_wdt: CPU 0: IDLE
+08:19:09.122 > E (13368) task_wdt: CPU 1: IDLE
+08:19:09.125 > E (13368) task_wdt: Aborting.
+08:19:09.127 > 
+08:19:09.128 > abort() was called at PC 0x400fe8f8 on core 0
+08:19:09.132 > 
+08:19:09.132 > 
+08:19:09.132 > Backtrace: 0x40083765:0x3ffbec1c |<-CORRUPTED
+08:19:09.156 > 
+08:19:09.156 >   #0  0x40083765:0x3ffbec1c in panic_abort at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_system/panic.c:408
+08:19:09.156 > 
+08:19:09.156 > 
+08:19:09.156 > 
+08:19:09.157 > 
+08:19:09.157 > ELF file SHA256: f2bcf6c2ce23e223
+08:19:09.157 > 
+08:19:09.469 > Rebooting...
+08:19:09.471 > ets Jun  8 2016 00:22:57
+08:19:09.473 > 
+08:19:09.473 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:19:09.478 > configsip: 0, SPIWP:0xee
+08:19:09.480 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:19:09.487 > mode:DIO, clock div:2
+08:19:09.489 > load:0x3fff0030,len:1184
+08:19:09.491 > load:0x40078000,len:13192
+08:19:09.493 > load:0x40080400,len:3028
+08:19:09.495 > entry 0x400805e4
+08:19:09.967 > Registered to start:
+08:19:09.969 >  upnp
+08:19:09.970 >  tick
+08:19:09.970 >  gpio
+08:19:09.970 >  mqtt
+08:19:09.970 >  cmd
+08:19:09.972 >  wifi
+08:19:09.972 >  wink
+08:19:09.973 >  beat
+08:19:09.973 > GPIOs defined:
+08:19:09.975 >  02 S=0 C=4 NPL=1
+08:19:10.092 > 
+08:19:10.092 > *INFO: H4P 3.2.1
+08:19:10.104 > H4P_PinMachine::svcUp 1
+08:19:10.106 > START PINS:  P02 S=LO P=1 L=0 C=BLACK V=0 O=1 A=0
+08:19:10.228 > 
+08:19:10.228 > *INFO: H4P upnp waits wifi
+08:19:10.230 > 
+08:19:10.230 > 
+08:19:10.230 > *INFO: H4P mqtt waits wifi
+08:19:10.233 > 
+08:19:10.233 > 
+08:19:10.233 > ****************** WARNING ***********************
+08:19:10.238 > *
+08:19:10.238 > *    H4P wifi ZOMBIE!!
+08:19:10.240 >  
+08:19:10.240 > *
+08:19:10.240 > **************************************************
+08:19:10.245 > 
+08:19:10.245 > *INFO: H4P beat waits wifi
+08:19:10.247 > 
+08:19:10.247 > 
+08:19:10.247 > *INFO: H4P Ready: Heap=235540
+08:19:10.262 > WiFi Disconnected
+08:19:10.264 > PANG:1: USER DCX
+08:19:10.265 > PANG:1: NOTIFY e=8 inf=0
+08:19:10.268 > 
+08:19:10.268 > ****************** WARNING ***********************
+08:19:10.272 > *
+08:19:10.273 > *    mqtt 8,0 
+08:19:10.274 > *
+08:19:10.274 > **************************************************
+08:19:10.402 > 
+08:19:10.402 > *INFO: wifi IP=192.168.1.51
+08:19:10.404 > Connected, IP: 192.168.1.51
+08:19:10.407 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+08:19:10.703 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+08:19:10.710 > AARD:1: ----> TX 51 bytes
+08:19:10.726 > AARD:1: <---- RX 3FFDA786 len=4 PSH=1 stored=0 FH=110580
+08:19:10.732 > PANG:1: MQTT CONNACK
+08:19:10.734 > PANG:2:  Data @ 0x3ffda786 len=4 RL=2
+08:19:10.737 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+08:19:10.742 > AARD:1: ----> TX 12 bytes
+08:19:10.747 > PANG:1: MQTT PUBLISH
+08:19:10.750 > PANG:2:  Data @ 0x3ffda8cc len=66 RL=64
+08:19:10.752 > AARD:1: ----> TX 15 bytes
+08:19:10.756 > 
+08:19:10.756 > *INFO: mqtt CNX http://192.168.1.34:1883
+08:19:10.759 > AARD:1: <---- RX 3FFDB1B6 len=5 PSH=1 stored=0 FH=110580
+08:19:10.764 > PANG:1: MQTT SUBACK
+08:19:10.766 > PANG:2:  Data @ 0x3ffdb1b6 len=5 RL=3
+08:19:10.769 > AARD:1: ----> TX 20 bytes
+08:19:10.772 > AARD:1: <---- RX 3FFDA70A len=5 PSH=1 stored=0 FH=110580
+08:19:10.776 > PANG:1: MQTT SUBACK
+08:19:10.778 > PANG:2:  Data @ 0x3ffda70a len=5 RL=3
+08:19:10.780 > AARD:1: ----> TX 18 bytes
+08:19:10.784 > AARD:1: <---- RX 3FFDB386 len=5 PSH=1 stored=0 FH=110580
+08:19:10.789 > PANG:1: MQTT SUBACK
+08:19:10.790 > PANG:2:  Data @ 0x3ffdb386 len=5 RL=3
+08:19:10.794 > AARD:1: ----> TX 18 bytes
+08:19:10.796 > AARD:1: <---- RX 3FFDA70A len=5 PSH=1 stored=0 FH=110580
+08:19:10.801 > PANG:1: MQTT SUBACK
+08:19:10.802 > PANG:2:  Data @ 0x3ffda70a len=5 RL=3
+08:19:11.226 > AARD:1: ----> TX 66 bytes
+08:19:11.228 > AARD:1: <---- RX 3FFDB0EA len=5 PSH=1 stored=0 FH=110580
+08:19:11.233 > PANG:1: MQTT SUBACK
+08:19:11.235 > PANG:2:  Data @ 0x3ffdb0ea len=5 RL=3
+08:19:15.742 > Publishing 0 to uptime
+08:19:15.751 > PANG:1: MQTT PUBLISH
+08:19:15.754 > PANG:2:  Data @ 0x3ffe6be8 len=25 RL=23
+08:19:15.757 > AARD:1: ----> TX 25 bytes
+08:19:17.903 > E (16227) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+08:19:17.913 > E (16227) task_wdt:  - async_tcp (CPU 0/1)
+08:19:17.917 > E (16227) task_wdt: Tasks currently running:
+08:19:17.920 > E (16227) task_wdt: CPU 0: IDLE
+08:19:17.922 > E (16227) task_wdt: CPU 1: IDLE
+08:19:17.926 > E (16227) task_wdt: Aborting.
+08:19:17.929 > 
+08:19:17.929 > abort() was called at PC 0x400fe8f8 on core 0
+08:19:17.933 > 
+08:19:17.933 > 
+08:19:17.934 > Backtrace: 0x40083765:0x3ffbec1c |<-CORRUPTED
+08:19:17.960 > 
+08:19:17.960 >   #0  0x40083765:0x3ffbec1c in panic_abort at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_system/panic.c:408
+08:19:17.961 > 
+08:19:17.961 > 
+08:19:17.961 > 
+08:19:17.961 > 
+08:19:17.961 > ELF file SHA256: f2bcf6c2ce23e223
+08:19:17.961 > 
+08:19:18.268 > Rebooting...
+08:19:18.270 > ets Jun  8 2016 00:22:57
+08:19:18.271 > 
+08:19:18.271 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:19:18.277 > configsip: 0, SPIWP:0xee
+08:19:18.279 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:19:18.286 > mode:DIO, clock div:2
+08:19:18.288 > load:0x3fff0030,len:1184
+08:19:18.290 > load:0x40078000,len:13192
+08:19:18.292 > load:0x40080400,len:3028
+08:19:18.294 > entry 0x400805e4
+08:19:18.766 > Registered to start:
+08:19:18.769 >  upnp
+08:19:18.770 >  tick
+08:19:18.770 >  gpio
+08:19:18.770 >  mqtt
+08:19:18.770 >  cmd
+08:19:18.771 >  wifi
+08:19:18.771 >  wink
+08:19:18.772 >  beat
+08:19:18.772 > GPIOs defined:
+08:19:18.775 >  02 S=0 C=4 NPL=1
+08:19:18.892 > 
+08:19:18.893 > *INFO: H4P 3.2.1
+08:19:18.904 > H4P_PinMachine::svcUp 1
+08:19:18.906 > START PINS:  P02 S=LO P=1 L=0 C=BLACK V=0 O=1 A=0
+08:19:19.029 > 
+08:19:19.029 > *INFO: H4P upnp waits wifi
+08:19:19.032 > 
+08:19:19.032 > 
+08:19:19.032 > *INFO: H4P mqtt waits wifi
+08:19:19.034 > 
+08:19:19.034 > 
+08:19:19.034 > ****************** WARNING ***********************
+08:19:19.039 > *
+08:19:19.039 > *    H4P wifi ZOMBIE!!
+08:19:19.040 >  
+08:19:19.040 > *
+08:19:19.040 > **************************************************
+08:19:19.046 > 
+08:19:19.046 > *INFO: H4P beat waits wifi
+08:19:19.048 > 
+08:19:19.048 > 
+08:19:19.048 > *INFO: H4P Ready: Heap=235564
+08:19:19.062 > WiFi Disconnected
+08:19:19.064 > PANG:1: USER DCX
+08:19:19.064 > PANG:1: NOTIFY e=8 inf=0
+08:19:19.067 > 
+08:19:19.067 > ****************** WARNING ***********************
+08:19:19.071 > *
+08:19:19.071 > *    mqtt 8,0 
+08:19:19.072 > *
+08:19:19.074 > **************************************************
+08:19:19.182 > 
+08:19:19.183 > *INFO: wifi IP=192.168.1.51
+08:19:19.184 > Connected, IP: 192.168.1.51
+08:19:19.188 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+08:19:19.308 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+08:19:19.317 > AARD:1: ----> TX 51 bytes
+08:19:19.344 > AARD:1: <---- RX 3FFDA66E len=4 PSH=1 stored=0 FH=110580
+08:19:19.349 > PANG:1: MQTT CONNACK
+08:19:19.350 > PANG:2:  Data @ 0x3ffda66e len=4 RL=2
+08:19:19.360 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+08:19:19.360 > AARD:1: ----> TX 12 bytes
+08:19:19.365 > PANG:1: MQTT PUBLISH
+08:19:19.368 > PANG:2:  Data @ 0x3ffdbecc len=66 RL=64
+08:19:19.372 > 
+08:19:19.372 > *INFO: mqtt CNX http://192.168.1.34:1883
+08:19:19.376 > AARD:1: ----> TX 15 bytes
+08:19:19.379 > AARD:1: <---- RX 3FFDBB12 len=5 PSH=1 stored=0 FH=110580
+08:19:19.384 > PANG:1: MQTT SUBACK
+08:19:19.386 > PANG:2:  Data @ 0x3ffdbb12 len=5 RL=3
+08:19:19.392 > AARD:1: ----> TX 20 bytes
+08:19:19.395 > AARD:1: <---- RX 3FFDBCF2 len=5 PSH=1 stored=0 FH=110580
+08:19:19.400 > PANG:1: MQTT SUBACK
+08:19:19.401 > PANG:2:  Data @ 0x3ffdbcf2 len=5 RL=3
+08:19:19.405 > AARD:1: ----> TX 18 bytes
+08:19:19.408 > AARD:1: <---- RX 3FFDB8D6 len=5 PSH=1 stored=0 FH=110580
+08:19:19.411 > PANG:1: MQTT SUBACK
+08:19:19.414 > PANG:2:  Data @ 0x3ffdb8d6 len=5 RL=3
+08:19:19.418 > AARD:1: ----> TX 18 bytes
+08:19:19.420 > AARD:1: <---- RX 3FFDBCF2 len=5 PSH=1 stored=0 FH=110580
+08:19:19.424 > PANG:1: MQTT SUBACK
+08:19:19.425 > PANG:2:  Data @ 0x3ffdbcf2 len=5 RL=3
+08:19:19.430 > AARD:1: ----> TX 66 bytes
+08:19:19.432 > AARD:1: <---- RX 3FFD9FEA len=5 PSH=1 stored=0 FH=110580
+08:19:19.437 > PANG:1: MQTT SUBACK
+08:19:19.439 > PANG:2:  Data @ 0x3ffd9fea len=5 RL=3
+08:19:24.366 > Publishing 106484 to heap
+08:19:24.369 > PANG:1: MQTT PUBLISH
+08:19:24.370 > PANG:2:  Data @ 0x3ffe5654 len=28 RL=26
+08:19:24.375 > AARD:1: ----> TX 28 bytes
+08:19:26.113 > E (15048) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+08:19:26.123 > E (15048) task_wdt:  - async_tcp (CPU 0/1)
+08:19:26.127 > E (15048) task_wdt: Tasks currently running:
+08:19:26.131 > E (15048) task_wdt: CPU 0: IDLE
+08:19:26.133 > E (15048) task_wdt: CPU 1: IDLE
+08:19:26.136 > E (15048) task_wdt: Aborting.
+08:19:26.139 > 
+08:19:26.139 > abort() was called at PC 0x400fe8f8 on core 0
+08:19:26.143 > 
+08:19:26.143 > 
+08:19:26.144 > Backtrace: 0x40083765:0x3ffbec1c |<-CORRUPTED
+08:19:26.169 > 
+08:19:26.169 >   #0  0x40083765:0x3ffbec1c in panic_abort at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_system/panic.c:408
+08:19:26.169 > 
+08:19:26.169 > 
+08:19:26.169 > 
+08:19:26.169 > 
+08:19:26.169 > ELF file SHA256: f2bcf6c2ce23e223
+08:19:26.169 > 
+08:19:26.479 > Rebooting...
+08:19:26.481 > ets Jun  8 2016 00:22:57
+08:19:26.483 > 
+08:19:26.484 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:19:26.488 > configsip: 0, SPIWP:0xee
+08:19:26.491 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:19:26.497 > mode:DIO, clock div:2
+08:19:26.499 > load:0x3fff0030,len:1184
+08:19:26.500 > load:0x40078000,len:13192
+08:19:26.504 > load:0x40080400,len:3028
+08:19:26.506 > entry 0x400805e4
+08:19:26.977 > Registered to start:
+08:19:26.979 >  upnp
+08:19:26.980 >  tick
+08:19:26.980 >  gpio
+08:19:26.981 >  mqtt
+08:19:26.981 >  cmd
+08:19:26.982 >  wifi
+08:19:26.982 >  wink
+08:19:26.984 >  beat
+08:19:26.984 > GPIOs defined:
+08:19:26.986 >  02 S=0 C=4 NPL=1
+08:19:27.103 > 
+08:19:27.103 > *INFO: H4P 3.2.1
+08:19:27.116 > H4P_PinMachine::svcUp 1
+08:19:27.118 > START PINS:  P02 S=LO P=1 L=0 C=BLACK V=0 O=1 A=0
+08:19:27.238 > 
+08:19:27.240 > *INFO: H4P upnp waits wifi
+08:19:27.241 > 
+08:19:27.241 > 
+08:19:27.241 > *INFO: H4P mqtt waits wifi
+08:19:27.244 > 
+08:19:27.244 > 
+08:19:27.245 > ****************** WARNING ***********************
+08:19:27.248 > *
+08:19:27.248 > *    H4P wifi ZOMBIE!!
+08:19:27.250 >  
+08:19:27.250 > *
+08:19:27.252 > **************************************************
+08:19:27.256 > 
+08:19:27.256 > *INFO: H4P beat waits wifi
+08:19:27.257 > 
+08:19:27.257 > 
+08:19:27.258 > *INFO: H4P Ready: Heap=233452
+08:19:27.276 > WiFi Disconnected
+08:19:27.278 > PANG:1: USER DCX
+08:19:27.280 > PANG:1: NOTIFY e=8 inf=0
+08:19:27.282 > 
+08:19:27.282 > ****************** WARNING ***********************
+08:19:27.286 > *
+08:19:27.287 > *    mqtt 8,0 
+08:19:27.288 > *
+08:19:27.288 > **************************************************
+08:19:27.710 > 
+08:19:27.710 > *INFO: wifi IP=192.168.1.51
+08:19:27.714 > Connected, IP: 192.168.1.51
+08:19:27.716 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+08:19:27.906 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+08:19:27.914 > AARD:1: ----> TX 51 bytes
+08:19:27.920 > AARD:1: <---- RX 3FFD996E len=4 PSH=1 stored=0 FH=110580
+08:19:27.926 > PANG:1: MQTT CONNACK
+08:19:27.928 > PANG:2:  Data @ 0x3ffd996e len=4 RL=2
+08:19:27.931 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+08:19:27.936 > AARD:1: ----> TX 12 bytes
+08:19:27.943 > PANG:1: MQTT PUBLISH
+08:19:27.945 > PANG:2:  Data @ 0x3ffdbcd4 len=66 RL=64
+08:19:27.948 > 
+08:19:27.948 > *INFO: mqtt CNX http://192.168.1.34:1883
+08:19:27.956 > AARD:1: ----> TX 15 bytes
+08:19:27.958 > AARD:1: <---- RX 3FFDC5BE len=5 PSH=1 stored=0 FH=110580
+08:19:27.964 > PANG:1: MQTT SUBACK
+08:19:27.966 > PANG:2:  Data @ 0x3ffdc5be len=5 RL=3
+08:19:27.969 > AARD:1: ----> TX 20 bytes
+08:19:27.971 > AARD:1: <---- RX 3FFDB8AE len=5 PSH=1 stored=0 FH=110580
+08:19:27.976 > PANG:1: MQTT SUBACK
+08:19:27.978 > PANG:2:  Data @ 0x3ffdb8ae len=5 RL=3
+08:19:27.982 > AARD:1: ----> TX 18 bytes
+08:19:27.984 > AARD:1: <---- RX 3FFDB8AE len=5 PSH=1 stored=0 FH=110580
+08:19:27.988 > PANG:1: MQTT SUBACK
+08:19:27.990 > PANG:2:  Data @ 0x3ffdb8ae len=5 RL=3
+08:19:27.993 > AARD:1: ----> TX 18 bytes
+08:19:27.995 > AARD:1: <---- RX 3FFDBEBA len=5 PSH=1 stored=0 FH=110580
+08:19:28.001 > PANG:1: MQTT SUBACK
+08:19:28.003 > PANG:2:  Data @ 0x3ffdbeba len=5 RL=3
+08:19:28.018 > AARD:1: ----> TX 66 bytes
+08:19:28.021 > AARD:1: <---- RX 3FFD372E len=5 PSH=1 stored=0 FH=110580
+08:19:28.025 > PANG:1: MQTT SUBACK
+08:19:28.028 > PANG:2:  Data @ 0x3ffd372e len=5 RL=3
+08:19:32.944 > Publishing 86004 to heap
+08:19:32.947 > PANG:1: MQTT PUBLISH
+08:19:32.949 > PANG:2:  Data @ 0x3ffeb258 len=27 RL=25
+08:19:32.952 > AARD:1: ----> TX 27 bytes
+08:19:35.183 > E (16768) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+08:19:35.193 > E (16768) task_wdt:  - async_tcp (CPU 0/1)
+08:19:35.198 > E (16768) task_wdt: Tasks currently running:
+08:19:35.202 > E (16768) task_wdt: CPU 0: IDLE
+08:19:35.205 > E (16768) task_wdt: CPU 1: IDLE
+08:19:35.207 > E (16768) task_wdt: Aborting.
+08:19:35.209 > 
+08:19:35.209 > abort() was called at PC 0x400fe8f8 on core 0
+08:19:35.214 > 
+08:19:35.214 > 
+08:19:35.215 > Backtrace: 0x40083765:0x3ffbec1c |<-CORRUPTED
+08:19:35.241 > 
+08:19:35.241 >   #0  0x40083765:0x3ffbec1c in panic_abort at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_system/panic.c:408
+08:19:35.241 > 
+08:19:35.241 > 
+08:19:35.241 > 
+08:19:35.241 > 
+08:19:35.242 > ELF file SHA256: f2bcf6c2ce23e223
+08:19:35.242 > 
+08:19:35.552 > Rebooting...
+08:19:35.555 > ets Jun  8 2016 00:22:57
+08:19:35.557 > 
+08:19:35.557 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:19:35.561 > configsip: 0, SPIWP:0xee
+08:19:35.564 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:19:35.571 > mode:DIO, clock div:2
+08:19:35.572 > load:0x3fff0030,len:1184
+08:19:35.575 > load:0x40078000,len:13192
+08:19:35.577 > load:0x40080400,len:3028
+08:19:35.580 > entry 0x400805e4
+08:19:36.052 > Registered to start:
+08:19:36.053 >  upnp
+08:19:36.054 >  tick
+08:19:36.054 >  gpio
+08:19:36.055 >  mqtt
+08:19:36.055 >  cmd
+08:19:36.056 >  wifi
+08:19:36.056 >  wink
+08:19:36.057 >  beat
+08:19:36.057 > GPIOs defined:
+08:19:36.058 >  02 S=0 C=4 NPL=1
+08:19:36.177 > 
+08:19:36.178 > *INFO: H4P 3.2.1
+08:19:36.188 > H4P_PinMachine::svcUp 1
+08:19:36.191 > START PINS:  P02 S=LO P=1 L=0 C=BLACK V=0 O=1 A=0
+08:19:36.314 > 
+08:19:36.314 > *INFO: H4P upnp waits wifi
+08:19:36.317 > 
+08:19:36.317 > 
+08:19:36.317 > *INFO: H4P mqtt waits wifi
+08:19:36.320 > 
+08:19:36.320 > 
+08:19:36.320 > ****************** WARNING ***********************
+08:19:36.325 > *
+08:19:36.325 > *    H4P wifi ZOMBIE!!
+08:19:36.327 >  
+08:19:36.327 > *
+08:19:36.327 > **************************************************
+08:19:36.331 > 
+08:19:36.331 > *INFO: H4P beat waits wifi
+08:19:36.334 > 
+08:19:36.334 > 
+08:19:36.334 > *INFO: H4P Ready: Heap=235752
+08:19:36.350 > WiFi Disconnected
+08:19:36.353 > PANG:1: USER DCX
+08:19:36.355 > PANG:1: NOTIFY e=8 inf=0
+08:19:36.357 > 
+08:19:36.357 > ****************** WARNING ***********************
+08:19:36.361 > *
+08:19:36.362 > *    mqtt 8,0 
+08:19:36.363 > *
+08:19:36.363 > **************************************************
+08:19:36.471 > 
+08:19:36.472 > *INFO: wifi IP=192.168.1.51
+08:19:36.480 > Connected, IP: 192.168.1.51
+08:19:36.484 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+08:19:37.233 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+08:19:37.241 > AARD:1: ----> TX 51 bytes
+08:19:42.666 > E (13584) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+08:19:42.676 > E (13584) task_wdt:  - async_tcp (CPU 0/1)
+08:19:42.678 > E (13584) task_wdt: Tasks currently running:
+08:19:42.683 > E (13584) task_wdt: CPU 0: IDLE
+08:19:42.686 > E (13584) task_wdt: CPU 1: IDLE
+08:19:42.689 > E (13584) task_wdt: Aborting.
+08:19:42.692 > 
+08:19:42.692 > abort() was called at PC 0x400fe8f8 on core 0
+08:19:42.696 > 
+08:19:42.696 > 
+08:19:42.696 > Backtrace: 0x40083765:0x3ffbec1c |<-CORRUPTED
+08:19:42.720 > 
+08:19:42.720 >   #0  0x40083765:0x3ffbec1c in panic_abort at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_system/panic.c:408
+08:19:42.720 > 
+08:19:42.720 > 
+08:19:42.720 > 
+08:19:42.720 > 
+08:19:42.720 > ELF file SHA256: f2bcf6c2ce23e223
+08:19:42.720 > 
+08:19:43.030 > Rebooting...
+08:19:43.033 > ets Jun  8 2016 00:22:57
+08:19:43.035 > 
+08:19:43.035 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:19:43.040 > configsip: 0, SPIWP:0xee
+08:19:43.042 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:19:43.048 > mode:DIO, clock div:2
+08:19:43.050 > load:0x3fff0030,len:1184
+08:19:43.054 > load:0x40078000,len:13192
+08:19:43.055 > load:0x40080400,len:3028
+08:19:43.057 > entry 0x400805e4
+08:19:43.529 > Registered to start:
+08:19:43.532 >  upnp
+08:19:43.532 >  tick
+08:19:43.533 >  gpio
+08:19:43.534 >  mqtt
+08:19:43.534 >  cmd
+08:19:43.535 >  wifi
+08:19:43.535 >  wink
+08:19:43.536 >  beat
+08:19:43.536 > GPIOs defined:
+08:19:43.537 >  02 S=0 C=4 NPL=1
+08:19:43.655 > 
+08:19:43.656 > *INFO: H4P 3.2.1
+08:19:43.667 > H4P_PinMachine::svcUp 1
+08:19:43.669 > START PINS:  P02 S=LO P=1 L=0 C=BLACK V=0 O=1 A=0
+08:19:43.791 > 
+08:19:43.791 > *INFO: H4P upnp waits wifi
+08:19:43.793 > 
+08:19:43.793 > 
+08:19:43.794 > *INFO: H4P mqtt waits wifi
+08:19:43.796 > 
+08:19:43.796 > 
+08:19:43.796 > ****************** WARNING ***********************
+08:19:43.802 > *
+08:19:43.802 > *    H4P wifi ZOMBIE!!
+08:19:43.804 >  
+08:19:43.804 > *
+08:19:43.804 > **************************************************
+08:19:43.808 > 
+08:19:43.808 > *INFO: H4P beat waits wifi
+08:19:43.811 > 
+08:19:43.811 > 
+08:19:43.811 > *INFO: H4P Ready: Heap=235752
+08:19:43.827 > WiFi Disconnected
+08:19:43.830 > PANG:1: USER DCX
+08:19:43.831 > PANG:1: NOTIFY e=8 inf=0
+08:19:43.833 > 
+08:19:43.833 > ****************** WARNING ***********************
+08:19:43.838 > *
+08:19:43.838 > *    mqtt 8,0 
+08:19:43.839 > *
+08:19:43.840 > **************************************************
+08:19:43.953 > 
+08:19:43.954 > *INFO: wifi IP=192.168.1.51
+08:19:43.957 > Connected, IP: 192.168.1.51
+08:19:43.960 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+08:19:44.187 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+08:19:44.194 > AARD:1: ----> TX 51 bytes
+08:19:44.203 > AARD:1: <---- RX 3FFDB9DA len=4 PSH=1 stored=0 FH=110580
+08:19:44.209 > PANG:1: MQTT CONNACK
+08:19:44.210 > PANG:2:  Data @ 0x3ffdb9da len=4 RL=2
+08:19:44.214 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+08:19:44.218 > AARD:1: ----> TX 12 bytes
+08:19:44.223 > PANG:1: MQTT PUBLISH
+08:19:44.225 > PANG:2:  Data @ 0x3ffdbba8 len=66 RL=64
+08:19:44.229 > 
+08:19:44.229 > *INFO: mqtt CNX http://192.168.1.34:1883
+08:19:44.234 > AARD:1: ----> TX 15 bytes
+08:19:44.239 > AARD:1: <---- RX 3FFD9CAA len=5 PSH=1 stored=0 FH=110580
+08:19:44.243 > PANG:1: MQTT SUBACK
+08:19:44.245 > PANG:2:  Data @ 0x3ffd9caa len=5 RL=3
+08:19:44.249 > AARD:1: ----> TX 20 bytes
+08:19:44.251 > AARD:1: <---- RX 3FFD9CAA len=5 PSH=1 stored=0 FH=110580
+08:19:44.255 > PANG:1: MQTT SUBACK
+08:19:44.257 > PANG:2:  Data @ 0x3ffd9caa len=5 RL=3
+08:19:44.261 > AARD:1: ----> TX 18 bytes
+08:19:44.263 > AARD:1: <---- RX 3FFDBEC6 len=5 PSH=1 stored=0 FH=110580
+08:19:44.268 > PANG:1: MQTT SUBACK
+08:19:44.270 > PANG:2:  Data @ 0x3ffdbec6 len=5 RL=3
+08:19:44.272 > AARD:1: ----> TX 18 bytes
+08:19:44.276 > AARD:1: <---- RX 3FFDBCCE len=5 PSH=1 stored=0 FH=110580
+08:19:44.281 > PANG:1: MQTT SUBACK
+08:19:44.282 > PANG:2:  Data @ 0x3ffdbcce len=5 RL=3
+08:19:44.307 > AARD:1: ----> TX 66 bytes
+08:19:44.311 > AARD:1: <---- RX 3FFD9CAA len=5 PSH=1 stored=0 FH=110580
+08:19:44.315 > PANG:1: MQTT SUBACK
+08:19:44.318 > PANG:2:  Data @ 0x3ffd9caa len=5 RL=3
+08:19:50.223 > E (13744) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+08:19:50.233 > E (13744) task_wdt:  - async_tcp (CPU 0/1)
+08:19:50.236 > E (13744) task_wdt: Tasks currently running:
+08:19:50.240 > E (13744) task_wdt: CPU 0: IDLE
+08:19:50.243 > E (13744) task_wdt: CPU 1: IDLE
+08:19:50.246 > E (13744) task_wdt: Aborting.
+08:19:50.249 > 
+08:19:50.249 > abort() was called at PC 0x400fe8f8 on core 0
+08:19:50.253 > 
+08:19:50.253 > 
+08:19:50.253 > Backtrace: 0x40083765:0x3ffbec1c |<-CORRUPTED
+08:19:50.280 > 
+08:19:50.280 >   #0  0x40083765:0x3ffbec1c in panic_abort at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_system/panic.c:408
+08:19:50.280 > 
+08:19:50.280 > 
+08:19:50.280 > 
+08:19:50.280 > 
+08:19:50.280 > ELF file SHA256: f2bcf6c2ce23e223
+08:19:50.280 > 
+08:19:50.590 > Rebooting...
+08:19:50.592 > ets Jun  8 2016 00:22:57
+08:19:50.594 > 
+08:19:50.595 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:19:50.599 > configsip: 0, SPIWP:0xee
+08:19:50.602 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:19:50.608 > mode:DIO, clock div:2
+08:19:50.610 > load:0x3fff0030,len:1184
+08:19:50.612 > load:0x40078000,len:13192
+08:19:50.615 > load:0x40080400,len:3028
+08:19:50.617 > entry 0x400805e4
+08:19:51.089 > Registered to start:
+08:19:51.091 >  upnp
+08:19:51.091 >  tick
+08:19:51.092 >  gpio
+08:19:51.092 >  mqtt
+08:19:51.093 >  cmd
+08:19:51.093 >  wifi
+08:19:51.094 >  wink
+08:19:51.094 >  beat
+08:19:51.095 > GPIOs defined:
+08:19:51.096 >  02 S=0 C=4 NPL=1
+08:19:51.214 > 
+08:19:51.214 > *INFO: H4P 3.2.1
+08:19:51.227 > H4P_PinMachine::svcUp 1
+08:19:51.229 > START PINS:  P02 S=LO P=1 L=0 C=BLACK V=0 O=1 A=0
+08:19:51.351 > 
+08:19:51.352 > *INFO: H4P upnp waits wifi
+08:19:51.353 > 
+08:19:51.353 > 
+08:19:51.353 > *INFO: H4P mqtt waits wifi
+08:19:51.356 > 
+08:19:51.356 > 
+08:19:51.356 > ****************** WARNING ***********************
+08:19:51.360 > *
+08:19:51.360 > *    H4P wifi ZOMBIE!!
+08:19:51.362 >  
+08:19:51.363 > *
+08:19:51.363 > **************************************************
+08:19:51.367 > 
+08:19:51.367 > *INFO: H4P beat waits wifi
+08:19:51.370 > 
+08:19:51.370 > 
+08:19:51.370 > *INFO: H4P Ready: Heap=235564
+08:19:51.385 > WiFi Disconnected
+08:19:51.387 > PANG:1: USER DCX
+08:19:51.388 > PANG:1: NOTIFY e=8 inf=0
+08:19:51.390 > 
+08:19:51.390 > ****************** WARNING ***********************
+08:19:51.395 > *
+08:19:51.395 > *    mqtt 8,0 
+08:19:51.396 > *
+08:19:51.396 > **************************************************
+08:19:51.504 > 
+08:19:51.505 > *INFO: wifi IP=192.168.1.51
+08:19:51.507 > Connected, IP: 192.168.1.51
+08:19:51.509 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+08:19:51.674 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+08:19:51.681 > AARD:1: ----> TX 51 bytes
+08:19:51.706 > AARD:1: <---- RX 3FFDA992 len=4 PSH=1 stored=0 FH=110580
+08:19:51.710 > PANG:1: MQTT CONNACK
+08:19:51.713 > PANG:2:  Data @ 0x3ffda992 len=4 RL=2
+08:19:51.716 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+08:19:51.721 > AARD:1: ----> TX 12 bytes
+08:19:51.727 > PANG:1: MQTT PUBLISH
+08:19:51.729 > PANG:2:  Data @ 0x3ffda9c4 len=66 RL=64
+08:19:51.732 > 
+08:19:51.732 > *INFO: mqtt CNX http://192.168.1.34:1883
+08:19:51.736 > AARD:1: ----> TX 15 bytes
+08:19:51.738 > AARD:1: <---- RX 3FFDCB0E len=5 PSH=1 stored=0 FH=110580
+08:19:51.743 > PANG:1: MQTT SUBACK
+08:19:51.745 > PANG:2:  Data @ 0x3ffdcb0e len=5 RL=3
+08:19:51.748 > AARD:1: ----> TX 20 bytes
+08:19:51.751 > AARD:1: <---- RX 3FFDB0F2 len=5 PSH=1 stored=0 FH=110580
+08:19:51.756 > PANG:1: MQTT SUBACK
+08:19:51.758 > PANG:2:  Data @ 0x3ffdb0f2 len=5 RL=3
+08:19:51.761 > AARD:1: ----> TX 18 bytes
+08:19:51.763 > AARD:1: <---- RX 3FFDB34A len=5 PSH=1 stored=0 FH=110580
+08:19:51.768 > PANG:1: MQTT SUBACK
+08:19:51.770 > PANG:2:  Data @ 0x3ffdb34a len=5 RL=3
+08:19:51.773 > AARD:1: ----> TX 18 bytes
+08:19:51.776 > AARD:1: <---- RX 3FFDB0F2 len=5 PSH=1 stored=0 FH=110580
+08:19:51.781 > PANG:1: MQTT SUBACK
+08:19:51.782 > PANG:2:  Data @ 0x3ffdb0f2 len=5 RL=3
+08:19:51.786 > AARD:1: ----> TX 66 bytes
+08:19:51.788 > AARD:1: <---- RX 3FFDB34A len=5 PSH=1 stored=0 FH=110580
+08:19:51.793 > PANG:1: MQTT SUBACK
+08:19:51.795 > PANG:2:  Data @ 0x3ffdb34a len=5 RL=3
+08:19:56.727 > Publishing 0 to uptime
+08:19:56.729 > PANG:1: MQTT PUBLISH
+08:19:56.730 > PANG:2:  Data @ 0x3ffe7b4c len=25 RL=23
+08:19:56.735 > AARD:1: ----> TX 25 bytes
+08:19:58.542 > E (15261) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+08:19:58.551 > E (15261) task_wdt:  - async_tcp (CPU 0/1)
+08:19:58.555 > E (15261) task_wdt: Tasks currently running:
+08:19:58.559 > E (15261) task_wdt: CPU 0: IDLE
+08:19:58.562 > E (15261) task_wdt: CPU 1: IDLE
+08:19:58.565 > E (15261) task_wdt: Aborting.
+08:19:58.567 > 
+08:19:58.568 > abort() was called at PC 0x400fe8f8 on core 0
+08:19:58.572 > 
+08:19:58.572 > 
+08:19:58.572 > Backtrace: 0x40083765:0x3ffbec1c |<-CORRUPTED
+08:19:58.598 > 
+08:19:58.598 >   #0  0x40083765:0x3ffbec1c in panic_abort at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_system/panic.c:408
+08:19:58.598 > 
+08:19:58.598 > 
+08:19:58.598 > 
+08:19:58.598 > 
+08:19:58.598 > ELF file SHA256: f2bcf6c2ce23e223
+08:19:58.598 > 
+08:19:58.914 > Rebooting...
+08:19:58.917 > ets Jun  8 2016 00:22:57
+08:19:58.919 > 
+08:19:58.919 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:19:58.924 > configsip: 0, SPIWP:0xee
+08:19:58.926 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:19:58.932 > mode:DIO, clock div:2
+08:19:58.934 > load:0x3fff0030,len:1184
+08:19:58.937 > load:0x40078000,len:13192
+08:19:58.939 > load:0x40080400,len:3028
+08:19:58.941 > entry 0x400805e4
+08:19:59.414 > Registered to start:
+08:19:59.416 >  upnp
+08:19:59.416 >  tick
+08:19:59.417 >  gpio
+08:19:59.417 >  mqtt
+08:19:59.418 >  cmd
+08:19:59.418 >  wifi
+08:19:59.419 >  wink
+08:19:59.419 >  beat
+08:19:59.420 > GPIOs defined:
+08:19:59.421 >  02 S=0 C=4 NPL=1
+08:19:59.538 > 
+08:19:59.538 > *INFO: H4P 3.2.1
+08:19:59.551 > H4P_PinMachine::svcUp 1
+08:19:59.554 > START PINS:  P02 S=LO P=1 L=0 C=BLACK V=0 O=1 A=0
+08:19:59.675 > 
+08:19:59.675 > *INFO: H4P upnp waits wifi
+08:19:59.677 > 
+08:19:59.677 > 
+08:19:59.678 > *INFO: H4P mqtt waits wifi
+08:19:59.680 > 
+08:19:59.680 > 
+08:19:59.680 > ****************** WARNING ***********************
+08:19:59.684 > *
+08:19:59.685 > *    H4P wifi ZOMBIE!!
+08:19:59.687 >  
+08:19:59.687 > *
+08:19:59.687 > **************************************************
+08:19:59.691 > 
+08:19:59.691 > *INFO: H4P beat waits wifi
+08:19:59.694 > 
+08:19:59.694 > 
+08:19:59.694 > *INFO: H4P Ready: Heap=235752
+08:19:59.711 > WiFi Disconnected
+08:19:59.712 > PANG:1: USER DCX
+08:19:59.714 > PANG:1: NOTIFY e=8 inf=0
+08:19:59.716 > 
+08:19:59.716 > ****************** WARNING ***********************
+08:19:59.720 > *
+08:19:59.721 > *    mqtt 8,0 
+08:19:59.722 > *
+08:19:59.722 > **************************************************
+08:19:59.894 > 
+08:19:59.895 > *INFO: wifi IP=192.168.1.51
+08:19:59.897 > Connected, IP: 192.168.1.51
+08:19:59.900 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+08:20:00.468 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+08:20:00.476 > AARD:1: ----> TX 51 bytes
+08:20:05.904 > E (13336) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+08:20:05.913 > E (13336) task_wdt:  - async_tcp (CPU 0/1)
+08:20:05.917 > E (13336) task_wdt: Tasks currently running:
+08:20:05.921 > E (13336) task_wdt: CPU 0: IDLE
+08:20:05.924 > E (13336) task_wdt: CPU 1: IDLE
+08:20:05.927 > E (13336) task_wdt: Aborting.
+08:20:05.930 > 
+08:20:05.930 > abort() was called at PC 0x400fe8f8 on core 0
+08:20:05.934 > 
+08:20:05.934 > 
+08:20:05.934 > Backtrace: 0x40083765:0x3ffbec1c |<-CORRUPTED
+08:20:05.959 > 
+08:20:05.959 >   #0  0x40083765:0x3ffbec1c in panic_abort at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_system/panic.c:408
+08:20:05.959 > 
+08:20:05.959 > 
+08:20:05.959 > 
+08:20:05.959 > 
+08:20:05.959 > ELF file SHA256: f2bcf6c2ce23e223
+08:20:05.959 > 
+08:20:06.269 > Rebooting...
+08:20:06.271 > ets Jun  8 2016 00:22:57
+08:20:06.273 > 
+08:20:06.273 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:20:06.278 > configsip: 0, SPIWP:0xee
+08:20:06.280 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:20:06.287 > mode:DIO, clock div:2
+08:20:06.289 > load:0x3fff0030,len:1184
+08:20:06.291 > load:0x40078000,len:13192
+08:20:06.293 > load:0x40080400,len:3028
+08:20:06.296 > entry 0x400805e4
+08:20:06.768 > Registered to start:
+08:20:06.769 >  upnp
+08:20:06.770 >  tick
+08:20:06.770 >  gpio
+08:20:06.771 >  mqtt
+08:20:06.771 >  cmd
+08:20:06.772 >  wifi
+08:20:06.772 >  wink
+08:20:06.773 >  beat
+08:20:06.773 > GPIOs defined:
+08:20:06.775 >  02 S=0 C=4 NPL=1
+08:20:06.892 > 
+08:20:06.893 > *INFO: H4P 3.2.1
+08:20:06.905 > H4P_PinMachine::svcUp 1
+08:20:06.907 > START PINS:  P02 S=LO P=1 L=0 C=BLACK V=0 O=1 A=0
+08:20:07.028 > 
+08:20:07.028 > *INFO: H4P upnp waits wifi
+08:20:07.031 > 
+08:20:07.031 > 
+08:20:07.031 > *INFO: H4P mqtt waits wifi
+08:20:07.032 > 
+08:20:07.032 > 
+08:20:07.033 > ****************** WARNING ***********************
+08:20:07.037 > *
+08:20:07.037 > *    H4P wifi ZOMBIE!!
+08:20:07.039 >  
+08:20:07.039 > *
+08:20:07.039 > **************************************************
+08:20:07.044 > 
+08:20:07.044 > *INFO: H4P beat waits wifi
+08:20:07.047 > 
+08:20:07.047 > 
+08:20:07.048 > *INFO: H4P Ready: Heap=235540
+08:20:07.063 > WiFi Disconnected
+08:20:07.065 > PANG:1: USER DCX
+08:20:07.066 > PANG:1: NOTIFY e=8 inf=0
+08:20:07.068 > 
+08:20:07.069 > ****************** WARNING ***********************
+08:20:07.072 > *
+08:20:07.072 > *    mqtt 8,0 
+08:20:07.074 > *
+08:20:07.075 > **************************************************
+08:20:07.210 > 
+08:20:07.212 > *INFO: wifi IP=192.168.1.51
+08:20:07.214 > Connected, IP: 192.168.1.51
+08:20:07.216 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+08:20:07.535 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+08:20:07.541 > AARD:1: ----> TX 51 bytes
+08:20:07.552 > AARD:1: <---- RX 3FFD9F36 len=4 PSH=1 stored=0 FH=110580
+08:20:07.558 > PANG:1: MQTT CONNACK
+08:20:07.560 > PANG:2:  Data @ 0x3ffd9f36 len=4 RL=2
+08:20:07.562 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+08:20:07.568 > AARD:1: ----> TX 12 bytes
+08:20:07.574 > PANG:1: MQTT PUBLISH
+08:20:07.576 > PANG:2:  Data @ 0x3ffda0c4 len=66 RL=64
+08:20:07.579 > 
+08:20:07.579 > *INFO: mqtt CNX http://192.168.1.34:1883
+08:20:07.584 > AARD:1: ----> TX 15 bytes
+08:20:07.586 > AARD:1: <---- RX 3FFDB162 len=5 PSH=1 stored=0 FH=110580
+08:20:07.591 > PANG:1: MQTT SUBACK
+08:20:07.593 > PANG:2:  Data @ 0x3ffdb162 len=5 RL=3
+08:20:07.596 > AARD:1: ----> TX 20 bytes
+08:20:07.599 > AARD:1: <---- RX 3FFDB162 len=5 PSH=1 stored=0 FH=110580
+08:20:07.603 > PANG:1: MQTT SUBACK
+08:20:07.605 > PANG:2:  Data @ 0x3ffdb162 len=5 RL=3
+08:20:07.608 > AARD:1: ----> TX 18 bytes
+08:20:07.611 > AARD:1: <---- RX 3FFD9FAA len=5 PSH=1 stored=0 FH=110580
+08:20:07.616 > PANG:1: MQTT SUBACK
+08:20:07.617 > PANG:2:  Data @ 0x3ffd9faa len=5 RL=3
+08:20:07.621 > AARD:1: ----> TX 18 bytes
+08:20:07.623 > AARD:1: <---- RX 3FFDB162 len=5 PSH=1 stored=0 FH=110580
+08:20:07.628 > PANG:1: MQTT SUBACK
+08:20:07.630 > PANG:2:  Data @ 0x3ffdb162 len=5 RL=3
+08:20:07.633 > AARD:1: ----> TX 66 bytes
+08:20:07.636 > AARD:1: <---- RX 3FFDB162 len=5 PSH=1 stored=0 FH=110580
+08:20:07.640 > PANG:1: MQTT SUBACK
+08:20:07.642 > PANG:2:  Data @ 0x3ffdb162 len=5 RL=3
+08:20:12.574 > Publishing 98292 to heap
+08:20:12.578 > PANG:1: MQTT PUBLISH
+08:20:12.578 > PANG:2:  Data @ 0x3ffe82ac len=27 RL=25
+08:20:12.583 > AARD:1: ----> TX 27 bytes
+08:20:14.954 > E (16729) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+08:20:14.963 > E (16729) task_wdt:  - async_tcp (CPU 0/1)
+08:20:14.967 > E (16729) task_wdt: Tasks currently running:
+08:20:14.970 > E (16729) task_wdt: CPU 0: IDLE
+08:20:14.974 > E (16729) task_wdt: CPU 1: IDLE
+08:20:14.977 > E (16729) task_wdt: Aborting.
+08:20:14.980 > 
+08:20:14.980 > abort() was called at PC 0x400fe8f8 on core 0
+08:20:14.984 > 
+08:20:14.984 > 
+08:20:14.984 > Backtrace: 0x40083765:0x3ffbec1c |<-CORRUPTED
+08:20:15.019 > 
+08:20:15.019 >   #0  0x40083765:0x3ffbec1c in panic_abort at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_system/panic.c:408
+08:20:15.019 > 
+08:20:15.019 > 
+08:20:15.019 > 
+08:20:15.019 > 
+08:20:15.019 > ELF file SHA256: f2bcf6c2ce23e223
+08:20:15.019 > 
+08:20:15.323 > Rebooting...
+08:20:15.325 > ets Jun  8 2016 00:22:57
+08:20:15.326 > 
+08:20:15.327 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:20:15.332 > configsip: 0, SPIWP:0xee
+08:20:15.335 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:20:15.340 > mode:DIO, clock div:2
+08:20:15.343 > load:0x3fff0030,len:1184
+08:20:15.345 > load:0x40078000,len:13192
+08:20:15.348 > load:0x40080400,len:3028
+08:20:15.350 > entry 0x400805e4
+08:20:15.822 > Registered to start:
+08:20:15.824 >  upnp
+08:20:15.825 >  tick
+08:20:15.825 >  gpio
+08:20:15.826 >  mqtt
+08:20:15.826 >  cmd
+08:20:15.827 >  wifi
+08:20:15.827 >  wink
+08:20:15.828 >  beat
+08:20:15.828 > GPIOs defined:
+08:20:15.830 >  02 S=0 C=4 NPL=1
+08:20:15.947 > 
+08:20:15.948 > *INFO: H4P 3.2.1
+08:20:15.960 > H4P_PinMachine::svcUp 1
+08:20:15.962 > START PINS:  P02 S=LO P=1 L=0 C=BLACK V=0 O=1 A=0
+08:20:16.085 > 
+08:20:16.086 > *INFO: H4P upnp waits wifi
+08:20:16.088 > 
+08:20:16.088 > 
+08:20:16.088 > *INFO: H4P mqtt waits wifi
+08:20:16.090 > 
+08:20:16.090 > 
+08:20:16.090 > ****************** WARNING ***********************
+08:20:16.095 > *
+08:20:16.095 > *    H4P wifi ZOMBIE!!
+08:20:16.097 >  
+08:20:16.097 > *
+08:20:16.097 > **************************************************
+08:20:16.102 > 
+08:20:16.102 > *INFO: H4P beat waits wifi
+08:20:16.104 > 
+08:20:16.104 > 
+08:20:16.104 > *INFO: H4P Ready: Heap=235540
+08:20:16.119 > WiFi Disconnected
+08:20:16.120 > PANG:1: USER DCX
+08:20:16.122 > PANG:1: NOTIFY e=8 inf=0
+08:20:16.125 > 
+08:20:16.125 > ****************** WARNING ***********************
+08:20:16.129 > *
+08:20:16.130 > *    mqtt 8,0 
+08:20:16.130 > *
+08:20:16.130 > **************************************************
+08:20:16.252 > 
+08:20:16.252 > *INFO: wifi IP=192.168.1.51
+08:20:16.255 > Connected, IP: 192.168.1.51
+08:20:16.258 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+08:20:16.442 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+08:20:16.450 > AARD:1: ----> TX 51 bytes
+08:20:16.462 > AARD:1: <---- RX 3FFDC39E len=4 PSH=1 stored=0 FH=110580
+08:20:16.467 > PANG:1: MQTT CONNACK
+08:20:16.469 > PANG:2:  Data @ 0x3ffdc39e len=4 RL=2
+08:20:16.473 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+08:20:16.477 > AARD:1: ----> TX 12 bytes
+08:20:16.482 > PANG:1: MQTT PUBLISH
+08:20:16.485 > PANG:2:  Data @ 0x3ffda818 len=66 RL=64
+08:20:16.488 > 
+08:20:16.488 > *INFO: mqtt CNX http://192.168.1.34:1883
+08:20:16.492 > AARD:1: ----> TX 15 bytes
+08:20:16.494 > AARD:1: <---- RX 3FFDA98A len=5 PSH=1 stored=0 FH=110580
+08:20:16.499 > PANG:1: MQTT SUBACK
+08:20:16.500 > PANG:2:  Data @ 0x3ffda98a len=5 RL=3
+08:20:16.504 > AARD:1: ----> TX 20 bytes
+08:20:16.507 > AARD:1: <---- RX 3FFDA6BA len=5 PSH=1 stored=0 FH=110580
+08:20:16.512 > PANG:1: MQTT SUBACK
+08:20:16.513 > PANG:2:  Data @ 0x3ffda6ba len=5 RL=3
+08:20:16.517 > AARD:1: ----> TX 18 bytes
+08:20:16.519 > AARD:1: <---- RX 3FFDAF9A len=5 PSH=1 stored=0 FH=110580
+08:20:16.524 > PANG:1: MQTT SUBACK
+08:20:16.526 > PANG:2:  Data @ 0x3ffdaf9a len=5 RL=3
+08:20:16.529 > AARD:1: ----> TX 18 bytes
+08:20:16.530 > AARD:1: <---- RX 3FFD9B46 len=5 PSH=1 stored=0 FH=110580
+08:20:16.536 > PANG:1: MQTT SUBACK
+08:20:16.538 > PANG:2:  Data @ 0x3ffd9b46 len=5 RL=3
+08:20:16.542 > AARD:1: ----> TX 66 bytes
+08:20:16.545 > AARD:1: <---- RX 3FFD9B46 len=5 PSH=1 stored=0 FH=110580
+08:20:16.550 > PANG:1: MQTT SUBACK
+08:20:16.551 > PANG:2:  Data @ 0x3ffd9b46 len=5 RL=3
+08:20:22.436 > E (13584) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+08:20:22.445 > E (13584) task_wdt:  - async_tcp (CPU 0/1)
+08:20:22.450 > E (13584) task_wdt: Tasks currently running:
+08:20:22.453 > E (13584) task_wdt: CPU 0: IDLE
+08:20:22.457 > E (13584) task_wdt: CPU 1: IDLE
+08:20:22.459 > E (13584) task_wdt: Aborting.
+08:20:22.462 > 
+08:20:22.462 > abort() was called at PC 0x400fe8f8 on core 0
+08:20:22.466 > 
+08:20:22.467 > 
+08:20:22.467 > Backtrace: 0x40083765:0x3ffbec1c |<-CORRUPTED
+08:20:22.491 > 
+08:20:22.491 >   #0  0x40083765:0x3ffbec1c in panic_abort at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_system/panic.c:408
+08:20:22.491 > 
+08:20:22.491 > 
+08:20:22.491 > 
+08:20:22.491 > 
+08:20:22.491 > ELF file SHA256: f2bcf6c2ce23e223
+08:20:22.492 > 
+08:20:22.805 > Rebooting...
+08:20:22.807 > ets Jun  8 2016 00:22:57
+08:20:22.810 > 
+08:20:22.810 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:20:22.814 > configsip: 0, SPIWP:0xee
+08:20:22.817 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:20:22.822 > mode:DIO, clock div:2
+08:20:22.824 > load:0x3fff0030,len:1184
+08:20:22.828 > load:0x40078000,len:13192
+08:20:22.830 > load:0x40080400,len:3028
+08:20:22.832 > entry 0x400805e4
+08:20:23.303 > Registered to start:
+08:20:23.305 >  upnp
+08:20:23.305 >  tick
+08:20:23.307 >  gpio
+08:20:23.307 >  mqtt
+08:20:23.308 >  cmd
+08:20:23.308 >  wifi
+08:20:23.309 >  wink
+08:20:23.310 >  beat
+08:20:23.310 > GPIOs defined:
+08:20:23.310 >  02 S=0 C=4 NPL=1
+08:20:23.429 > 
+08:20:23.430 > *INFO: H4P 3.2.1
+08:20:23.442 > H4P_PinMachine::svcUp 1
+08:20:23.444 > START PINS:  P02 S=LO P=1 L=0 C=BLACK V=0 O=1 A=0
+08:20:23.567 > 
+08:20:23.567 > *INFO: H4P upnp waits wifi
+08:20:23.569 > 
+08:20:23.570 > 
+08:20:23.570 > *INFO: H4P mqtt waits wifi
+08:20:23.572 > 
+08:20:23.572 > 
+08:20:23.572 > ****************** WARNING ***********************
+08:20:23.577 > *
+08:20:23.577 > *    H4P wifi ZOMBIE!!
+08:20:23.579 >  
+08:20:23.579 > *
+08:20:23.579 > **************************************************
+08:20:23.583 > 
+08:20:23.584 > *INFO: H4P beat waits wifi
+08:20:23.586 > 
+08:20:23.586 > 
+08:20:23.586 > *INFO: H4P Ready: Heap=235752
+08:20:23.602 > WiFi Disconnected
+08:20:23.604 > PANG:1: USER DCX
+08:20:23.605 > PANG:1: NOTIFY e=8 inf=0
+08:20:23.608 > 
+08:20:23.609 > ****************** WARNING ***********************
+08:20:23.612 > *
+08:20:23.612 > *    mqtt 8,0 
+08:20:23.613 > *
+08:20:23.614 > **************************************************
+08:20:23.735 > 
+08:20:23.736 > *INFO: wifi IP=192.168.1.51
+08:20:23.738 > Connected, IP: 192.168.1.51
+08:20:23.740 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+08:20:23.831 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+08:20:23.839 > AARD:1: ----> TX 51 bytes
+08:20:23.870 > AARD:1: <---- RX 3FFD9CA2 len=4 PSH=1 stored=0 FH=110580
+08:20:23.877 > PANG:1: MQTT CONNACK
+08:20:23.878 > PANG:2:  Data @ 0x3ffd9ca2 len=4 RL=2
+08:20:23.882 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+08:20:23.886 > AARD:1: ----> TX 12 bytes
+08:20:23.906 > AARD:1: <---- RX 3FFDB17A len=5 PSH=1 stored=0 FH=110580
+08:20:23.912 > PANG:1: MQTT SUBACK
+08:20:23.914 > PANG:2:  Data @ 0x3ffdb17a len=5 RL=3
+08:20:23.917 > AARD:1: ----> TX 15 bytes
+08:20:23.921 > PANG:1: MQTT PUBLISH
+08:20:23.923 > PANG:2:  Data @ 0x3ffdc388 len=66 RL=64
+08:20:23.926 > 
+08:20:23.926 > *INFO: mqtt CNX http://192.168.1.34:1883
+08:20:23.934 > AARD:1: ----> TX 20 bytes
+08:20:23.937 > AARD:1: <---- RX 3FFDA4DA len=5 PSH=1 stored=0 FH=110580
+08:20:23.942 > PANG:1: MQTT SUBACK
+08:20:23.944 > PANG:2:  Data @ 0x3ffda4da len=5 RL=3
+08:20:23.950 > AARD:1: ----> TX 18 bytes
+08:20:23.952 > AARD:1: <---- RX 3FFDA4DA len=5 PSH=1 stored=0 FH=110580
+08:20:23.958 > PANG:1: MQTT SUBACK
+08:20:23.960 > PANG:2:  Data @ 0x3ffda4da len=5 RL=3
+08:20:23.963 > AARD:1: ----> TX 18 bytes
+08:20:23.965 > AARD:1: <---- RX 3FFDA07E len=5 PSH=1 stored=0 FH=110580
+08:20:23.970 > PANG:1: MQTT SUBACK
+08:20:23.972 > PANG:2:  Data @ 0x3ffda07e len=5 RL=3
+08:20:23.975 > AARD:1: ----> TX 66 bytes
+08:20:23.977 > AARD:1: <---- RX 3FFDA4DA len=5 PSH=1 stored=0 FH=110580
+08:20:23.982 > PANG:1: MQTT SUBACK
+08:20:23.984 > PANG:2:  Data @ 0x3ffda4da len=5 RL=3
+08:20:30.449 > E (14645) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+08:20:30.457 > E (14645) task_wdt:  - async_tcp (CPU 0/1)
+08:20:30.461 > E (14645) task_wdt: Tasks currently running:
+08:20:30.466 > E (14645) task_wdt: CPU 0: IDLE
+08:20:30.469 > E (14645) task_wdt: CPU 1: IDLE
+08:20:30.472 > E (14645) task_wdt: Aborting.
+08:20:30.475 > 
+08:20:30.475 > abort() was called at PC 0x400fe8f8 on core 0
+08:20:30.478 > 
+08:20:30.478 > 
+08:20:30.478 > Backtrace: 0x40083765:0x3ffbec1c |<-CORRUPTED
+08:20:30.502 > 
+08:20:30.502 >   #0  0x40083765:0x3ffbec1c in panic_abort at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_system/panic.c:408
+08:20:30.502 > 
+08:20:30.503 > 
+08:20:30.503 > 
+08:20:30.503 > 
+08:20:30.503 > ELF file SHA256: f2bcf6c2ce23e223
+08:20:30.503 > 
+08:20:30.817 > Rebooting...
+08:20:30.819 > ets Jun  8 2016 00:22:57
+08:20:30.820 > 
+08:20:30.820 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:20:30.825 > configsip: 0, SPIWP:0xee
+08:20:30.828 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:20:30.834 > mode:DIO, clock div:2
+08:20:30.837 > load:0x3fff0030,len:1184
+08:20:30.839 > load:0x40078000,len:13192
+08:20:30.841 > load:0x40080400,len:3028
+08:20:30.843 > entry 0x400805e4
+08:20:31.314 > Registered to start:
+08:20:31.317 >  upnp
+08:20:31.318 >  tick
+08:20:31.318 >  gpio
+08:20:31.319 >  mqtt
+08:20:31.319 >  cmd
+08:20:31.320 >  wifi
+08:20:31.320 >  wink
+08:20:31.320 >  beat
+08:20:31.320 > GPIOs defined:
+08:20:31.322 >  02 S=0 C=4 NPL=1
+08:20:31.440 > 
+08:20:31.440 > *INFO: H4P 3.2.1
+08:20:31.452 > H4P_PinMachine::svcUp 1
+08:20:31.455 > START PINS:  P02 S=LO P=1 L=0 C=BLACK V=0 O=1 A=0
+08:20:31.576 > 
+08:20:31.576 > *INFO: H4P upnp waits wifi
+08:20:31.579 > 
+08:20:31.579 > 
+08:20:31.579 > *INFO: H4P mqtt waits wifi
+08:20:31.580 > 
+08:20:31.580 > 
+08:20:31.580 > ****************** WARNING ***********************
+08:20:31.586 > *
+08:20:31.586 > *    H4P wifi ZOMBIE!!
+08:20:31.588 >  
+08:20:31.588 > *
+08:20:31.588 > **************************************************
+08:20:31.598 > 
+08:20:31.598 > *INFO: H4P beat waits wifi
+08:20:31.598 > 
+08:20:31.598 > 
+08:20:31.598 > *INFO: H4P Ready: Heap=235776
+08:20:31.769 > 
+08:20:31.770 > *INFO: wifi IP=192.168.1.51
+08:20:31.772 > Connected, IP: 192.168.1.51
+08:20:31.775 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+08:20:32.071 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+08:20:32.078 > AARD:1: ----> TX 51 bytes
+08:20:32.090 > AARD:1: <---- RX 3FFDA69A len=4 PSH=1 stored=0 FH=110580
+08:20:32.096 > PANG:1: MQTT CONNACK
+08:20:32.098 > PANG:2:  Data @ 0x3ffda69a len=4 RL=2
+08:20:32.100 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+08:20:32.106 > AARD:1: ----> TX 12 bytes
+08:20:32.111 > PANG:1: MQTT PUBLISH
+08:20:32.113 > PANG:2:  Data @ 0x3ffdafcc len=66 RL=64
+08:20:32.117 > 
+08:20:32.117 > *INFO: mqtt CNX http://192.168.1.34:1883
+08:20:32.120 > AARD:1: ----> TX 15 bytes
+08:20:32.123 > AARD:1: <---- RX 3FFDA682 len=5 PSH=1 stored=0 FH=110580
+08:20:32.128 > PANG:1: MQTT SUBACK
+08:20:32.130 > PANG:2:  Data @ 0x3ffda682 len=5 RL=3
+08:20:32.133 > AARD:1: ----> TX 20 bytes
+08:20:32.135 > AARD:1: <---- RX 3FFDAE6A len=5 PSH=1 stored=0 FH=110580
+08:20:32.140 > PANG:1: MQTT SUBACK
+08:20:32.142 > PANG:2:  Data @ 0x3ffdae6a len=5 RL=3
+08:20:32.145 > AARD:1: ----> TX 18 bytes
+08:20:32.148 > AARD:1: <---- RX 3FFDAF5A len=5 PSH=1 stored=0 FH=110580
+08:20:32.152 > PANG:1: MQTT SUBACK
+08:20:32.155 > PANG:2:  Data @ 0x3ffdaf5a len=5 RL=3
+08:20:32.158 > AARD:1: ----> TX 18 bytes
+08:20:32.160 > AARD:1: <---- RX 3FFDA5AA len=5 PSH=1 stored=0 FH=110580
+08:20:32.165 > PANG:1: MQTT SUBACK
+08:20:32.166 > PANG:2:  Data @ 0x3ffda5aa len=5 RL=3
+08:20:32.170 > AARD:1: ----> TX 66 bytes
+08:20:32.172 > AARD:1: <---- RX 3FFDAE6A len=5 PSH=1 stored=0 FH=110580
+08:20:32.177 > PANG:1: MQTT SUBACK
+08:20:32.179 > PANG:2:  Data @ 0x3ffdae6a len=5 RL=3
+08:20:37.113 > Publishing 98292 to heap
+08:20:37.115 > PANG:1: MQTT PUBLISH
+08:20:37.118 > PANG:2:  Data @ 0x3ffe77d0 len=27 RL=25
+08:20:37.121 > AARD:1: ----> TX 27 bytes
+08:20:38.580 > E (14885) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+08:20:38.590 > E (14885) task_wdt:  - async_tcp (CPU 0/1)
+08:20:38.593 > E (14885) task_wdt: Tasks currently running:
+08:20:38.598 > E (14885) task_wdt: CPU 0: IDLE
+08:20:38.600 > E (14885) task_wdt: CPU 1: IDLE
+08:20:38.603 > E (14885) task_wdt: Aborting.
+08:20:38.605 > 
+08:20:38.605 > abort() was called at PC 0x400fe8f8 on core 0
+08:20:38.610 > 
+08:20:38.610 > 
+08:20:38.610 > Backtrace: 0x40083765:0x3ffbec1c |<-CORRUPTED
+08:20:38.634 > 
+08:20:38.634 >   #0  0x40083765:0x3ffbec1c in panic_abort at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_system/panic.c:408
+08:20:38.634 > 
+08:20:38.634 > 
+08:20:38.634 > 
+08:20:38.634 > 
+08:20:38.634 > ELF file SHA256: f2bcf6c2ce23e223
+08:20:38.635 > 
+08:20:38.952 > Rebooting...
+08:20:38.954 > ets Jun  8 2016 00:22:57
+08:20:38.956 > 
+08:20:38.956 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:20:38.962 > configsip: 0, SPIWP:0xee
+08:20:38.963 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:20:38.970 > mode:DIO, clock div:2
+08:20:38.973 > load:0x3fff0030,len:1184
+08:20:38.975 > load:0x40078000,len:13192
+08:20:38.977 > load:0x40080400,len:3028
+08:20:38.979 > entry 0x400805e4
+08:20:39.450 > Registered to start:
+08:20:39.454 >  upnp
+08:20:39.454 >  tick
+08:20:39.455 >  gpio
+08:20:39.455 >  mqtt
+08:20:39.456 >  cmd
+08:20:39.456 >  wifi
+08:20:39.457 >  wink
+08:20:39.457 >  beat
+08:20:39.458 > GPIOs defined:
+08:20:39.459 >  02 S=0 C=4 NPL=1
+08:20:39.577 > 
+08:20:39.577 > *INFO: H4P 3.2.1
+08:20:39.589 > H4P_PinMachine::svcUp 1
+08:20:39.592 > START PINS:  P02 S=LO P=1 L=0 C=BLACK V=0 O=1 A=0
+08:20:39.714 > 
+08:20:39.715 > *INFO: H4P upnp waits wifi
+08:20:39.717 > 
+08:20:39.717 > 
+08:20:39.718 > *INFO: H4P mqtt waits wifi
+08:20:39.720 > 
+08:20:39.720 > 
+08:20:39.720 > ****************** WARNING ***********************
+08:20:39.725 > *
+08:20:39.725 > *    H4P wifi ZOMBIE!!
+08:20:39.728 >  
+08:20:39.728 > *
+08:20:39.728 > **************************************************
+08:20:39.732 > 
+08:20:39.732 > *INFO: H4P beat waits wifi
+08:20:39.734 > 
+08:20:39.734 > 
+08:20:39.734 > *INFO: H4P Ready: Heap=235752
+08:20:39.749 > WiFi Disconnected
+08:20:39.751 > PANG:1: USER DCX
+08:20:39.753 > PANG:1: NOTIFY e=8 inf=0
+08:20:39.755 > 
+08:20:39.755 > ****************** WARNING ***********************
+08:20:39.760 > *
+08:20:39.760 > *    mqtt 8,0 
+08:20:39.761 > *
+08:20:39.761 > **************************************************
+08:20:39.880 > 
+08:20:39.880 > *INFO: wifi IP=192.168.1.51
+08:20:39.883 > Connected, IP: 192.168.1.51
+08:20:39.885 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+08:20:40.099 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+08:20:40.107 > AARD:1: ----> TX 51 bytes
+08:20:40.114 > AARD:1: <---- RX 3FFDB9A6 len=4 PSH=1 stored=0 FH=110580
+08:20:40.120 > PANG:1: MQTT CONNACK
+08:20:40.122 > PANG:2:  Data @ 0x3ffdb9a6 len=4 RL=2
+08:20:40.125 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+08:20:40.130 > AARD:1: ----> TX 12 bytes
+08:20:40.134 > PANG:1: MQTT PUBLISH
+08:20:40.138 > PANG:2:  Data @ 0x3ffdc2f0 len=66 RL=64
+08:20:40.140 > 
+08:20:40.140 > *INFO: mqtt CNX http://192.168.1.34:1883
+08:20:40.144 > AARD:1: ----> TX 15 bytes
+08:20:40.148 > AARD:1: <---- RX 3FFDC2AA len=5 PSH=1 stored=0 FH=110580
+08:20:40.152 > PANG:1: MQTT SUBACK
+08:20:40.154 > PANG:2:  Data @ 0x3ffdc2aa len=5 RL=3
+08:20:40.158 > AARD:1: ----> TX 20 bytes
+08:20:40.160 > AARD:1: <---- RX 3FFDC086 len=5 PSH=1 stored=0 FH=110580
+08:20:40.165 > PANG:1: MQTT SUBACK
+08:20:40.166 > PANG:2:  Data @ 0x3ffdc086 len=5 RL=3
+08:20:40.169 > AARD:1: ----> TX 18 bytes
+08:20:40.173 > AARD:1: <---- RX 3FFDC176 len=5 PSH=1 stored=0 FH=110580
+08:20:40.177 > PANG:1: MQTT SUBACK
+08:20:40.179 > PANG:2:  Data @ 0x3ffdc176 len=5 RL=3
+08:20:40.183 > AARD:1: ----> TX 18 bytes
+08:20:40.186 > AARD:1: <---- RX 3FFDC266 len=5 PSH=1 stored=0 FH=110580
+08:20:40.191 > PANG:1: MQTT SUBACK
+08:20:40.193 > PANG:2:  Data @ 0x3ffdc266 len=5 RL=3
+08:20:40.196 > AARD:1: ----> TX 66 bytes
+08:20:40.198 > AARD:1: <---- RX 3FFDC086 len=5 PSH=1 stored=0 FH=110580
+08:20:40.202 > PANG:1: MQTT SUBACK
+08:20:40.204 > PANG:2:  Data @ 0x3ffdc086 len=5 RL=3
+08:20:46.688 > E (14830) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+08:20:46.698 > E (14830) task_wdt:  - async_tcp (CPU 0/1)
+08:20:46.702 > E (14830) task_wdt: Tasks currently running:
+08:20:46.705 > E (14830) task_wdt: CPU 0: IDLE
+08:20:46.709 > E (14830) task_wdt: CPU 1: IDLE
+08:20:46.712 > E (14830) task_wdt: Aborting.
+08:20:46.714 > 
+08:20:46.714 > abort() was called at PC 0x400fe8f8 on core 0
+08:20:46.719 > 
+08:20:46.719 > 
+08:20:46.719 > Backtrace: 0x40083765:0x3ffbec1c |<-CORRUPTED
+08:20:46.744 > 
+08:20:46.744 >   #0  0x40083765:0x3ffbec1c in panic_abort at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_system/panic.c:408
+08:20:46.744 > 
+08:20:46.744 > 
+08:20:46.744 > 
+08:20:46.744 > 
+08:20:46.744 > ELF file SHA256: f2bcf6c2ce23e223
+08:20:46.744 > 
+08:20:47.054 > Rebooting...
+08:20:47.057 > ets Jun  8 2016 00:22:57
+08:20:47.059 > 
+08:20:47.059 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+08:20:47.063 > configsip: 0, SPIWP:0xee
+08:20:47.067 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+08:20:47.072 > mode:DIO, clock div:2
+08:20:47.075 > load:0x3fff0030,len:1184
+08:20:47.077 > load:0x40078000,len:13192
+08:20:47.080 > load:0x40080400,len:3028
+08:20:47.082 > entry 0x400805e4
+08:20:47.551 > Registered to start:
+08:20:47.555 >  upnp
+08:20:47.555 >  tick
+08:20:47.556 >  gpio
+08:20:47.556 >  mqtt
+08:20:47.557 >  cmd
+08:20:47.557 >  wifi
+08:20:47.558 >  wink
+08:20:47.558 >  beat
+08:20:47.559 > GPIOs defined:
+08:20:47.560 >  02 S=0 C=4 NPL=1
+08:20:47.671 > 
+08:20:47.671 > *INFO: H4P 3.2.1
+08:20:47.691 > H4P_PinMachine::svcUp 1
+08:20:47.694 > START PINS:  P02 S=LO P=1 L=0 C=BLACK V=0 O=1 A=0
+08:20:47.811 > 
+08:20:47.816 > *INFO: H4P upnp waits wifi
+08:20:47.818 > 
+08:20:47.818 > 
+08:20:47.818 > *INFO: H4P mqtt waits wifi
+08:20:47.821 > 
+08:20:47.821 > 
+08:20:47.821 > ****************** WARNING ***********************
+08:20:47.825 > *
+08:20:47.825 > *    H4P wifi ZOMBIE!!
+08:20:47.827 >  
+08:20:47.827 > *
+08:20:47.828 > **************************************************
+08:20:47.831 > 
+08:20:47.831 > *INFO: H4P beat waits wifi
+08:20:47.835 > 
+08:20:47.835 > 
+08:20:47.835 > *INFO: H4P Ready: Heap=235752
+08:20:47.850 > WiFi Disconnected
+08:20:47.853 > PANG:1: USER DCX
+08:20:47.854 > PANG:1: NOTIFY e=8 inf=0
+08:20:47.855 > 
+08:20:47.855 > ****************** WARNING ***********************
+08:20:47.861 > *
+08:20:47.861 > *    mqtt 8,0 
+08:20:47.862 > *
+08:20:47.862 > **************************************************
+08:20:48.001 > 
+08:20:48.001 > *INFO: wifi IP=192.168.1.51
+08:20:48.013 > Connected, IP: 192.168.1.51
+08:20:48.015 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+08:20:48.089 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+08:20:48.096 > AARD:1: ----> TX 51 bytes
+08:20:48.122 > AARD:1: <---- RX 3FFD9E8A len=4 PSH=1 stored=0 FH=110580
+08:20:48.128 > PANG:1: MQTT CONNACK
+08:20:48.130 > PANG:2:  Data @ 0x3ffd9e8a len=4 RL=2
+08:20:48.133 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+08:20:48.138 > AARD:1: ----> TX 12 bytes
+08:20:48.152 > AARD:1: <---- RX 3FFD9E8A len=5 PSH=1 stored=0 FH=110580
+08:20:48.159 > PANG:1: MQTT SUBACK
+08:20:48.160 > PANG:2:  Data @ 0x3ffd9e8a len=5 RL=3
+08:20:48.182 > AARD:1: ----> TX 15 bytes
+08:20:48.187 > PANG:1: MQTT PUBLISH
+08:20:48.190 > PANG:2:  Data @ 0x3ffdc0b0 len=66 RL=64
+08:20:48.194 > 
+08:20:48.194 > *INFO: mqtt CNX http://192.168.1.34:1883
+08:20:48.226 > AARD:1: ----> TX 20 bytes
+08:20:48.229 > AARD:1: <---- RX 3FFDB966 len=5 PSH=1 stored=0 FH=110580
+08:20:48.234 > PANG:1: MQTT SUBACK
+08:20:48.235 > PANG:2:  Data @ 0x3ffdb966 len=5 RL=3
+08:20:48.239 > AARD:1: ----> TX 18 bytes
+08:20:48.242 > AARD:1: <---- RX 3FFDC85A len=5 PSH=1 stored=0 FH=110580
+08:20:48.247 > PANG:1: MQTT SUBACK
+08:20:48.249 > PANG:2:  Data @ 0x3ffdc85a len=5 RL=3
+08:20:48.251 > AARD:1: ----> TX 18 bytes
+08:20:48.253 > AARD:1: <---- RX 3FFD9BC6 len=5 PSH=1 stored=0 FH=110580
+08:20:48.259 > PANG:1: MQTT SUBACK
+08:20:48.260 > PANG:2:  Data @ 0x3ffd9bc6 len=5 RL=3
+08:20:48.264 > AARD:1: ----> TX 66 bytes
+08:20:48.267 > AARD:1: <---- RX 3FFD9BC6 len=5 PSH=1 stored=0 FH=110580
+08:20:48.271 > PANG:1: MQTT SUBACK
+08:20:48.273 > PANG:2:  Data @ 0x3ffd9bc6 len=5 RL=3

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "H4AsyncMQTT_Test",
+			"path": "../H4AsyncMQTT_Test"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"memory": "cpp"
+		}
+	}
+}

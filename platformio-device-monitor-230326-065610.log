@@ -1,0 +1,1775 @@
+06:56:13.484 > Publishing 110580 to heap
+06:56:13.487 > PANG:1: NOTIFY e=8 inf=0
+06:56:13.507 > Publishing 0 to uptime
+06:56:13.510 > PANG:1: NOTIFY e=8 inf=0
+06:56:13.512 > Publishing Hello from uiinputs to hello
+06:56:13.515 > PANG:1: NOTIFY e=8 inf=0
+06:56:13.518 > Publishing 15328 to millis
+06:56:13.520 > PANG:1: NOTIFY e=8 inf=0
+06:56:13.522 > Heap: 110580
+06:56:13.523 > PANG:1: NOTIFY e=8 inf=0
+06:56:18.484 > Publishing 110580 to heap
+06:56:18.487 > PANG:1: NOTIFY e=8 inf=0
+06:56:18.519 > Publishing 0 to uptime
+06:56:18.521 > PANG:1: NOTIFY e=8 inf=0
+06:56:18.528 > Publishing Hello from uiinputs to hello
+06:56:18.528 > PANG:1: NOTIFY e=8 inf=0
+06:56:18.528 > Publishing 20339 to millis
+06:56:18.531 > PANG:1: NOTIFY e=8 inf=0
+06:56:18.533 > Heap: 110580
+06:56:18.534 > PANG:1: NOTIFY e=8 inf=0
+06:56:23.484 > Publishing 110580 to heap
+06:56:23.487 > PANG:1: NOTIFY e=8 inf=0
+06:56:23.529 > Publishing 0 to uptime
+06:56:23.532 > PANG:1: NOTIFY e=8 inf=0
+06:56:23.534 > Publishing Hello from uiinputs to hello
+06:56:23.537 > PANG:1: NOTIFY e=8 inf=0
+06:56:23.540 > Publishing 25350 to millis
+06:56:23.542 > PANG:1: NOTIFY e=8 inf=0
+06:56:23.544 > Heap: 110580
+06:56:23.545 > PANG:1: NOTIFY e=8 inf=0
+06:56:28.484 > Publishing 110580 to heap
+06:56:28.487 > PANG:1: NOTIFY e=8 inf=0
+06:56:28.509 > 
+06:56:28.509 > SVC: cmd PID=4 Running
+06:56:28.511 >  H4 3.1.0
+06:56:28.512 >  H4P 3.2.1
+06:56:28.556 >  H4UI 3.0.1
+06:56:28.558 >  AARD 0.1.2
+06:56:28.559 >  ARMA 0.1.2
+06:56:28.560 >  PANGO 3.0.2
+06:56:28.561 >  Globals:
+06:56:28.562 >     upTime=  0 00:00:30
+06:56:28.563 >     special=replay
+06:56:28.566 >     Go=0
+06:56:28.567 >     ip=
+06:56:28.568 >   P NBoots=16
+06:56:28.569 >   P name=UI Input Tester
+06:56:28.571 >     pink=0
+06:56:28.572 >   P autoOff=0
+06:56:28.573 >     state=0
+06:56:28.575 >     nDCX=0
+06:56:28.575 >     board=DOIT ESP32 DEVKIT V1
+06:56:28.577 >     chip=3A7D80
+06:56:28.579 >     bin=
+06:56:28.580 >   P psk=XXXXXXXX
+06:56:28.581 >   P ssid=XXXXXXXX
+06:56:28.583 >   P device=uiinputs
+06:56:28.586 >   P broker=http://192.168.1.4:1883
+06:56:28.589 >   P mQuser=
+06:56:28.590 >     mqtt=0
+06:56:28.591 >     H4P=3.2.1
+06:56:28.592 >   P mQpass=
+06:56:28.593 > Publishing 0 to uptime
+06:56:28.595 > PANG:1: NOTIFY e=8 inf=0
+06:56:28.598 > Publishing Hello from uiinputs to hello
+06:56:28.600 > PANG:1: NOTIFY e=8 inf=0
+06:56:28.603 > Publishing 30422 to millis
+06:56:28.606 > PANG:1: NOTIFY e=8 inf=0
+06:56:28.608 > Heap: 110580
+06:56:28.609 > PANG:1: NOTIFY e=8 inf=0
+06:56:33.483 > Publishing 110580 to heap
+06:56:33.487 > PANG:1: NOTIFY e=8 inf=0
+06:56:33.601 > Publishing 0 to uptime
+06:56:33.603 > PANG:1: NOTIFY e=8 inf=0
+06:56:33.606 > Publishing Hello from uiinputs to hello
+06:56:33.608 > PANG:1: NOTIFY e=8 inf=0
+06:56:33.611 > Publishing 35422 to millis
+06:56:33.614 > PANG:1: NOTIFY e=8 inf=0
+06:56:33.615 > Heap: 110580
+06:56:33.617 > PANG:1: NOTIFY e=8 inf=0
+06:56:38.484 > Publishing 110580 to heap
+06:56:38.487 > PANG:1: NOTIFY e=8 inf=0
+06:56:38.612 > Publishing 0 to uptime
+06:56:38.615 > PANG:1: NOTIFY e=8 inf=0
+06:56:38.616 > Publishing Hello from uiinputs to hello
+06:56:38.619 > PANG:1: NOTIFY e=8 inf=0
+06:56:38.622 > Publishing 40433 to millis
+06:56:38.624 > PANG:1: NOTIFY e=8 inf=0
+06:56:38.627 > Heap: 110580
+06:56:38.628 > PANG:1: NOTIFY e=8 inf=0
+06:56:43.484 > Publishing 110580 to heap
+06:56:43.487 > PANG:1: NOTIFY e=8 inf=0
+06:56:43.623 > Publishing 0 to uptime
+06:56:43.626 > PANG:1: NOTIFY e=8 inf=0
+06:56:43.627 > Publishing Hello from uiinputs to hello
+06:56:43.630 > PANG:1: NOTIFY e=8 inf=0
+06:56:43.633 > Publishing 45444 to millis
+06:56:43.635 > PANG:1: NOTIFY e=8 inf=0
+06:56:43.638 > Heap: 110580
+06:56:43.639 > PANG:1: NOTIFY e=8 inf=0
+06:56:48.484 > Publishing 110580 to heap
+06:56:48.487 > PANG:1: NOTIFY e=8 inf=0
+06:56:48.634 > Publishing 0 to uptime
+06:56:48.637 > PANG:1: NOTIFY e=8 inf=0
+06:56:48.639 > Publishing Hello from uiinputs to hello
+06:56:48.643 > PANG:1: NOTIFY e=8 inf=0
+06:56:48.645 > Publishing 50455 to millis
+06:56:48.646 > PANG:1: NOTIFY e=8 inf=0
+06:56:48.648 > Heap: 110580
+06:56:48.649 > PANG:1: NOTIFY e=8 inf=0
+06:56:51.318 > PANG:1: USER DCX
+06:56:51.320 > PANG:1: NOTIFY e=8 inf=0
+06:56:52.101 > AARD:1: CONNECTING to 192.168.1.4:1883 secure=0 FH=110580
+06:56:53.484 > Publishing 110580 to heap
+06:56:53.487 > PANG:1: NOTIFY e=8 inf=0
+06:56:53.645 > Publishing 0 to uptime
+06:56:53.647 > PANG:1: NOTIFY e=8 inf=0
+06:56:53.649 > Publishing Hello from uiinputs to hello
+06:56:53.654 > PANG:1: NOTIFY e=8 inf=0
+06:56:53.656 > Publishing 55467 to millis
+06:56:53.657 > PANG:1: NOTIFY e=8 inf=0
+06:56:53.660 > Heap: 110580
+06:56:53.661 > PANG:1: NOTIFY e=8 inf=0
+06:56:58.485 > Publishing 110580 to heap
+06:56:58.487 > PANG:1: NOTIFY e=8 inf=0
+06:56:58.657 > Publishing 0 to uptime
+06:56:58.659 > PANG:1: NOTIFY e=8 inf=0
+06:56:58.661 > Publishing Hello from uiinputs to hello
+06:56:58.666 > PANG:1: NOTIFY e=8 inf=0
+06:56:58.668 > Publishing 60478 to millis
+06:56:58.670 > PANG:1: NOTIFY e=8 inf=0
+06:56:58.672 > Heap: 110580
+06:56:58.673 > PANG:1: NOTIFY e=8 inf=0
+06:57:03.485 > Publishing 110580 to heap
+06:57:03.489 > PANG:1: NOTIFY e=8 inf=0
+06:57:03.668 > Publishing 0 to uptime
+06:57:03.670 > PANG:1: NOTIFY e=8 inf=0
+06:57:03.673 > Publishing Hello from uiinputs to hello
+06:57:03.677 > PANG:1: NOTIFY e=8 inf=0
+06:57:03.678 > Publishing 65489 to millis
+06:57:03.680 > PANG:1: NOTIFY e=8 inf=0
+06:57:03.682 > Heap: 110580
+06:57:03.683 > PANG:1: NOTIFY e=8 inf=0
+06:57:08.486 > Publishing 110580 to heap
+06:57:08.490 > PANG:1: NOTIFY e=8 inf=0
+06:57:08.677 > Publishing 0 to uptime
+06:57:08.682 > PANG:1: NOTIFY e=8 inf=0
+06:57:08.683 > Publishing Hello from uiinputs to hello
+06:57:08.688 > PANG:1: NOTIFY e=8 inf=0
+06:57:08.689 > Publishing 70500 to millis
+06:57:08.691 > PANG:1: NOTIFY e=8 inf=0
+06:57:08.693 > Heap: 110580
+06:57:08.693 > PANG:1: NOTIFY e=8 inf=0
+06:57:10.204 > Err:7
+06:57:13.521 > Publishing 110580 to heap
+06:57:13.528 > PANG:1: NOTIFY e=8 inf=0
+06:57:13.742 > Publishing 0 to uptime
+06:57:13.744 > PANG:1: NOTIFY e=8 inf=0
+06:57:13.747 > Publishing Hello from uiinputs to hello
+06:57:13.750 > PANG:1: NOTIFY e=8 inf=0
+06:57:13.752 > Publishing 75564 to millis
+06:57:13.755 > PANG:1: NOTIFY e=8 inf=0
+06:57:13.757 > Heap: 110580
+06:57:13.758 > PANG:1: NOTIFY e=8 inf=0
+06:57:18.529 > Publishing 110580 to heap
+06:57:18.532 > PANG:1: NOTIFY e=8 inf=0
+06:57:18.755 > Publishing 0 to uptime
+06:57:18.757 > PANG:1: NOTIFY e=8 inf=0
+06:57:18.759 > Publishing Hello from uiinputs to hello
+06:57:18.762 > PANG:1: NOTIFY e=8 inf=0
+06:57:18.765 > Publishing 80576 to millis
+06:57:18.767 > PANG:1: NOTIFY e=8 inf=0
+06:57:18.769 > Heap: 110580
+06:57:18.771 > PANG:1: NOTIFY e=8 inf=0
+06:57:22.086 > AARD:1: TCP onError -13
+06:57:22.088 > PANG:1: NOTIFY e=7 inf=1
+06:57:22.090 > AARD:1: TCP onDisconnect
+06:57:22.092 > AARD:1: ON DISCONNECT FH=110580 r=0
+06:57:22.096 > PANG:1: TCP CHOPPED US! 0
+06:57:23.563 > Publishing 110580 to heap
+06:57:23.565 > PANG:1: NOTIFY e=8 inf=0
+06:57:23.766 > Publishing 0 to uptime
+06:57:23.768 > PANG:1: NOTIFY e=8 inf=0
+06:57:23.771 > Publishing Hello from uiinputs to hello
+06:57:23.773 > PANG:1: NOTIFY e=8 inf=0
+06:57:23.776 > Publishing 85588 to millis
+06:57:23.782 > PANG:1: NOTIFY e=8 inf=0
+06:57:23.785 > Heap: 110580
+06:57:23.786 > PANG:1: NOTIFY e=8 inf=0
+06:57:28.198 > Err:7
+06:57:28.563 > Publishing 110580 to heap
+06:57:28.566 > PANG:1: NOTIFY e=8 inf=0
+06:57:28.783 > Publishing 0 to uptime
+06:57:28.785 > PANG:1: NOTIFY e=8 inf=0
+06:57:28.786 > Publishing Hello from uiinputs to hello
+06:57:28.791 > PANG:1: NOTIFY e=8 inf=0
+06:57:28.793 > Publishing 90604 to millis
+06:57:28.795 > PANG:1: NOTIFY e=8 inf=0
+06:57:28.796 > Heap: 110580
+06:57:28.798 > PANG:1: NOTIFY e=8 inf=0
+06:57:33.587 > Publishing 110580 to heap
+06:57:33.589 > PANG:1: NOTIFY e=8 inf=0
+06:57:33.850 > Publishing 0 to uptime
+06:57:33.852 > PANG:1: NOTIFY e=8 inf=0
+06:57:33.854 > Publishing Hello from uiinputs to hello
+06:57:33.858 > PANG:1: NOTIFY e=8 inf=0
+06:57:33.860 > Publishing 95672 to millis
+06:57:33.862 > PANG:1: NOTIFY e=8 inf=0
+06:57:33.864 > Heap: 110580
+06:57:33.865 > PANG:1: NOTIFY e=8 inf=0
+06:57:38.587 > Publishing 110580 to heap
+06:57:38.590 > PANG:1: NOTIFY e=8 inf=0
+06:57:38.879 > Publishing 0 to uptime
+06:57:38.881 > PANG:1: NOTIFY e=8 inf=0
+06:57:38.882 > Publishing Hello from uiinputs to hello
+06:57:38.887 > PANG:1: NOTIFY e=8 inf=0
+06:57:38.889 > Publishing 100700 to millis
+06:57:38.891 > PANG:1: NOTIFY e=8 inf=0
+06:57:38.894 > Heap: 110580
+06:57:38.895 > PANG:1: NOTIFY e=8 inf=0
+06:57:42.091 > AARD:1: CONNECTING to 192.168.1.4:1883 secure=0 FH=110580
+06:57:43.587 > Publishing 110580 to heap
+06:57:43.590 > PANG:1: NOTIFY e=8 inf=0
+06:57:43.992 > Publishing 0 to uptime
+06:57:43.995 > PANG:1: NOTIFY e=8 inf=0
+06:57:43.996 > Publishing Hello from uiinputs to hello
+06:57:44.007 > PANG:1: NOTIFY e=8 inf=0
+06:57:44.062 > Publishing 105815 to millis
+06:57:44.065 > PANG:1: NOTIFY e=8 inf=0
+06:57:44.066 > Heap: 110580
+06:57:44.107 > PANG:1: NOTIFY e=8 inf=0
+06:57:48.554 > PANG:1: USER DCX
+06:57:48.556 > PANG:1: NOTIFY e=8 inf=0
+06:57:48.558 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+06:57:48.569 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+06:57:48.576 > AARD:1: ----> TX 51 bytes
+06:57:48.584 > AARD:1: <---- RX 3FFDA116 len=4 PSH=1 stored=0 FH=110580
+06:57:48.590 > PANG:1: MQTT CONNACK
+06:57:48.592 > PANG:2:  Data @ 0x3ffda116 len=4 RL=2
+06:57:48.595 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+06:57:48.600 > Publishing 110580 to heap
+06:57:48.602 > PANG:1: MQTT PUBLISH
+06:57:48.604 > AARD:1: ----> TX 12 bytes
+06:57:48.606 > PANG:2:  Data @ 0x3ffda914 len=28 RL=26
+06:57:48.609 > AARD:1: ----> TX 28 bytes
+06:57:48.611 > AARD:1: <---- RX 3FFDB4C6 len=5 PSH=1 stored=0 FH=110580
+06:57:48.616 > PANG:1: MQTT SUBACK
+06:57:48.617 > PANG:2:  Data @ 0x3ffdb4c6 len=5 RL=3
+06:57:48.622 > PANG:1: MQTT PUBLISH
+06:57:48.624 > PANG:2:  Data @ 0x3ffda6c8 len=66 RL=64
+06:57:48.627 > AARD:1: ----> TX 15 bytes
+06:57:48.629 > AARD:1: <---- RX 3FFDA116 len=4 PSH=1 stored=0 FH=110580
+06:57:48.634 > PANG:1: MQTT PUBACK
+06:57:48.635 > PANG:2:  Data @ 0x3ffda116 len=4 RL=2
+06:57:48.638 > AARD:1: ----> TX 20 bytes
+06:57:48.642 > AARD:1: <---- RX 3FFDA206 len=5 PSH=1 stored=0 FH=110580
+06:57:48.647 > PANG:1: MQTT SUBACK
+06:57:48.649 > PANG:2:  Data @ 0x3ffda206 len=5 RL=3
+06:57:48.652 > AARD:1: ----> TX 19 bytes
+06:57:48.654 > AARD:1: <---- RX 3FFDA116 len=5 PSH=1 stored=0 FH=110580
+06:57:48.659 > PANG:1: MQTT SUBACK
+06:57:48.661 > PANG:2:  Data @ 0x3ffda116 len=5 RL=3
+06:57:48.664 > AARD:1: ----> TX 19 bytes
+06:57:48.666 > AARD:1: <---- RX 3FFDA116 len=5 PSH=1 stored=0 FH=110580
+06:57:48.671 > PANG:1: MQTT SUBACK
+06:57:48.673 > PANG:2:  Data @ 0x3ffda116 len=5 RL=3
+06:57:48.675 > AARD:1: ----> TX 66 bytes
+06:57:48.678 > AARD:1: <---- RX 3FFDA206 len=5 PSH=1 stored=0 FH=110580
+06:57:48.684 > PANG:1: MQTT SUBACK
+06:57:48.685 > PANG:2:  Data @ 0x3ffda206 len=5 RL=3
+06:57:49.106 > Publishing 0 to uptime
+06:57:49.109 > PANG:1: MQTT PUBLISH
+06:57:49.111 > PANG:2:  Data @ 0x3ffd4fd8 len=25 RL=23
+06:57:49.115 > AARD:1: ----> TX 25 bytes
+06:57:49.116 > Publishing Hello from uiinputs to hello
+06:57:49.120 > PANG:1: MQTT PUBLISH
+06:57:49.122 > PANG:2:  Data @ 0x3ffcdd7c len=42 RL=40
+06:57:49.125 > AARD:1: <---- RX 3FFDB23A len=4 PSH=1 stored=0 FH=110580
+06:57:49.131 > PANG:1: MQTT PUBACK
+06:57:49.132 > PANG:2:  Data @ 0x3ffdb23a len=4 RL=2
+06:57:49.135 > AARD:1: ----> TX 42 bytes
+06:57:49.138 > Publishing 110957 to millis
+06:57:49.140 > PANG:1: MQTT PUBLISH
+06:57:49.142 > PANG:2:  Data @ 0x3ffd9f10 len=30 RL=28
+06:57:49.145 > Heap: 110580
+06:57:49.147 > PANG:1: MQTT PUBLISH
+06:57:49.149 > PANG:2:  Data @ 0x3ffdd0f0 len=5019 RL=5016
+06:57:49.152 > AARD:1: ----> TX 30 bytes
+06:57:49.155 > AARD:1: <---- RX 3FFDB23A len=4 PSH=1 stored=0 FH=110580
+06:57:49.159 > PANG:1: MQTT PUBACK
+06:57:49.160 > PANG:2:  Data @ 0x3ffdb23a len=4 RL=2
+06:57:49.164 > AARD:1: ----> TX 1436 bytes
+06:57:49.166 > AARD:1: <---- RX 3FFDA116 len=4 PSH=1 stored=0 FH=110580
+06:57:49.171 > PANG:1: MQTT PUBACK
+06:57:49.173 > PANG:2:  Data @ 0x3ffda116 len=4 RL=2
+06:57:49.226 > AARD:1: ----> TX 1436 bytes
+06:57:49.299 > AARD:1: ----> TX 1436 bytes
+06:57:49.360 > AARD:1: ----> TX 711 bytes
+06:57:49.372 > AARD:1: <---- RX 3FFDA116 len=4 PSH=1 stored=0 FH=110580
+06:57:49.378 > PANG:1: MQTT PUBACK
+06:57:49.379 > PANG:2:  Data @ 0x3ffda116 len=4 RL=2
+06:57:49.383 > AARD:1: <---- RX 3FFDB4C6 len=1436 PSH=0 stored=0 FH=110580
+06:57:49.388 > AARD:1: <---- RX 3FFDD1BA len=1436 PSH=0 stored=1436 FH=110580
+06:57:49.393 > AARD:1: <---- RX 3FFDD842 len=1436 PSH=0 stored=2872 FH=110580
+06:57:49.399 > AARD:1: <---- RX 3FFDBB4E len=709 PSH=1 stored=4308 FH=110580
+06:57:49.404 > PANG:1: MQTT PUBLISH
+06:57:49.406 > PANG:2:  Data @ 0x3ffde3ac len=5017 RL=5014
+06:57:49.410 > PANG:1: MQTT PUBLISH
+06:57:49.411 > PANG:2:  Data @ 0x3ffcdc44 len=26 RL=24
+06:57:49.415 > AARD:1: ----> TX 26 bytes
+06:57:53.599 > Publishing 110580 to heap
+06:57:53.602 > PANG:1: MQTT PUBLISH
+06:57:53.604 > PANG:2:  Data @ 0x3ffd3eb8 len=28 RL=26
+06:57:53.607 > AARD:1: ----> TX 28 bytes
+06:57:53.613 > AARD:1: <---- RX 3FFDA116 len=4 PSH=1 stored=0 FH=110580
+06:57:53.620 > PANG:1: MQTT PUBACK
+06:57:53.622 > PANG:2:  Data @ 0x3ffda116 len=4 RL=2
+06:57:54.149 > Publishing 0 to uptime
+06:57:54.151 > PANG:1: MQTT PUBLISH
+06:57:54.153 > PANG:2:  Data @ 0x3ffcdc44 len=25 RL=23
+06:57:54.157 > AARD:1: ----> TX 25 bytes
+06:57:54.159 > Publishing Hello from uiinputs to hello
+06:57:54.161 > PANG:1: MQTT PUBLISH
+06:57:54.163 > PANG:2:  Data @ 0x3ffcdd7c len=42 RL=40
+06:57:54.168 > AARD:1: <---- RX 3FFDB23A len=4 PSH=1 stored=0 FH=110580
+06:57:54.173 > PANG:1: MQTT PUBACK
+06:57:54.174 > PANG:2:  Data @ 0x3ffdb23a len=4 RL=2
+06:57:54.177 > AARD:1: ----> TX 42 bytes
+06:57:54.179 > Publishing 115998 to millis
+06:57:54.182 > PANG:1: MQTT PUBLISH
+06:57:54.184 > PANG:2:  Data @ 0x3ffd9f10 len=30 RL=28
+06:57:54.188 > Heap: 110580
+06:57:54.188 > PANG:1: MQTT PUBLISH
+06:57:54.191 > PANG:2:  Data @ 0x3ffdd0f0 len=5019 RL=5016
+06:57:54.193 > AARD:1: ----> TX 30 bytes
+06:57:54.196 > AARD:1: <---- RX 3FFDB23A len=4 PSH=1 stored=0 FH=110580
+06:57:54.202 > PANG:1: MQTT PUBACK
+06:57:54.203 > PANG:2:  Data @ 0x3ffdb23a len=4 RL=2
+06:57:54.605 > AARD:1: ----> TX 1436 bytes
+06:57:54.607 > AARD:1: <---- RX 3FFDA202 len=4 PSH=1 stored=0 FH=110580
+06:57:54.613 > PANG:1: MQTT PUBACK
+06:57:54.614 > PANG:2:  Data @ 0x3ffda202 len=4 RL=2
+06:57:55.066 > AARD:1: ----> TX 1436 bytes
+06:57:55.469 > AARD:1: ----> TX 1436 bytes
+06:57:55.531 > AARD:1: ----> TX 711 bytes
+06:57:55.540 > AARD:1: <---- RX 3FFB6EAA len=4 PSH=1 stored=0 FH=110580
+06:57:55.546 > PANG:1: MQTT PUBACK
+06:57:55.547 > PANG:2:  Data @ 0x3ffb6eaa len=4 RL=2
+06:57:55.551 > AARD:1: <---- RX 3FFDE566 len=1436 PSH=0 stored=0 FH=110580
+06:57:55.556 > AARD:1: <---- RX 3FFDEBEE len=1436 PSH=0 stored=1436 FH=110580
+06:57:55.562 > AARD:1: <---- RX 3FFDF276 len=1436 PSH=0 stored=2872 FH=110580
+06:57:55.567 > AARD:1: <---- RX 3FFDB4C6 len=709 PSH=1 stored=4308 FH=110580
+06:57:55.573 > PANG:1: MQTT PUBLISH
+06:57:55.574 > PANG:2:  Data @ 0x3ffddc48 len=5017 RL=5014
+06:57:55.578 > PANG:1: MQTT PUBLISH
+06:57:55.582 > PANG:2:  Data @ 0x3ffbcad8 len=26 RL=24
+06:57:55.585 > AARD:1: ----> TX 26 bytes
+06:57:58.604 > Publishing 110580 to heap
+06:57:58.607 > PANG:1: MQTT PUBLISH
+06:57:58.609 > PANG:2:  Data @ 0x3ffb6e54 len=28 RL=26
+06:57:58.611 > AARD:1: ----> TX 28 bytes
+06:57:58.616 > AARD:1: <---- RX 3FFDA116 len=4 PSH=1 stored=0 FH=110580
+06:57:58.621 > PANG:1: MQTT PUBACK
+06:57:58.622 > PANG:2:  Data @ 0x3ffda116 len=4 RL=2
+06:57:59.191 > Publishing 0 to uptime
+06:57:59.192 > PANG:1: MQTT PUBLISH
+06:57:59.194 > PANG:2:  Data @ 0x3ffb6e58 len=25 RL=23
+06:57:59.199 > AARD:1: ----> TX 25 bytes
+06:57:59.201 > Publishing Hello from uiinputs to hello
+06:57:59.204 > PANG:1: MQTT PUBLISH
+06:57:59.206 > PANG:2:  Data @ 0x3ffcdd7c len=42 RL=40
+06:57:59.210 > AARD:1: <---- RX 3FFDB23A len=4 PSH=1 stored=0 FH=110580
+06:57:59.215 > PANG:1: MQTT PUBACK
+06:57:59.215 > PANG:2:  Data @ 0x3ffdb23a len=4 RL=2
+06:57:59.220 > AARD:1: ----> TX 42 bytes
+06:57:59.222 > Publishing 121040 to millis
+06:57:59.224 > PANG:1: MQTT PUBLISH
+06:57:59.225 > PANG:2:  Data @ 0x3ffb6fb4 len=30 RL=28
+06:57:59.230 > Heap: 110580
+06:57:59.231 > PANG:1: MQTT PUBLISH
+06:57:59.233 > PANG:2:  Data @ 0x3ffdd0f0 len=5019 RL=5016
+06:57:59.235 > AARD:1: ----> TX 30 bytes
+06:57:59.238 > AARD:1: <---- RX 3FFB6EAA len=4 PSH=1 stored=0 FH=110580
+06:57:59.243 > PANG:1: MQTT PUBACK
+06:57:59.244 > PANG:2:  Data @ 0x3ffb6eaa len=4 RL=2
+06:57:59.249 > AARD:1: ----> TX 1436 bytes
+06:57:59.252 > AARD:1: <---- RX 3FFDA116 len=4 PSH=1 stored=0 FH=110580
+06:57:59.257 > PANG:1: MQTT PUBACK
+06:57:59.260 > PANG:2:  Data @ 0x3ffda116 len=4 RL=2
+06:57:59.303 > AARD:1: ----> TX 1436 bytes
+06:57:59.366 > AARD:1: ----> TX 1436 bytes
+06:57:59.429 > AARD:1: ----> TX 711 bytes
+06:57:59.439 > AARD:1: <---- RX 3FFB6EAA len=4 PSH=1 stored=0 FH=110580
+06:57:59.444 > PANG:1: MQTT PUBACK
+06:57:59.446 > PANG:2:  Data @ 0x3ffb6eaa len=4 RL=2
+06:57:59.449 > AARD:1: <---- RX 3FFDE566 len=1436 PSH=0 stored=0 FH=110580
+06:57:59.457 > AARD:1: <---- RX 3FFDB4C6 len=1436 PSH=0 stored=1436 FH=110580
+06:57:59.463 > AARD:1: <---- RX 3FFDEBEE len=1436 PSH=0 stored=2872 FH=110580
+06:57:59.469 > AARD:1: <---- RX 3FFDD1BA len=709 PSH=1 stored=4308 FH=110580
+06:57:59.474 > PANG:1: MQTT PUBLISH
+06:57:59.476 > PANG:2:  Data @ 0x3ffdd4a0 len=5017 RL=5014
+06:57:59.479 > PANG:1: MQTT PUBLISH
+06:57:59.481 > PANG:2:  Data @ 0x3ffbcad8 len=26 RL=24
+06:57:59.486 > AARD:1: ----> TX 26 bytes
+06:58:03.609 > Publishing 110580 to heap
+06:58:03.612 > PANG:1: MQTT PUBLISH
+06:58:03.614 > PANG:2:  Data @ 0x3ffb6e54 len=28 RL=26
+06:58:03.617 > AARD:1: ----> TX 28 bytes
+06:58:03.620 > AARD:1: <---- RX 3FFDA116 len=4 PSH=1 stored=0 FH=110580
+06:58:03.624 > PANG:1: MQTT PUBACK
+06:58:03.626 > PANG:2:  Data @ 0x3ffda116 len=4 RL=2
+06:58:03.795 > PANG:1: T=125616 PINGREQ
+06:58:03.795 > AARD:1: ----> TX 2 bytes
+06:58:03.805 > AARD:1: <---- RX 3FFDA116 len=2 PSH=1 stored=0 FH=110580
+06:58:03.805 > PANG:1: T=125630 PINGRESP
+06:58:04.233 > Publishing 0 to uptime
+06:58:04.234 > PANG:1: MQTT PUBLISH
+06:58:04.236 > PANG:2:  Data @ 0x3ffb6e58 len=25 RL=23
+06:58:04.240 > AARD:1: ----> TX 25 bytes
+06:58:04.243 > Publishing Hello from uiinputs to hello
+06:58:04.246 > PANG:1: MQTT PUBLISH
+06:58:04.248 > PANG:2:  Data @ 0x3ffcdd7c len=42 RL=40
+06:58:04.252 > AARD:1: <---- RX 3FFDB23A len=4 PSH=1 stored=0 FH=110580
+06:58:04.257 > PANG:1: MQTT PUBACK
+06:58:04.258 > PANG:2:  Data @ 0x3ffdb23a len=4 RL=2
+06:58:04.261 > AARD:1: ----> TX 42 bytes
+06:58:04.264 > Publishing 126082 to millis
+06:58:04.265 > PANG:1: MQTT PUBLISH
+06:58:04.268 > PANG:2:  Data @ 0x3ffb6fb4 len=30 RL=28
+06:58:04.271 > Heap: 110580
+06:58:04.273 > PANG:1: MQTT PUBLISH
+06:58:04.274 > PANG:2:  Data @ 0x3ffdd0f0 len=5019 RL=5016
+06:58:04.278 > AARD:1: ----> TX 30 bytes
+06:58:04.281 > AARD:1: <---- RX 3FFB6EAA len=4 PSH=1 stored=0 FH=110580
+06:58:04.286 > PANG:1: MQTT PUBACK
+06:58:04.287 > PANG:2:  Data @ 0x3ffb6eaa len=4 RL=2
+06:58:04.291 > AARD:1: ----> TX 1436 bytes
+06:58:04.293 > AARD:1: <---- RX 3FFDA116 len=4 PSH=1 stored=0 FH=110580
+06:58:04.299 > PANG:1: MQTT PUBACK
+06:58:04.301 > PANG:2:  Data @ 0x3ffda116 len=4 RL=2
+06:58:04.347 > AARD:1: ----> TX 1436 bytes
+06:58:04.409 > AARD:1: ----> TX 1436 bytes
+06:58:04.470 > AARD:1: ----> TX 711 bytes
+06:58:04.488 > AARD:1: <---- RX 3FFB6EAA len=4 PSH=1 stored=0 FH=110580
+06:58:04.493 > PANG:1: MQTT PUBACK
+06:58:04.495 > PANG:2:  Data @ 0x3ffb6eaa len=4 RL=2
+06:58:04.497 > AARD:1: <---- RX 3FFDE566 len=1436 PSH=0 stored=0 FH=110580
+06:58:04.504 > AARD:1: <---- RX 3FFDEBEE len=1436 PSH=0 stored=1436 FH=110580
+06:58:04.508 > AARD:1: <---- RX 3FFDF276 len=1436 PSH=0 stored=2872 FH=110580
+06:58:04.514 > AARD:1: <---- RX 3FFDB4C6 len=709 PSH=1 stored=4308 FH=110580
+06:58:04.519 > PANG:1: MQTT PUBLISH
+06:58:04.521 > PANG:2:  Data @ 0x3ffddc48 len=5017 RL=5014
+06:58:04.526 > PANG:1: MQTT PUBLISH
+06:58:04.528 > PANG:2:  Data @ 0x3ffbcad8 len=26 RL=24
+06:58:04.532 > AARD:1: ----> TX 26 bytes
+06:58:08.605 > Publishing 110580 to heap
+06:58:08.615 > PANG:1: MQTT PUBLISH
+06:58:08.615 > PANG:2:  Data @ 0x3ffb6e34 len=28 RL=26
+06:58:08.621 > AARD:1: ----> TX 28 bytes
+06:58:08.627 > AARD:1: <---- RX 3FFDA116 len=4 PSH=1 stored=0 FH=110580
+06:58:08.633 > PANG:1: MQTT PUBACK
+06:58:08.634 > PANG:2:  Data @ 0x3ffda116 len=4 RL=2
+06:58:09.275 > Publishing 0 to uptime
+06:58:09.277 > PANG:1: MQTT PUBLISH
+06:58:09.279 > PANG:2:  Data @ 0x3ffb6e58 len=25 RL=23
+06:58:09.283 > AARD:1: ----> TX 25 bytes
+06:58:09.284 > Publishing Hello from uiinputs to hello
+06:58:09.289 > PANG:1: MQTT PUBLISH
+06:58:09.290 > PANG:2:  Data @ 0x3ffcdd7c len=42 RL=40
+06:58:09.293 > AARD:1: <---- RX 3FFDB23A len=4 PSH=1 stored=0 FH=110580
+06:58:09.299 > PANG:1: MQTT PUBACK
+06:58:09.300 > PANG:2:  Data @ 0x3ffdb23a len=4 RL=2
+06:58:09.304 > AARD:1: ----> TX 42 bytes
+06:58:09.306 > Publishing 131125 to millis
+06:58:09.308 > PANG:1: MQTT PUBLISH
+06:58:09.310 > PANG:2:  Data @ 0x3ffb6fb4 len=30 RL=28
+06:58:09.314 > Heap: 110580
+06:58:09.314 > PANG:1: MQTT PUBLISH
+06:58:09.317 > PANG:2:  Data @ 0x3ffdd0f0 len=5019 RL=5016
+06:58:09.321 > AARD:1: ----> TX 30 bytes
+06:58:09.323 > AARD:1: <---- RX 3FFDB23A len=4 PSH=1 stored=0 FH=110580
+06:58:09.327 > PANG:1: MQTT PUBACK
+06:58:09.328 > PANG:2:  Data @ 0x3ffdb23a len=4 RL=2
+06:58:09.333 > AARD:1: ----> TX 1436 bytes
+06:58:09.335 > AARD:1: <---- RX 3FFDA116 len=4 PSH=1 stored=0 FH=110580
+06:58:09.339 > PANG:1: MQTT PUBACK
+06:58:09.339 > PANG:2:  Data @ 0x3ffda116 len=4 RL=2
+06:58:09.387 > AARD:1: ----> TX 1436 bytes
+06:58:09.455 > AARD:1: ----> TX 1436 bytes
+06:58:09.505 > AARD:1: ----> TX 711 bytes
+06:58:09.515 > AARD:1: <---- RX 3FFB6EAA len=4 PSH=1 stored=0 FH=110580
+06:58:09.519 > PANG:1: MQTT PUBACK
+06:58:09.519 > PANG:2:  Data @ 0x3ffb6eaa len=4 RL=2
+06:58:09.525 > AARD:1: <---- RX 3FFDE566 len=1436 PSH=0 stored=0 FH=110580
+06:58:09.525 > AARD:1: <---- RX 3FFDEBEE len=1436 PSH=0 stored=1436 FH=110580
+06:58:09.537 > AARD:1: <---- RX 3FFDF276 len=1436 PSH=0 stored=2872 FH=110580
+06:58:09.545 > AARD:1: <---- RX 3FFDBC76 len=709 PSH=1 stored=4308 FH=110580
+06:58:09.545 > PANG:1: MQTT PUBLISH
+06:58:09.551 > PANG:2:  Data @ 0x3ffdd69c len=5017 RL=5014
+06:58:09.555 > PANG:1: MQTT PUBLISH
+06:58:09.555 > PANG:2:  Data @ 0x3ffbcad8 len=26 RL=24
+06:58:09.555 > AARD:1: ----> TX 26 bytes
+06:58:11.884 > AARD:1: TCP onError -13
+06:58:11.886 > PANG:1: NOTIFY e=7 inf=1
+06:58:11.890 > AARD:1: TCP onDisconnect
+06:58:11.892 > AARD:1: ON DISCONNECT FH=110580 r=0
+06:58:11.894 > PANG:1: TCP CHOPPED US! 0
+06:58:13.619 > Publishing 110580 to heap
+06:58:13.622 > PANG:1: NOTIFY e=8 inf=0
+06:58:14.315 > Publishing 0 to uptime
+06:58:14.315 > PANG:1: NOTIFY e=8 inf=0
+06:58:14.321 > Publishing Hello from uiinputs to hello
+06:58:14.321 > PANG:1: NOTIFY e=8 inf=0
+06:58:14.325 > Publishing 136139 to millis
+06:58:14.325 > PANG:1: NOTIFY e=8 inf=0
+06:58:14.325 > Heap: 110580
+06:58:14.325 > PANG:1: NOTIFY e=8 inf=0
+06:58:18.685 > Publishing 110580 to heap
+06:58:18.685 > PANG:1: NOTIFY e=8 inf=0
+06:58:19.325 > Publishing 0 to uptime
+06:58:19.325 > PANG:1: NOTIFY e=8 inf=0
+06:58:19.325 > Publishing Hello from uiinputs to hello
+06:58:19.335 > PANG:1: NOTIFY e=8 inf=0
+06:58:19.337 > Publishing 141151 to millis
+06:58:19.341 > PANG:1: NOTIFY e=8 inf=0
+06:58:19.341 > Heap: 110580
+06:58:19.341 > PANG:1: NOTIFY e=8 inf=0
+06:58:23.687 > Publishing 110580 to heap
+06:58:23.687 > PANG:1: NOTIFY e=8 inf=0
+06:58:24.340 > Publishing 0 to uptime
+06:58:24.343 > PANG:1: NOTIFY e=8 inf=0
+06:58:24.345 > Publishing Hello from uiinputs to hello
+06:58:24.348 > PANG:1: NOTIFY e=8 inf=0
+06:58:24.350 > Publishing 146162 to millis
+06:58:24.353 > PANG:1: NOTIFY e=8 inf=0
+06:58:24.355 > Heap: 110580
+06:58:24.356 > PANG:1: NOTIFY e=8 inf=0
+06:58:28.695 > Publishing 110580 to heap
+06:58:28.707 > PANG:1: NOTIFY e=8 inf=0
+06:58:29.353 > Publishing 0 to uptime
+06:58:29.355 > PANG:1: NOTIFY e=8 inf=0
+06:58:29.357 > Publishing Hello from uiinputs to hello
+06:58:29.360 > PANG:1: NOTIFY e=8 inf=0
+06:58:29.363 > Publishing 151175 to millis
+06:58:29.365 > PANG:1: NOTIFY e=8 inf=0
+06:58:29.367 > Heap: 110580
+06:58:29.368 > PANG:1: NOTIFY e=8 inf=0
+06:58:31.888 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+06:58:31.900 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+06:58:31.907 > AARD:1: ----> TX 51 bytes
+06:58:31.908 > Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+06:58:31.915 > 
+06:58:31.915 > Core  0 register dump:
+06:58:31.915 > PC      : 0x400d79d7  PS      : 0x00060b30  A0      : 0x800d7b9b  A1      : 0x3ffb3200  
+06:58:31.929 > A2      : 0x00000000  A3      : 0x3ffdb31c  A4      : 0x00000000  A5      : 0x00000b38  
+06:58:31.937 > A6      : 0x00000000  A7      : 0x00000001  A8      : 0x80083bb9  A9      : 0x3ffb31e0  
+06:58:31.943 > A10     : 0x3ffd3c6c  A11     : 0x00001800  A12     : 0x3ffd3c6c  A13     : 0x00000007  
+06:58:31.952 > A14     : 0x00000005  A15     : 0x00000001  SAR     : 0x00000014  EXCCAUSE: 0x0000001c  
+06:58:31.960 > EXCVADDR: 0x00000000  LBEG    : 0x40089384  LEND    : 0x4008939a  LCOUNT  : 0xffffffff  
+06:58:31.968 > 
+06:58:31.968 > 
+06:58:31.968 > Backtrace: 0x400d79d4:0x3ffb3200 0x400d7b98:0x3ffb3220 0x400d7be5:0x3ffb3240 0x4010e319:0x3ffb3270 0x401143ba:0x3ffb32e0 0x40118406:0x3ffb3310 0x40107ff9:0x3ffb3330
+06:58:32.137 > 
+06:58:32.137 >   #0  0x400d79d4:0x3ffb3200 in AsyncClient::_lwip_fin(tcp_pcb*, signed char) at .pio/libdeps/esp32doit-devkit-v1/AsyncTCP@src-1f6b09100153680e00db70752c0bc4e4/src/AsyncTCP.cpp:884
+06:58:32.137 >   #1  0x400d7b98:0x3ffb3220 in AsyncClient::_s_lwip_fin(void*, tcp_pcb*, signed char) at .pio/libdeps/esp32doit-devkit-v1/AsyncTCP@src-1f6b09100153680e00db70752c0bc4e4/src/AsyncTCP.cpp:1221
+06:58:32.137 >   #2  0x400d7be5:0x3ffb3240 in _tcp_recv(void*, tcp_pcb*, pbuf*, signed char) at .pio/libdeps/esp32doit-devkit-v1/AsyncTCP@src-1f6b09100153680e00db70752c0bc4e4/src/AsyncTCP.cpp:283
+06:58:32.137 >   #3  0x4010e319:0x3ffb3270 in tcp_input at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/lwip/lwip/src/core/tcp_in.c:541 (discriminator 1)
+06:58:32.137 >   #4  0x401143ba:0x3ffb32e0 in ip4_input at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/lwip/lwip/src/core/ipv4/ip4.c:803
+06:58:32.137 >   #5  0x40118406:0x3ffb3310 in ethernet_input at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/lwip/lwip/src/netif/ethernet.c:186
+06:58:32.137 >   #6  0x40107ff9:0x3ffb3330 in tcpip_thread_handle_msg at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/lwip/lwip/src/api/tcpip.c:180
+06:58:32.137 >       (inlined by) tcpip_thread at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/lwip/lwip/src/api/tcpip.c:154
+06:58:32.138 > 
+06:58:32.138 > 
+06:58:32.138 > 
+06:58:32.138 > 
+06:58:32.138 > ELF file SHA256: 52b1430794790b4a
+06:58:32.138 > 
+06:58:32.148 > Rebooting...
+06:58:32.150 > ets Jun  8 2016 00:22:57
+06:58:32.152 > 
+06:58:32.152 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+06:58:32.157 > configsip: 0, SPIWP:0xee
+06:58:32.159 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+06:58:32.166 > mode:DIO, clock div:2
+06:58:32.168 > load:0x3fff0030,len:1184
+06:58:32.170 > load:0x40078000,len:13192
+06:58:32.172 > load:0x40080400,len:3028
+06:58:32.173 > entry 0x400805e4
+06:58:32.654 > Registered to start:
+06:58:32.656 >  ears
+06:58:32.656 >  upnp
+06:58:32.656 >  onof
+06:58:32.658 >  tick
+06:58:32.658 >  gpio
+06:58:32.659 >  mqtt
+06:58:32.659 >  cmd
+06:58:32.660 >  wifi
+06:58:32.660 >  wink
+06:58:32.661 >  beat
+06:58:32.661 > GPIOs defined:
+06:58:32.662 >  02 S=0 C=4 NPL=1
+06:58:32.787 > H4P_PinMachine::svcUp 1
+06:58:32.789 > START PINS:  P02 S=LO P=1 L=0 C=BLACK V=0 O=1 A=0
+06:58:32.856 > 
+06:58:32.856 > Brownout detector was triggered
+06:58:32.856 > 
+06:58:32.856 > ets Jun  8 2016 00:22:57
+06:58:32.856 > 
+06:58:32.856 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+06:58:32.865 > configsip: 0, SPIWP:0xee
+06:58:32.865 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+06:58:32.876 > mode:DIO, clock div:2
+06:58:32.878 > load:0x3fff0030,len:1184
+06:58:32.880 > load:0x40078000,len:13192
+06:58:32.883 > load:0x40080400,len:3028
+06:58:32.885 > entry 0x400805e4
+06:58:33.355 > Registered to start:
+06:58:33.365 >  ears
+06:58:33.365 >  upnp
+06:58:33.365 >  onof
+06:58:33.365 >  tick
+06:58:33.369 >  gpio
+06:58:33.369 >  mqtt
+06:58:33.369 >  cmd
+06:58:33.369 >  wifi
+06:58:33.370 >  wink
+06:58:33.370 >  beat
+06:58:33.371 > GPIOs defined:
+06:58:33.372 >  02 S=0 C=4 NPL=1
+06:58:33.497 > H4P_PinMachine::svcUp 1
+06:58:33.497 > START PINS:  P02 S=LO P=1 L=0 C=BLACK V=0 O=1 A=0
+06:58:33.775 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+06:58:33.875 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+06:58:33.885 > AARD:1: ----> TX 51 bytes
+06:58:33.915 > AARD:1: <---- RX 3FFDA07E len=4 PSH=1 stored=0 FH=110580
+06:58:33.915 > PANG:1: MQTT CONNACK
+06:58:33.925 > PANG:2:  Data @ 0x3ffda07e len=4 RL=2
+06:58:33.928 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+06:58:33.933 > AARD:1: ----> TX 12 bytes
+06:58:33.945 > AARD:1: <---- RX 3FFDA18E len=5 PSH=1 stored=0 FH=110580
+06:58:33.955 > PANG:1: MQTT SUBACK
+06:58:33.958 > PANG:2:  Data @ 0x3ffda18e len=5 RL=3
+06:58:33.958 > AARD:1: ----> TX 15 bytes
+06:58:33.958 > PANG:1: MQTT PUBLISH
+06:58:33.965 > PANG:2:  Data @ 0x3ffd9ca8 len=66 RL=64
+06:58:33.985 > AARD:1: ----> TX 20 bytes
+06:58:33.990 > AARD:1: <---- RX 3FFDA15A len=5 PSH=1 stored=0 FH=110580
+06:58:33.995 > PANG:1: MQTT SUBACK
+06:58:33.995 > PANG:2:  Data @ 0x3ffda15a len=5 RL=3
+06:58:33.995 > AARD:1: ----> TX 18 bytes
+06:58:34.005 > AARD:1: <---- RX 3FFDA15A len=5 PSH=1 stored=0 FH=110580
+06:58:34.005 > PANG:1: MQTT SUBACK
+06:58:34.005 > PANG:2:  Data @ 0x3ffda15a len=5 RL=3
+06:58:34.015 > AARD:1: ----> TX 18 bytes
+06:58:34.015 > AARD:1: <---- RX 3FFDA15A len=5 PSH=1 stored=0 FH=110580
+06:58:34.021 > PANG:1: MQTT SUBACK
+06:58:34.021 > PANG:2:  Data @ 0x3ffda15a len=5 RL=3
+06:58:34.025 > AARD:1: ----> TX 66 bytes
+06:58:34.025 > AARD:1: <---- RX 3FFDA3C6 len=5 PSH=1 stored=0 FH=110580
+06:58:34.035 > PANG:1: MQTT SUBACK
+06:58:34.035 > PANG:2:  Data @ 0x3ffda3c6 len=5 RL=3
+06:58:38.625 > Publishing 110580 to heap
+06:58:38.625 > PANG:1: MQTT PUBLISH
+06:58:38.625 > PANG:2:  Data @ 0x3ffd5070 len=28 RL=26
+06:58:38.625 > AARD:1: ----> TX 28 bytes
+06:58:38.635 > Publishing 0 to uptime
+06:58:38.635 > PANG:1: MQTT PUBLISH
+06:58:38.639 > PANG:2:  Data @ 0x3ffda6ec len=25 RL=23
+06:58:38.639 > Publishing Hello from uiinputs to hello
+06:58:38.645 > AARD:1: ----> TX 25 bytes
+06:58:38.645 > PANG:1: MQTT PUBLISH
+06:58:38.651 > PANG:2:  Data @ 0x3ffdb1bc len=42 RL=40
+06:58:38.655 > Publishing 5350 to millis
+06:58:38.655 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+06:58:38.655 > PANG:1: MQTT PUBACK
+06:58:38.655 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+06:58:38.667 > AARD:1: ----> TX 42 bytes
+06:58:38.667 > PANG:1: MQTT PUBLISH
+06:58:38.667 > PANG:2:  Data @ 0x3ffd5070 len=28 RL=26
+06:58:38.675 > Heap: 110580
+06:58:38.675 > PANG:1: MQTT PUBLISH
+06:58:38.675 > PANG:2:  Data @ 0x3ffdddb8 len=5018 RL=5015
+06:58:38.675 > AARD:1: <---- RX 3FFDA45A len=4 PSH=1 stored=0 FH=110580
+06:58:38.685 > PANG:1: MQTT PUBACK
+06:58:38.685 > PANG:2:  Data @ 0x3ffda45a len=4 RL=2
+06:58:38.685 > AARD:1: ----> TX 28 bytes
+06:58:38.695 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+06:58:38.699 > PANG:1: MQTT PUBACK
+06:58:38.699 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+06:58:38.705 > AARD:1: ----> TX 1436 bytes
+06:58:38.705 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+06:58:38.705 > PANG:1: MQTT PUBACK
+06:58:38.705 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+06:58:39.132 > AARD:1: ----> TX 1436 bytes
+06:58:39.545 > AARD:1: ----> TX 1436 bytes
+06:58:39.609 > AARD:1: ----> TX 710 bytes
+06:58:39.620 > AARD:1: TCP onDisconnect
+06:58:39.622 > AARD:1: ON DISCONNECT FH=110580 r=0
+06:58:39.625 > PANG:1: TCP CHOPPED US! 0
+06:58:43.629 > Publishing 110580 to heap
+06:58:43.629 > PANG:1: NOTIFY e=8 inf=0
+06:58:43.680 > Publishing 0 to uptime
+06:58:43.683 > PANG:1: NOTIFY e=8 inf=0
+06:58:43.685 > Publishing Hello from uiinputs to hello
+06:58:43.689 > PANG:1: NOTIFY e=8 inf=0
+06:58:43.691 > Publishing 10386 to millis
+06:58:43.693 > PANG:1: NOTIFY e=8 inf=0
+06:58:43.695 > Heap: 110580
+06:58:43.695 > PANG:1: NOTIFY e=8 inf=0
+06:58:48.631 > Publishing 110580 to heap
+06:58:48.634 > PANG:1: NOTIFY e=8 inf=0
+06:58:48.690 > Publishing 0 to uptime
+06:58:48.695 > PANG:1: NOTIFY e=8 inf=0
+06:58:48.695 > Publishing Hello from uiinputs to hello
+06:58:48.695 > PANG:1: NOTIFY e=8 inf=0
+06:58:48.695 > Publishing 15398 to millis
+06:58:48.705 > PANG:1: NOTIFY e=8 inf=0
+06:58:48.706 > Heap: 110580
+06:58:48.706 > PANG:1: NOTIFY e=8 inf=0
+06:58:53.632 > Publishing 110580 to heap
+06:58:53.635 > PANG:1: NOTIFY e=8 inf=0
+06:58:53.704 > Publishing 0 to uptime
+06:58:53.705 > PANG:1: NOTIFY e=8 inf=0
+06:58:53.707 > Publishing Hello from uiinputs to hello
+06:58:53.712 > PANG:1: NOTIFY e=8 inf=0
+06:58:53.714 > Publishing 20409 to millis
+06:58:53.716 > PANG:1: NOTIFY e=8 inf=0
+06:58:53.719 > Heap: 110580
+06:58:53.720 > PANG:1: NOTIFY e=8 inf=0
+06:58:58.632 > Publishing 110580 to heap
+06:58:58.635 > PANG:1: NOTIFY e=8 inf=0
+06:58:58.715 > Publishing 0 to uptime
+06:58:58.717 > PANG:1: NOTIFY e=8 inf=0
+06:58:58.720 > Publishing Hello from uiinputs to hello
+06:58:58.723 > PANG:1: NOTIFY e=8 inf=0
+06:58:58.725 > Publishing 25420 to millis
+06:58:58.727 > PANG:1: NOTIFY e=8 inf=0
+06:58:58.729 > Heap: 110580
+06:58:58.730 > PANG:1: NOTIFY e=8 inf=0
+06:58:59.865 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+06:58:59.993 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+06:59:00.000 > AARD:1: ----> TX 51 bytes
+06:59:00.412 > AARD:1: <---- RX 3FFDCC9A len=4 PSH=1 stored=0 FH=110580
+06:59:00.417 > PANG:1: MQTT CONNACK
+06:59:00.419 > PANG:2:  Data @ 0x3ffdcc9a len=4 RL=2
+06:59:00.422 > AARD:1: ----> TX 4 bytes
+06:59:00.425 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+06:59:00.435 > AARD:1: ----> TX 12 bytes
+06:59:00.438 > PANG:1: MQTT PUBLISH
+06:59:00.440 > PANG:2:  Data @ 0x3ffda3dc len=66 RL=64
+06:59:00.442 > AARD:1: <---- RX 3FFDDF72 len=4 PSH=1 stored=0 FH=110580
+06:59:00.448 > PANG:1: MQTT PUBCOMP
+06:59:00.450 > PANG:2:  Data @ 0x3ffddf72 len=4 RL=2
+06:59:00.453 > AARD:1: ----> TX 15 bytes
+06:59:00.455 > AARD:1: <---- RX 3FFDA15A len=5 PSH=1 stored=0 FH=110580
+06:59:00.459 > PANG:1: MQTT SUBACK
+06:59:00.461 > PANG:2:  Data @ 0x3ffda15a len=5 RL=3
+06:59:00.465 > AARD:1: ----> TX 20 bytes
+06:59:00.468 > AARD:1: <---- RX 3FFDA15A len=5 PSH=1 stored=0 FH=110580
+06:59:00.472 > PANG:1: MQTT SUBACK
+06:59:00.473 > PANG:2:  Data @ 0x3ffda15a len=5 RL=3
+06:59:00.477 > AARD:1: ----> TX 18 bytes
+06:59:00.480 > AARD:1: <---- RX 3FFDB616 len=5 PSH=1 stored=0 FH=110580
+06:59:00.486 > PANG:1: MQTT SUBACK
+06:59:00.488 > PANG:2:  Data @ 0x3ffdb616 len=5 RL=3
+06:59:00.491 > AARD:1: ----> TX 18 bytes
+06:59:00.493 > AARD:1: <---- RX 3FFDA15A len=5 PSH=1 stored=0 FH=110580
+06:59:00.499 > PANG:1: MQTT SUBACK
+06:59:00.501 > PANG:2:  Data @ 0x3ffda15a len=5 RL=3
+06:59:00.504 > AARD:1: ----> TX 66 bytes
+06:59:00.506 > AARD:1: <---- RX 3FFDA15A len=5 PSH=1 stored=0 FH=110580
+06:59:00.511 > PANG:1: MQTT SUBACK
+06:59:00.513 > PANG:2:  Data @ 0x3ffda15a len=5 RL=3
+06:59:03.633 > Publishing 110580 to heap
+06:59:03.636 > PANG:1: MQTT PUBLISH
+06:59:03.638 > PANG:2:  Data @ 0x3ffda518 len=28 RL=26
+06:59:03.641 > AARD:1: ----> TX 28 bytes
+06:59:03.644 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+06:59:03.651 > PANG:1: MQTT PUBACK
+06:59:03.651 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+06:59:03.726 > Publishing 0 to uptime
+06:59:03.729 > PANG:1: MQTT PUBLISH
+06:59:03.730 > PANG:2:  Data @ 0x3ffb6eac len=25 RL=23
+06:59:03.734 > AARD:1: ----> TX 25 bytes
+06:59:03.736 > Publishing Hello from uiinputs to hello
+06:59:03.739 > PANG:1: MQTT PUBLISH
+06:59:03.740 > PANG:2:  Data @ 0x3ffd477c len=42 RL=40
+06:59:03.745 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+06:59:03.750 > PANG:1: MQTT PUBACK
+06:59:03.752 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+06:59:03.755 > AARD:1: ----> TX 42 bytes
+06:59:03.757 > Publishing 30460 to millis
+06:59:03.759 > PANG:1: MQTT PUBLISH
+06:59:03.761 > PANG:2:  Data @ 0x3ffd5400 len=29 RL=27
+06:59:03.765 > Heap: 110580
+06:59:03.766 > PANG:1: MQTT PUBLISH
+06:59:03.767 > PANG:2:  Data @ 0x3ffdddb8 len=5018 RL=5015
+06:59:03.770 > AARD:1: ----> TX 29 bytes
+06:59:03.773 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+06:59:03.779 > PANG:1: MQTT PUBACK
+06:59:03.780 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+06:59:03.784 > AARD:1: ----> TX 1436 bytes
+06:59:03.786 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+06:59:03.791 > PANG:1: MQTT PUBACK
+06:59:03.793 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+06:59:03.833 > AARD:1: ----> TX 1436 bytes
+06:59:03.899 > AARD:1: ----> TX 1436 bytes
+06:59:03.955 > AARD:1: ----> TX 710 bytes
+06:59:03.979 > AARD:1: TCP onDisconnect
+06:59:03.982 > AARD:1: ON DISCONNECT FH=110580 r=0
+06:59:03.985 > PANG:1: TCP CHOPPED US! 0
+06:59:08.682 > Publishing 110580 to heap
+06:59:08.685 > PANG:1: NOTIFY e=8 inf=0
+06:59:08.787 > Publishing 0 to uptime
+06:59:08.789 > PANG:1: NOTIFY e=8 inf=0
+06:59:08.791 > Publishing Hello from uiinputs to hello
+06:59:08.795 > PANG:1: NOTIFY e=8 inf=0
+06:59:08.798 > Publishing 35493 to millis
+06:59:08.800 > PANG:1: NOTIFY e=8 inf=0
+06:59:08.802 > Heap: 110580
+06:59:08.803 > PANG:1: NOTIFY e=8 inf=0
+06:59:13.745 > Publishing 110580 to heap
+06:59:13.748 > PANG:1: NOTIFY e=8 inf=0
+06:59:13.800 > Publishing 0 to uptime
+06:59:13.802 > PANG:1: NOTIFY e=8 inf=0
+06:59:13.804 > Publishing Hello from uiinputs to hello
+06:59:13.807 > PANG:1: NOTIFY e=8 inf=0
+06:59:13.809 > Publishing 40505 to millis
+06:59:13.813 > PANG:1: NOTIFY e=8 inf=0
+06:59:13.815 > Heap: 110580
+06:59:13.815 > PANG:1: NOTIFY e=8 inf=0
+06:59:18.778 > Publishing 110580 to heap
+06:59:18.781 > PANG:1: NOTIFY e=8 inf=0
+06:59:18.815 > Publishing 0 to uptime
+06:59:18.817 > PANG:1: NOTIFY e=8 inf=0
+06:59:18.820 > Publishing Hello from uiinputs to hello
+06:59:18.822 > PANG:1: NOTIFY e=8 inf=0
+06:59:18.823 > Publishing 45521 to millis
+06:59:19.022 > PANG:1: NOTIFY e=8 inf=0
+06:59:19.024 > Heap: 110580
+06:59:19.025 > PANG:1: NOTIFY e=8 inf=0
+06:59:23.779 > Publishing 110580 to heap
+06:59:23.782 > PANG:1: NOTIFY e=8 inf=0
+06:59:23.984 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+06:59:23.994 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+06:59:24.002 > AARD:1: ----> TX 51 bytes
+06:59:24.008 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+06:59:24.014 > PANG:1: MQTT CONNACK
+06:59:24.015 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+06:59:24.018 > AARD:1: ----> TX 4 bytes
+06:59:24.022 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+06:59:24.028 > Publishing 0 to uptime
+06:59:24.030 > PANG:1: MQTT PUBLISH
+06:59:24.031 > PANG:2:  Data @ 0x3ffd4918 len=25 RL=23
+06:59:24.034 > Publishing Hello from uiinputs to hello
+06:59:24.038 > AARD:1: ----> TX 12 bytes
+06:59:24.040 > PANG:1: MQTT PUBLISH
+06:59:24.043 > PANG:2:  Data @ 0x3ffd9aa8 len=42 RL=40
+06:59:24.046 > Publishing 50744 to millis
+06:59:24.048 > PANG:1: MQTT PUBLISH
+06:59:24.051 > PANG:2:  Data @ 0x3ffdb1bc len=29 RL=27
+06:59:24.054 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+06:59:24.059 > PANG:1: MQTT PUBCOMP
+06:59:24.061 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+06:59:24.064 > Heap: 110580
+06:59:24.064 > PANG:1: MQTT PUBLISH
+06:59:24.067 > PANG:2:  Data @ 0x3ffdddb8 len=5018 RL=5015
+06:59:24.070 > AARD:1: ----> TX 25 bytes
+06:59:24.072 > AARD:1: <---- RX 3FFDD0FE len=5 PSH=1 stored=0 FH=110580
+06:59:24.078 > PANG:1: MQTT SUBACK
+06:59:24.080 > PANG:2:  Data @ 0x3ffdd0fe len=5 RL=3
+06:59:24.083 > PANG:1: MQTT PUBLISH
+06:59:24.084 > PANG:2:  Data @ 0x3ffda3ac len=66 RL=64
+06:59:24.088 > AARD:1: ----> TX 42 bytes
+06:59:24.090 > AARD:1: <---- RX 3FFDD7FE len=4 PSH=1 stored=0 FH=110580
+06:59:24.095 > PANG:1: MQTT PUBACK
+06:59:24.096 > PANG:2:  Data @ 0x3ffdd7fe len=4 RL=2
+06:59:24.101 > AARD:1: ----> TX 29 bytes
+06:59:24.103 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+06:59:24.107 > PANG:1: MQTT PUBACK
+06:59:24.110 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+06:59:24.113 > AARD:1: ----> TX 15 bytes
+06:59:24.114 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+06:59:24.120 > PANG:1: MQTT PUBACK
+06:59:24.122 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+06:59:24.124 > AARD:1: ----> TX 20 bytes
+06:59:24.127 > AARD:1: <---- RX 3FFDB616 len=5 PSH=1 stored=0 FH=110580
+06:59:24.133 > PANG:1: MQTT SUBACK
+06:59:24.134 > PANG:2:  Data @ 0x3ffdb616 len=5 RL=3
+06:59:24.137 > AARD:1: ----> TX 18 bytes
+06:59:24.139 > AARD:1: <---- RX 3FFDA15A len=5 PSH=1 stored=0 FH=110580
+06:59:24.143 > PANG:1: MQTT SUBACK
+06:59:24.147 > PANG:2:  Data @ 0x3ffda15a len=5 RL=3
+06:59:24.150 > AARD:1: ----> TX 18 bytes
+06:59:24.153 > AARD:1: <---- RX 3FFDB286 len=5 PSH=1 stored=0 FH=110580
+06:59:24.158 > PANG:1: MQTT SUBACK
+06:59:24.161 > PANG:2:  Data @ 0x3ffdb286 len=5 RL=3
+06:59:24.164 > AARD:1: ----> TX 66 bytes
+06:59:24.166 > AARD:1: <---- RX 3FFDA15A len=5 PSH=1 stored=0 FH=110580
+06:59:24.170 > PANG:1: MQTT SUBACK
+06:59:24.172 > PANG:2:  Data @ 0x3ffda15a len=5 RL=3
+06:59:24.223 > AARD:1: ----> TX 1436 bytes
+06:59:24.293 > AARD:1: ----> TX 1436 bytes
+06:59:24.362 > AARD:1: ----> TX 1436 bytes
+06:59:24.416 > AARD:1: ----> TX 710 bytes
+06:59:24.427 > AARD:1: TCP onDisconnect
+06:59:24.429 > AARD:1: ON DISCONNECT FH=110580 r=0
+06:59:24.433 > PANG:1: TCP CHOPPED US! 0
+06:59:28.779 > Publishing 110580 to heap
+06:59:28.782 > PANG:1: NOTIFY e=8 inf=0
+06:59:29.189 > Publishing 0 to uptime
+06:59:29.191 > PANG:1: NOTIFY e=8 inf=0
+06:59:29.193 > Publishing Hello from uiinputs to hello
+06:59:29.197 > PANG:1: NOTIFY e=8 inf=0
+06:59:29.199 > Publishing 55895 to millis
+06:59:29.201 > PANG:1: NOTIFY e=8 inf=0
+06:59:29.203 > Heap: 110580
+06:59:29.203 > PANG:1: NOTIFY e=8 inf=0
+06:59:33.780 > Publishing 110580 to heap
+06:59:33.782 > PANG:1: NOTIFY e=8 inf=0
+06:59:34.202 > Publishing 0 to uptime
+06:59:34.204 > PANG:1: NOTIFY e=8 inf=0
+06:59:34.206 > Publishing Hello from uiinputs to hello
+06:59:34.209 > PANG:1: NOTIFY e=8 inf=0
+06:59:34.211 > Publishing 60907 to millis
+06:59:34.214 > PANG:1: NOTIFY e=8 inf=0
+06:59:34.216 > Heap: 110580
+06:59:34.217 > PANG:1: NOTIFY e=8 inf=0
+06:59:38.780 > Publishing 110580 to heap
+06:59:38.782 > PANG:1: NOTIFY e=8 inf=0
+06:59:39.213 > Publishing 0 to uptime
+06:59:39.215 > PANG:1: NOTIFY e=8 inf=0
+06:59:39.217 > Publishing Hello from uiinputs to hello
+06:59:39.221 > PANG:1: NOTIFY e=8 inf=0
+06:59:39.223 > Publishing 65919 to millis
+06:59:39.225 > PANG:1: NOTIFY e=8 inf=0
+06:59:39.227 > Heap: 110580
+06:59:39.228 > PANG:1: NOTIFY e=8 inf=0
+06:59:43.781 > Publishing 110580 to heap
+06:59:43.783 > PANG:1: NOTIFY e=8 inf=0
+06:59:44.224 > Publishing 0 to uptime
+06:59:44.227 > PANG:1: NOTIFY e=8 inf=0
+06:59:44.229 > Publishing Hello from uiinputs to hello
+06:59:44.232 > PANG:1: NOTIFY e=8 inf=0
+06:59:44.234 > Publishing 70930 to millis
+06:59:44.237 > PANG:1: NOTIFY e=8 inf=0
+06:59:44.239 > Heap: 110580
+06:59:44.240 > PANG:1: NOTIFY e=8 inf=0
+06:59:44.431 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+06:59:44.455 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+06:59:44.462 > AARD:1: ----> TX 51 bytes
+06:59:44.467 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+06:59:44.472 > PANG:1: MQTT CONNACK
+06:59:44.474 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+06:59:44.477 > AARD:1: ----> TX 4 bytes
+06:59:44.480 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+06:59:44.487 > PANG:1: MQTT PUBLISH
+06:59:44.489 > PANG:2:  Data @ 0x3ffda0dc len=66 RL=64
+06:59:44.527 > AARD:1: ----> TX 12 bytes
+06:59:44.530 > AARD:1: <---- RX 3FFDB286 len=4 PSH=1 stored=0 FH=110580
+06:59:44.536 > PANG:1: MQTT PUBCOMP
+06:59:44.537 > PANG:2:  Data @ 0x3ffdb286 len=4 RL=2
+06:59:44.541 > AARD:1: ----> TX 15 bytes
+06:59:44.543 > AARD:1: <---- RX 3FFDB286 len=5 PSH=1 stored=0 FH=110580
+06:59:44.548 > PANG:1: MQTT SUBACK
+06:59:44.550 > PANG:2:  Data @ 0x3ffdb286 len=5 RL=3
+06:59:44.553 > AARD:1: ----> TX 20 bytes
+06:59:44.555 > AARD:1: <---- RX 3FFDA3C6 len=5 PSH=1 stored=0 FH=110580
+06:59:44.560 > PANG:1: MQTT SUBACK
+06:59:44.562 > PANG:2:  Data @ 0x3ffda3c6 len=5 RL=3
+06:59:44.569 > AARD:1: ----> TX 18 bytes
+06:59:44.572 > AARD:1: <---- RX 3FFB6FAA len=5 PSH=1 stored=0 FH=110580
+06:59:44.577 > PANG:1: MQTT SUBACK
+06:59:44.579 > PANG:2:  Data @ 0x3ffb6faa len=5 RL=3
+06:59:44.582 > AARD:1: ----> TX 18 bytes
+06:59:44.583 > AARD:1: <---- RX 3FFB6FAA len=5 PSH=1 stored=0 FH=110580
+06:59:44.589 > PANG:1: MQTT SUBACK
+06:59:44.591 > PANG:2:  Data @ 0x3ffb6faa len=5 RL=3
+06:59:44.594 > AARD:1: ----> TX 66 bytes
+06:59:44.596 > AARD:1: <---- RX 3FFDB286 len=5 PSH=1 stored=0 FH=110580
+06:59:44.601 > PANG:1: MQTT SUBACK
+06:59:44.603 > PANG:2:  Data @ 0x3ffdb286 len=5 RL=3
+06:59:48.781 > Publishing 110580 to heap
+06:59:48.783 > PANG:1: MQTT PUBLISH
+06:59:48.785 > PANG:2:  Data @ 0x3ffb6fa0 len=28 RL=26
+06:59:48.789 > AARD:1: ----> TX 28 bytes
+06:59:49.197 > AARD:1: <---- RX 3FFDB286 len=4 PSH=1 stored=0 FH=110580
+06:59:49.202 > PANG:1: MQTT PUBACK
+06:59:49.204 > PANG:2:  Data @ 0x3ffdb286 len=4 RL=2
+06:59:49.236 > Publishing 0 to uptime
+06:59:49.238 > PANG:1: MQTT PUBLISH
+06:59:49.240 > PANG:2:  Data @ 0x3ffb6f28 len=25 RL=23
+06:59:49.243 > AARD:1: ----> TX 25 bytes
+06:59:49.246 > Publishing Hello from uiinputs to hello
+06:59:49.249 > PANG:1: MQTT PUBLISH
+06:59:49.251 > PANG:2:  Data @ 0x3ffd4918 len=42 RL=40
+06:59:49.255 > AARD:1: <---- RX 3FFDB286 len=4 PSH=1 stored=0 FH=110580
+06:59:49.260 > PANG:1: MQTT PUBACK
+06:59:49.261 > PANG:2:  Data @ 0x3ffdb286 len=4 RL=2
+06:59:49.265 > AARD:1: ----> TX 42 bytes
+06:59:49.267 > Publishing 75972 to millis
+06:59:49.269 > PANG:1: MQTT PUBLISH
+06:59:49.271 > PANG:2:  Data @ 0x3ffdb2b0 len=29 RL=27
+06:59:49.275 > Heap: 110580
+06:59:49.276 > PANG:1: MQTT PUBLISH
+06:59:49.278 > PANG:2:  Data @ 0x3ffdddb8 len=5018 RL=5015
+06:59:49.281 > AARD:1: ----> TX 29 bytes
+06:59:49.283 > AARD:1: <---- RX 3FFDB286 len=4 PSH=1 stored=0 FH=110580
+06:59:49.289 > PANG:1: MQTT PUBACK
+06:59:49.290 > PANG:2:  Data @ 0x3ffdb286 len=4 RL=2
+06:59:49.295 > AARD:1: ----> TX 1436 bytes
+06:59:49.298 > AARD:1: <---- RX 3FFB6FAA len=4 PSH=1 stored=0 FH=110580
+06:59:49.303 > PANG:1: MQTT PUBACK
+06:59:49.305 > PANG:2:  Data @ 0x3ffb6faa len=4 RL=2
+06:59:49.357 > AARD:1: ----> TX 1436 bytes
+06:59:49.419 > AARD:1: ----> TX 1436 bytes
+06:59:49.480 > AARD:1: ----> TX 710 bytes
+06:59:49.491 > AARD:1: TCP onDisconnect
+06:59:49.493 > AARD:1: ON DISCONNECT FH=110580 r=0
+06:59:49.496 > PANG:1: TCP CHOPPED US! 0
+06:59:53.812 > Publishing 110580 to heap
+06:59:53.814 > PANG:1: NOTIFY e=8 inf=0
+06:59:54.280 > Publishing 0 to uptime
+06:59:54.283 > PANG:1: NOTIFY e=8 inf=0
+06:59:54.285 > Publishing Hello from uiinputs to hello
+06:59:54.287 > PANG:1: NOTIFY e=8 inf=0
+06:59:54.290 > Publishing 80986 to millis
+06:59:54.292 > PANG:1: NOTIFY e=8 inf=0
+06:59:54.295 > Heap: 110580
+06:59:54.296 > PANG:1: NOTIFY e=8 inf=0
+06:59:58.813 > Publishing 110580 to heap
+06:59:58.815 > PANG:1: NOTIFY e=8 inf=0
+06:59:59.356 > Publishing 0 to uptime
+06:59:59.358 > PANG:1: NOTIFY e=8 inf=0
+06:59:59.360 > Publishing Hello from uiinputs to hello
+06:59:59.362 > PANG:1: NOTIFY e=8 inf=0
+06:59:59.365 > Publishing 86069 to millis
+06:59:59.368 > PANG:1: NOTIFY e=8 inf=0
+06:59:59.368 > Heap: 110580
+06:59:59.371 > PANG:1: NOTIFY e=8 inf=0
+07:00:03.805 > Publishing 110580 to heap
+07:00:03.815 > PANG:1: NOTIFY e=8 inf=0
+07:00:04.495 > Publishing 0 to uptime
+07:00:04.495 > PANG:1: NOTIFY e=8 inf=0
+07:00:04.495 > Publishing Hello from uiinputs to hello
+07:00:04.505 > PANG:1: NOTIFY e=8 inf=0
+07:00:04.505 > Publishing 91206 to millis
+07:00:04.510 > PANG:1: NOTIFY e=8 inf=0
+07:00:04.510 > Heap: 110580
+07:00:04.515 > PANG:1: NOTIFY e=8 inf=0
+07:00:08.809 > Publishing 110580 to heap
+07:00:08.815 > PANG:1: NOTIFY e=8 inf=0
+07:00:09.496 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+07:00:09.505 > Publishing 0 to uptime
+07:00:09.505 > PANG:1: NOTIFY e=8 inf=0
+07:00:09.515 > Publishing Hello from uiinputs to hello
+07:00:09.517 > PANG:1: NOTIFY e=8 inf=0
+07:00:09.517 > Publishing 96218 to millis
+07:00:09.517 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+07:00:09.525 > AARD:1: ----> TX 51 bytes
+07:00:09.533 > PANG:1: NOTIFY e=8 inf=0
+07:00:09.533 > Heap: 110580
+07:00:09.535 > PANG:1: NOTIFY e=8 inf=0
+07:00:09.535 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+07:00:09.543 > PANG:1: MQTT CONNACK
+07:00:09.543 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+07:00:09.549 > AARD:1: ----> TX 4 bytes
+07:00:09.549 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+07:00:09.555 > PANG:1: MQTT PUBLISH
+07:00:09.555 > PANG:2:  Data @ 0x3ffda090 len=66 RL=64
+07:00:09.555 > AARD:1: ----> TX 12 bytes
+07:00:09.565 > AARD:1: <---- RX 3FFDA3C6 len=4 PSH=1 stored=0 FH=110580
+07:00:09.565 > PANG:1: MQTT PUBCOMP
+07:00:09.565 > PANG:2:  Data @ 0x3ffda3c6 len=4 RL=2
+07:00:09.565 > AARD:1: ----> TX 15 bytes
+07:00:09.575 > AARD:1: <---- RX 3FFDB286 len=5 PSH=1 stored=0 FH=110580
+07:00:09.581 > PANG:1: MQTT SUBACK
+07:00:09.581 > PANG:2:  Data @ 0x3ffdb286 len=5 RL=3
+07:00:09.585 > AARD:1: ----> TX 20 bytes
+07:00:09.585 > AARD:1: <---- RX 3FFDA3C6 len=5 PSH=1 stored=0 FH=110580
+07:00:09.585 > PANG:1: MQTT SUBACK
+07:00:09.595 > PANG:2:  Data @ 0x3ffda3c6 len=5 RL=3
+07:00:09.597 > AARD:1: ----> TX 18 bytes
+07:00:09.597 > AARD:1: <---- RX 3FFDB286 len=5 PSH=1 stored=0 FH=110580
+07:00:09.605 > PANG:1: MQTT SUBACK
+07:00:09.605 > PANG:2:  Data @ 0x3ffdb286 len=5 RL=3
+07:00:09.613 > AARD:1: ----> TX 18 bytes
+07:00:09.615 > AARD:1: <---- RX 3FFDB286 len=5 PSH=1 stored=0 FH=110580
+07:00:09.615 > PANG:1: MQTT SUBACK
+07:00:09.615 > PANG:2:  Data @ 0x3ffdb286 len=5 RL=3
+07:00:10.015 > AARD:1: ----> TX 66 bytes
+07:00:10.015 > AARD:1: <---- RX 3FFDB9DA len=5 PSH=1 stored=0 FH=110580
+07:00:10.029 > PANG:1: MQTT SUBACK
+07:00:10.029 > PANG:2:  Data @ 0x3ffdb9da len=5 RL=3
+07:00:13.816 > Publishing 110580 to heap
+07:00:13.818 > PANG:1: MQTT PUBLISH
+07:00:13.820 > PANG:2:  Data @ 0x3ffb6f44 len=28 RL=26
+07:00:13.824 > AARD:1: ----> TX 28 bytes
+07:00:13.829 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+07:00:13.835 > PANG:1: MQTT PUBACK
+07:00:13.836 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+07:00:14.536 > Publishing 0 to uptime
+07:00:14.538 > PANG:1: MQTT PUBLISH
+07:00:14.541 > PANG:2:  Data @ 0x3ffb6f8c len=25 RL=23
+07:00:14.544 > AARD:1: ----> TX 25 bytes
+07:00:14.547 > Publishing Hello from uiinputs to hello
+07:00:14.550 > PANG:1: MQTT PUBLISH
+07:00:14.552 > PANG:2:  Data @ 0x3ffd4918 len=42 RL=40
+07:00:14.555 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+07:00:14.560 > PANG:1: MQTT PUBACK
+07:00:14.562 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+07:00:14.565 > AARD:1: ----> TX 42 bytes
+07:00:14.567 > Publishing 101271 to millis
+07:00:14.570 > PANG:1: MQTT PUBLISH
+07:00:14.572 > PANG:2:  Data @ 0x3ffbcb90 len=30 RL=28
+07:00:14.575 > Heap: 110580
+07:00:14.576 > PANG:1: MQTT PUBLISH
+07:00:14.578 > PANG:2:  Data @ 0x3ffdddb8 len=5018 RL=5015
+07:00:14.582 > AARD:1: ----> TX 30 bytes
+07:00:14.584 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+07:00:14.588 > PANG:1: MQTT PUBACK
+07:00:14.591 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+07:00:14.595 > AARD:1: ----> TX 1436 bytes
+07:00:14.598 > AARD:1: <---- RX 3FFDB286 len=4 PSH=1 stored=0 FH=110580
+07:00:14.603 > PANG:1: MQTT PUBACK
+07:00:14.604 > PANG:2:  Data @ 0x3ffdb286 len=4 RL=2
+07:00:14.683 > AARD:1: ----> TX 1436 bytes
+07:00:14.737 > AARD:1: ----> TX 1436 bytes
+07:00:14.798 > AARD:1: ----> TX 710 bytes
+07:00:14.806 > AARD:1: TCP onDisconnect
+07:00:14.809 > AARD:1: ON DISCONNECT FH=110580 r=0
+07:00:14.812 > PANG:1: TCP CHOPPED US! 0
+07:00:18.822 > Publishing 110580 to heap
+07:00:18.891 > PANG:1: NOTIFY e=8 inf=0
+07:00:19.579 > Publishing 0 to uptime
+07:00:19.579 > PANG:1: NOTIFY e=8 inf=0
+07:00:19.579 > Publishing Hello from uiinputs to hello
+07:00:19.585 > PANG:1: NOTIFY e=8 inf=0
+07:00:19.585 > Publishing 106286 to millis
+07:00:19.585 > PANG:1: NOTIFY e=8 inf=0
+07:00:19.585 > Heap: 110580
+07:00:19.595 > PANG:1: NOTIFY e=8 inf=0
+07:00:23.885 > Publishing 110580 to heap
+07:00:23.895 > PANG:1: NOTIFY e=8 inf=0
+07:00:24.586 > Publishing 0 to uptime
+07:00:24.586 > PANG:1: NOTIFY e=8 inf=0
+07:00:24.595 > Publishing Hello from uiinputs to hello
+07:00:24.595 > PANG:1: NOTIFY e=8 inf=0
+07:00:24.595 > Publishing 111298 to millis
+07:00:24.602 > PANG:1: NOTIFY e=8 inf=0
+07:00:24.605 > Heap: 110580
+07:00:24.605 > PANG:1: NOTIFY e=8 inf=0
+07:00:28.892 > Publishing 110580 to heap
+07:00:28.895 > PANG:1: NOTIFY e=8 inf=0
+07:00:29.625 > Publishing 0 to uptime
+07:00:29.628 > PANG:1: NOTIFY e=8 inf=0
+07:00:29.630 > Publishing Hello from uiinputs to hello
+07:00:29.633 > PANG:1: NOTIFY e=8 inf=0
+07:00:29.636 > Publishing 116332 to millis
+07:00:29.638 > PANG:1: NOTIFY e=8 inf=0
+07:00:29.639 > Heap: 110580
+07:00:29.640 > PANG:1: NOTIFY e=8 inf=0
+07:00:33.892 > Publishing 110580 to heap
+07:00:33.896 > PANG:1: NOTIFY e=8 inf=0
+07:00:34.637 > Publishing 0 to uptime
+07:00:34.639 > PANG:1: NOTIFY e=8 inf=0
+07:00:34.641 > Publishing Hello from uiinputs to hello
+07:00:34.645 > PANG:1: NOTIFY e=8 inf=0
+07:00:34.647 > Publishing 121344 to millis
+07:00:34.650 > PANG:1: NOTIFY e=8 inf=0
+07:00:34.652 > Heap: 110580
+07:00:34.653 > PANG:1: NOTIFY e=8 inf=0
+07:00:34.810 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+07:00:34.822 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+07:00:34.825 > AARD:1: ----> TX 51 bytes
+07:00:34.837 > AARD:1: <---- RX 3FFDB286 len=4 PSH=1 stored=0 FH=110580
+07:00:34.842 > PANG:1: MQTT CONNACK
+07:00:34.843 > PANG:2:  Data @ 0x3ffdb286 len=4 RL=2
+07:00:34.847 > AARD:1: ----> TX 4 bytes
+07:00:34.851 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+07:00:34.857 > PANG:1: MQTT PUBLISH
+07:00:34.859 > PANG:2:  Data @ 0x3ffdb9bc len=66 RL=64
+07:00:34.871 > AARD:1: ----> TX 12 bytes
+07:00:34.874 > AARD:1: <---- RX 3FFDB616 len=4 PSH=1 stored=0 FH=110580
+07:00:34.880 > PANG:1: MQTT PUBCOMP
+07:00:34.882 > PANG:2:  Data @ 0x3ffdb616 len=4 RL=2
+07:00:34.906 > AARD:1: ----> TX 15 bytes
+07:00:34.910 > AARD:1: <---- RX 3FFDB286 len=5 PSH=1 stored=0 FH=110580
+07:00:34.914 > PANG:1: MQTT SUBACK
+07:00:34.916 > PANG:2:  Data @ 0x3ffdb286 len=5 RL=3
+07:00:34.919 > AARD:1: ----> TX 20 bytes
+07:00:34.921 > AARD:1: <---- RX 3FFDB286 len=5 PSH=1 stored=0 FH=110580
+07:00:34.927 > PANG:1: MQTT SUBACK
+07:00:34.928 > PANG:2:  Data @ 0x3ffdb286 len=5 RL=3
+07:00:34.932 > AARD:1: ----> TX 18 bytes
+07:00:34.934 > AARD:1: <---- RX 3FFDA3C6 len=5 PSH=1 stored=0 FH=110580
+07:00:34.938 > PANG:1: MQTT SUBACK
+07:00:34.941 > PANG:2:  Data @ 0x3ffda3c6 len=5 RL=3
+07:00:34.944 > AARD:1: ----> TX 18 bytes
+07:00:34.945 > AARD:1: <---- RX 3FFB6ECA len=5 PSH=1 stored=0 FH=110580
+07:00:34.950 > PANG:1: MQTT SUBACK
+07:00:34.952 > PANG:2:  Data @ 0x3ffb6eca len=5 RL=3
+07:00:34.956 > AARD:1: ----> TX 66 bytes
+07:00:34.959 > AARD:1: <---- RX 3FFDB286 len=5 PSH=1 stored=0 FH=110580
+07:00:34.964 > PANG:1: MQTT SUBACK
+07:00:34.966 > PANG:2:  Data @ 0x3ffdb286 len=5 RL=3
+07:00:38.893 > Publishing 110580 to heap
+07:00:38.895 > PANG:1: MQTT PUBLISH
+07:00:38.897 > PANG:2:  Data @ 0x3ffb6ea0 len=28 RL=26
+07:00:38.901 > AARD:1: ----> TX 28 bytes
+07:00:38.904 > AARD:1: <---- RX 3FFDB286 len=4 PSH=1 stored=0 FH=110580
+07:00:38.910 > PANG:1: MQTT PUBACK
+07:00:38.912 > PANG:2:  Data @ 0x3ffdb286 len=4 RL=2
+07:00:39.710 > Publishing 0 to uptime
+07:00:39.734 > PANG:1: MQTT PUBLISH
+07:00:39.735 > PANG:2:  Data @ 0x3ffd53d0 len=25 RL=23
+07:00:39.744 > AARD:1: ----> TX 25 bytes
+07:00:39.996 > Publishing Hello from uiinputs to hello
+07:00:40.000 > PANG:1: MQTT PUBLISH
+07:00:40.002 > PANG:2:  Data @ 0x3ffdaeb4 len=42 RL=40
+07:00:40.011 > Publishing 126716 to millis
+07:00:40.044 > PANG:1: MQTT PUBLISH
+07:00:40.046 > PANG:2:  Data @ 0x3ffdae3c len=30 RL=28
+07:00:40.050 > Heap: 110580
+07:00:40.051 > AARD:1: ----> TX 42 bytes
+07:00:40.053 > PANG:1: MQTT PUBLISH
+07:00:40.055 > PANG:2:  Data @ 0x3ffe05ec len=5018 RL=5015
+07:00:40.059 > AARD:1: <---- RX 3FFDD46A len=4 PSH=1 stored=0 FH=110580
+07:00:40.064 > PANG:1: MQTT PUBACK
+07:00:40.066 > PANG:2:  Data @ 0x3ffdd46a len=4 RL=2
+07:00:40.069 > AARD:1: ----> TX 30 bytes
+07:00:40.071 > AARD:1: <---- RX 3FFDD6D6 len=4 PSH=1 stored=0 FH=110580
+07:00:40.076 > PANG:1: MQTT PUBACK
+07:00:40.078 > PANG:2:  Data @ 0x3ffdd6d6 len=4 RL=2
+07:00:40.081 > AARD:1: ----> TX 1436 bytes
+07:00:40.083 > AARD:1: <---- RX 3FFB6FB6 len=4 PSH=1 stored=0 FH=110580
+07:00:40.089 > PANG:1: MQTT PUBACK
+07:00:40.090 > PANG:2:  Data @ 0x3ffb6fb6 len=4 RL=2
+07:00:40.141 > AARD:1: ----> TX 1436 bytes
+07:00:40.202 > AARD:1: ----> TX 1436 bytes
+07:00:40.263 > AARD:1: ----> TX 710 bytes
+07:00:40.272 > AARD:1: TCP onDisconnect
+07:00:40.275 > AARD:1: ON DISCONNECT FH=110580 r=0
+07:00:40.278 > PANG:1: TCP CHOPPED US! 0
+07:00:43.897 > Publishing 110580 to heap
+07:00:43.900 > PANG:1: NOTIFY e=8 inf=0
+07:00:45.049 > Publishing 0 to uptime
+07:00:45.050 > PANG:1: NOTIFY e=8 inf=0
+07:00:45.054 > Publishing Hello from uiinputs to hello
+07:00:45.057 > PANG:1: NOTIFY e=8 inf=0
+07:00:45.059 > Publishing 131756 to millis
+07:00:45.062 > PANG:1: NOTIFY e=8 inf=0
+07:00:45.063 > Heap: 110580
+07:00:45.065 > PANG:1: NOTIFY e=8 inf=0
+07:00:48.898 > Publishing 110580 to heap
+07:00:48.901 > PANG:1: NOTIFY e=8 inf=0
+07:00:50.061 > Publishing 0 to uptime
+07:00:50.063 > PANG:1: NOTIFY e=8 inf=0
+07:00:50.066 > Publishing Hello from uiinputs to hello
+07:00:50.069 > PANG:1: NOTIFY e=8 inf=0
+07:00:50.071 > Publishing 136768 to millis
+07:00:50.074 > PANG:1: NOTIFY e=8 inf=0
+07:00:50.076 > Heap: 110580
+07:00:50.077 > PANG:1: NOTIFY e=8 inf=0
+07:00:53.898 > Publishing 110580 to heap
+07:00:53.901 > PANG:1: NOTIFY e=8 inf=0
+07:00:55.172 > Publishing 0 to uptime
+07:00:55.175 > PANG:1: NOTIFY e=8 inf=0
+07:00:55.177 > Publishing Hello from uiinputs to hello
+07:00:55.180 > PANG:1: NOTIFY e=8 inf=0
+07:00:55.182 > Publishing 141882 to millis
+07:00:55.185 > PANG:1: NOTIFY e=8 inf=0
+07:00:55.187 > Heap: 110580
+07:00:55.188 > PANG:1: NOTIFY e=8 inf=0
+07:00:58.898 > Publishing 110580 to heap
+07:00:58.901 > PANG:1: NOTIFY e=8 inf=0
+07:01:00.181 > Publishing 0 to uptime
+07:01:00.183 > PANG:1: NOTIFY e=8 inf=0
+07:01:00.185 > Publishing Hello from uiinputs to hello
+07:01:00.189 > PANG:1: NOTIFY e=8 inf=0
+07:01:00.191 > Publishing 146888 to millis
+07:01:00.193 > PANG:1: NOTIFY e=8 inf=0
+07:01:00.196 > Heap: 110580
+07:01:00.197 > PANG:1: NOTIFY e=8 inf=0
+07:01:00.277 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+07:01:00.289 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+07:01:00.296 > AARD:1: ----> TX 51 bytes
+07:01:00.304 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+07:01:00.310 > PANG:1: MQTT CONNACK
+07:01:00.312 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+07:01:00.315 > AARD:1: ----> TX 4 bytes
+07:01:00.318 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+07:01:00.325 > PANG:1: MQTT PUBLISH
+07:01:00.327 > PANG:2:  Data @ 0x3ffda090 len=66 RL=64
+07:01:00.330 > AARD:1: ----> TX 12 bytes
+07:01:00.332 > AARD:1: <---- RX 3FFDB286 len=4 PSH=1 stored=0 FH=110580
+07:01:00.337 > PANG:1: MQTT PUBCOMP
+07:01:00.339 > PANG:2:  Data @ 0x3ffdb286 len=4 RL=2
+07:01:00.343 > AARD:1: ----> TX 15 bytes
+07:01:00.346 > AARD:1: <---- RX 3FFDA3C6 len=5 PSH=1 stored=0 FH=110580
+07:01:00.351 > PANG:1: MQTT SUBACK
+07:01:00.353 > PANG:2:  Data @ 0x3ffda3c6 len=5 RL=3
+07:01:00.356 > AARD:1: ----> TX 20 bytes
+07:01:00.359 > AARD:1: <---- RX 3FFDB286 len=5 PSH=1 stored=0 FH=110580
+07:01:00.363 > PANG:1: MQTT SUBACK
+07:01:00.365 > PANG:2:  Data @ 0x3ffdb286 len=5 RL=3
+07:01:00.368 > AARD:1: ----> TX 18 bytes
+07:01:00.370 > AARD:1: <---- RX 3FFDA3C6 len=5 PSH=1 stored=0 FH=110580
+07:01:00.376 > PANG:1: MQTT SUBACK
+07:01:00.377 > PANG:2:  Data @ 0x3ffda3c6 len=5 RL=3
+07:01:00.381 > AARD:1: ----> TX 18 bytes
+07:01:00.384 > AARD:1: <---- RX 3FFDB286 len=5 PSH=1 stored=0 FH=110580
+07:01:00.389 > PANG:1: MQTT SUBACK
+07:01:00.390 > PANG:2:  Data @ 0x3ffdb286 len=5 RL=3
+07:01:00.393 > AARD:1: ----> TX 66 bytes
+07:01:00.396 > AARD:1: <---- RX 3FFDB286 len=5 PSH=1 stored=0 FH=110580
+07:01:00.401 > PANG:1: MQTT SUBACK
+07:01:00.403 > PANG:2:  Data @ 0x3ffdb286 len=5 RL=3
+07:01:03.898 > Publishing 110580 to heap
+07:01:03.901 > PANG:1: MQTT PUBLISH
+07:01:03.903 > PANG:2:  Data @ 0x3ffb6f8c len=28 RL=26
+07:01:03.906 > AARD:1: ----> TX 28 bytes
+07:01:03.911 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+07:01:03.916 > PANG:1: MQTT PUBACK
+07:01:03.917 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+07:01:05.194 > Publishing 0 to uptime
+07:01:05.197 > PANG:1: MQTT PUBLISH
+07:01:05.199 > PANG:2:  Data @ 0x3ffdb2bc len=25 RL=23
+07:01:05.202 > AARD:1: ----> TX 25 bytes
+07:01:05.203 > Publishing Hello from uiinputs to hello
+07:01:05.208 > PANG:1: MQTT PUBLISH
+07:01:05.210 > PANG:2:  Data @ 0x3ffda3dc len=42 RL=40
+07:01:05.213 > Publishing 151911 to millis
+07:01:05.215 > PANG:1: MQTT PUBLISH
+07:01:05.217 > PANG:2:  Data @ 0x3ffd53cc len=30 RL=28
+07:01:05.221 > AARD:1: ----> TX 42 bytes
+07:01:05.223 > Heap: 110580
+07:01:05.224 > PANG:1: MQTT PUBLISH
+07:01:05.226 > PANG:2:  Data @ 0x3ffde574 len=5018 RL=5015
+07:01:05.230 > AARD:1: <---- RX 3FFDD302 len=4 PSH=1 stored=0 FH=110580
+07:01:05.235 > PANG:1: MQTT PUBACK
+07:01:05.236 > PANG:2:  Data @ 0x3ffdd302 len=4 RL=2
+07:01:05.635 > AARD:1: ----> TX 30 bytes
+07:01:05.639 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+07:01:05.643 > PANG:1: MQTT PUBACK
+07:01:05.645 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+07:01:05.648 > AARD:1: ----> TX 1436 bytes
+07:01:05.651 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+07:01:05.656 > PANG:1: MQTT PUBACK
+07:01:05.658 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+07:01:05.706 > AARD:1: ----> TX 1436 bytes
+07:01:05.768 > AARD:1: ----> TX 1436 bytes
+07:01:05.832 > AARD:1: ----> TX 710 bytes
+07:01:05.843 > AARD:1: TCP onDisconnect
+07:01:05.845 > AARD:1: ON DISCONNECT FH=110580 r=0
+07:01:05.848 > PANG:1: TCP CHOPPED US! 0
+07:01:08.903 > Publishing 110580 to heap
+07:01:08.906 > PANG:1: NOTIFY e=8 inf=0
+07:01:10.220 > Publishing 0 to uptime
+07:01:10.222 > PANG:1: NOTIFY e=8 inf=0
+07:01:10.225 > Publishing Hello from uiinputs to hello
+07:01:10.228 > PANG:1: NOTIFY e=8 inf=0
+07:01:10.230 > Publishing 156927 to millis
+07:01:10.233 > PANG:1: NOTIFY e=8 inf=0
+07:01:10.235 > Heap: 110580
+07:01:10.236 > PANG:1: NOTIFY e=8 inf=0
+07:01:13.903 > Publishing 110580 to heap
+07:01:13.906 > PANG:1: NOTIFY e=8 inf=0
+07:01:15.249 > Publishing 0 to uptime
+07:01:15.338 > PANG:1: NOTIFY e=8 inf=0
+07:01:15.340 > Publishing Hello from uiinputs to hello
+07:01:15.343 > PANG:1: NOTIFY e=8 inf=0
+07:01:15.347 > Publishing 162051 to millis
+07:01:15.349 > PANG:1: NOTIFY e=8 inf=0
+07:01:15.351 > Heap: 110580
+07:01:15.352 > PANG:1: NOTIFY e=8 inf=0
+07:01:18.904 > Publishing 110580 to heap
+07:01:18.907 > PANG:1: NOTIFY e=8 inf=0
+07:01:20.346 > Publishing 0 to uptime
+07:01:20.348 > PANG:1: NOTIFY e=8 inf=0
+07:01:20.350 > Publishing Hello from uiinputs to hello
+07:01:20.354 > PANG:1: NOTIFY e=8 inf=0
+07:01:20.356 > Publishing 167052 to millis
+07:01:20.359 > PANG:1: NOTIFY e=8 inf=0
+07:01:20.361 > Heap: 110580
+07:01:20.362 > PANG:1: NOTIFY e=8 inf=0
+07:01:23.940 > Publishing 110580 to heap
+07:01:23.946 > PANG:1: NOTIFY e=8 inf=0
+07:01:25.358 > Publishing 0 to uptime
+07:01:25.360 > PANG:1: NOTIFY e=8 inf=0
+07:01:25.363 > Publishing Hello from uiinputs to hello
+07:01:25.365 > PANG:1: NOTIFY e=8 inf=0
+07:01:25.367 > Publishing 172065 to millis
+07:01:25.370 > PANG:1: NOTIFY e=8 inf=0
+07:01:25.372 > Heap: 110580
+07:01:25.373 > PANG:1: NOTIFY e=8 inf=0
+07:01:25.882 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+07:01:26.040 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+07:01:26.047 > AARD:1: ----> TX 51 bytes
+07:01:26.057 > AARD:1: <---- RX 3FFDD772 len=4 PSH=1 stored=0 FH=110580
+07:01:26.062 > PANG:1: MQTT CONNACK
+07:01:26.064 > PANG:2:  Data @ 0x3ffdd772 len=4 RL=2
+07:01:26.067 > AARD:1: ----> TX 4 bytes
+07:01:26.071 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+07:01:26.078 > PANG:1: MQTT PUBLISH
+07:01:26.081 > PANG:2:  Data @ 0x3ffd9b10 len=66 RL=64
+07:01:26.084 > AARD:1: ----> TX 12 bytes
+07:01:26.086 > AARD:1: <---- RX 3FFDB81A len=4 PSH=1 stored=0 FH=110580
+07:01:26.091 > PANG:1: MQTT PUBCOMP
+07:01:26.093 > PANG:2:  Data @ 0x3ffdb81a len=4 RL=2
+07:01:26.488 > AARD:1: ----> TX 15 bytes
+07:01:26.491 > AARD:1: <---- RX 3FFDB286 len=5 PSH=1 stored=0 FH=110580
+07:01:26.496 > PANG:1: MQTT SUBACK
+07:01:26.498 > PANG:2:  Data @ 0x3ffdb286 len=5 RL=3
+07:01:26.503 > AARD:1: ----> TX 20 bytes
+07:01:26.508 > AARD:1: <---- RX 3FFDB286 len=5 PSH=1 stored=0 FH=110580
+07:01:26.514 > PANG:1: MQTT SUBACK
+07:01:26.516 > PANG:2:  Data @ 0x3ffdb286 len=5 RL=3
+07:01:26.519 > AARD:1: ----> TX 18 bytes
+07:01:26.521 > AARD:1: <---- RX 3FFB6F3A len=5 PSH=1 stored=0 FH=110580
+07:01:26.526 > PANG:1: MQTT SUBACK
+07:01:26.528 > PANG:2:  Data @ 0x3ffb6f3a len=5 RL=3
+07:01:26.531 > AARD:1: ----> TX 18 bytes
+07:01:26.533 > AARD:1: <---- RX 3FFDB286 len=5 PSH=1 stored=0 FH=110580
+07:01:26.538 > PANG:1: MQTT SUBACK
+07:01:26.540 > PANG:2:  Data @ 0x3ffdb286 len=5 RL=3
+07:01:26.544 > AARD:1: ----> TX 66 bytes
+07:01:26.547 > AARD:1: <---- RX 3FFDD506 len=5 PSH=1 stored=0 FH=110580
+07:01:26.551 > PANG:1: MQTT SUBACK
+07:01:26.553 > PANG:2:  Data @ 0x3ffdd506 len=5 RL=3
+07:01:28.946 > Publishing 110580 to heap
+07:01:28.949 > PANG:1: MQTT PUBLISH
+07:01:28.951 > PANG:2:  Data @ 0x3ffb6ea0 len=28 RL=26
+07:01:28.954 > AARD:1: ----> TX 28 bytes
+07:01:28.973 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+07:01:28.978 > PANG:1: MQTT PUBACK
+07:01:28.980 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+07:01:30.369 > Publishing 0 to uptime
+07:01:30.371 > PANG:1: MQTT PUBLISH
+07:01:30.373 > PANG:2:  Data @ 0x3ffb6eac len=25 RL=23
+07:01:30.377 > AARD:1: ----> TX 25 bytes
+07:01:30.379 > Publishing Hello from uiinputs to hello
+07:01:30.383 > PANG:1: MQTT PUBLISH
+07:01:30.385 > PANG:2:  Data @ 0x3ffda3dc len=42 RL=40
+07:01:30.388 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+07:01:30.393 > PANG:1: MQTT PUBACK
+07:01:30.395 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+07:01:30.399 > AARD:1: ----> TX 42 bytes
+07:01:30.401 > Publishing 177107 to millis
+07:01:30.403 > PANG:1: MQTT PUBLISH
+07:01:30.406 > PANG:2:  Data @ 0x3ffd4918 len=30 RL=28
+07:01:30.409 > Heap: 110580
+07:01:30.410 > PANG:1: MQTT PUBLISH
+07:01:30.412 > PANG:2:  Data @ 0x3ffde3c8 len=5018 RL=5015
+07:01:30.416 > AARD:1: ----> TX 30 bytes
+07:01:30.418 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+07:01:30.423 > PANG:1: MQTT PUBACK
+07:01:30.425 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+07:01:30.428 > AARD:1: ----> TX 1436 bytes
+07:01:30.430 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+07:01:30.435 > PANG:1: MQTT PUBACK
+07:01:30.437 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+07:01:30.479 > AARD:1: ----> TX 1436 bytes
+07:01:30.540 > AARD:1: ----> TX 1436 bytes
+07:01:30.605 > AARD:1: ----> TX 710 bytes
+07:01:30.613 > AARD:1: TCP onDisconnect
+07:01:30.615 > AARD:1: ON DISCONNECT FH=110580 r=0
+07:01:30.619 > PANG:1: TCP CHOPPED US! 0
+07:01:33.981 > Publishing 110580 to heap
+07:01:33.985 > PANG:1: NOTIFY e=8 inf=0
+07:01:35.415 > Publishing 0 to uptime
+07:01:35.418 > PANG:1: NOTIFY e=8 inf=0
+07:01:35.419 > Publishing Hello from uiinputs to hello
+07:01:35.423 > PANG:1: NOTIFY e=8 inf=0
+07:01:35.425 > Publishing 182122 to millis
+07:01:35.428 > PANG:1: NOTIFY e=8 inf=0
+07:01:35.430 > Heap: 110580
+07:01:35.431 > PANG:1: NOTIFY e=8 inf=0
+07:01:38.982 > Publishing 110580 to heap
+07:01:38.985 > PANG:1: NOTIFY e=8 inf=0
+07:01:40.427 > Publishing 0 to uptime
+07:01:40.429 > PANG:1: NOTIFY e=8 inf=0
+07:01:40.432 > Publishing Hello from uiinputs to hello
+07:01:40.434 > PANG:1: NOTIFY e=8 inf=0
+07:01:40.437 > Publishing 187133 to millis
+07:01:40.440 > PANG:1: NOTIFY e=8 inf=0
+07:01:40.442 > Heap: 110580
+07:01:40.443 > PANG:1: NOTIFY e=8 inf=0
+07:01:43.981 > Publishing 110580 to heap
+07:01:43.985 > PANG:1: NOTIFY e=8 inf=0
+07:01:45.439 > Publishing 0 to uptime
+07:01:45.442 > PANG:1: NOTIFY e=8 inf=0
+07:01:45.444 > Publishing Hello from uiinputs to hello
+07:01:45.447 > PANG:1: NOTIFY e=8 inf=0
+07:01:45.449 > Publishing 192146 to millis
+07:01:45.451 > PANG:1: NOTIFY e=8 inf=0
+07:01:45.454 > Heap: 110580
+07:01:45.455 > PANG:1: NOTIFY e=8 inf=0
+07:01:48.983 > Publishing 110580 to heap
+07:01:48.986 > PANG:1: NOTIFY e=8 inf=0
+07:01:50.450 > Publishing 0 to uptime
+07:01:50.453 > PANG:1: NOTIFY e=8 inf=0
+07:01:50.455 > Publishing Hello from uiinputs to hello
+07:01:50.458 > PANG:1: NOTIFY e=8 inf=0
+07:01:50.460 > Publishing 197158 to millis
+07:01:50.463 > PANG:1: NOTIFY e=8 inf=0
+07:01:50.465 > Heap: 110580
+07:01:50.465 > PANG:1: NOTIFY e=8 inf=0
+07:01:50.618 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+07:01:50.640 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+07:01:50.647 > AARD:1: ----> TX 51 bytes
+07:01:50.656 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+07:01:50.661 > PANG:1: MQTT CONNACK
+07:01:50.663 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+07:01:50.667 > AARD:1: ----> TX 1436 bytes
+07:01:50.670 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+07:01:50.677 > PANG:1: MQTT PUBLISH
+07:01:50.679 > PANG:2:  Data @ 0x3ffda090 len=66 RL=64
+07:01:50.683 > AARD:1: TCP onError -14
+07:01:50.685 > PANG:1: NOTIFY e=7 inf=1
+07:01:50.687 > AARD:1: TCP onDisconnect
+07:01:50.689 > AARD:1: ON DISCONNECT FH=110580 r=0
+07:01:50.692 > PANG:1: TCP CHOPPED US! 0
+07:01:54.046 > Publishing 110580 to heap
+07:01:54.049 > PANG:1: NOTIFY e=8 inf=0
+07:01:55.485 > Publishing 0 to uptime
+07:01:55.488 > PANG:1: NOTIFY e=8 inf=0
+07:01:55.490 > Publishing Hello from uiinputs to hello
+07:01:55.493 > PANG:1: NOTIFY e=8 inf=0
+07:01:55.495 > Publishing 202194 to millis
+07:01:55.498 > PANG:1: NOTIFY e=8 inf=0
+07:01:55.520 > Heap: 110580
+07:01:55.521 > PANG:1: NOTIFY e=8 inf=0
+07:01:59.047 > Publishing 110580 to heap
+07:01:59.047 > PANG:1: NOTIFY e=8 inf=0
+07:02:00.516 > Publishing 0 to uptime
+07:02:00.516 > PANG:1: NOTIFY e=8 inf=0
+07:02:00.525 > Publishing Hello from uiinputs to hello
+07:02:00.528 > PANG:1: NOTIFY e=8 inf=0
+07:02:00.531 > Publishing 207228 to millis
+07:02:00.533 > PANG:1: NOTIFY e=8 inf=0
+07:02:00.535 > Heap: 110580
+07:02:00.536 > PANG:1: NOTIFY e=8 inf=0
+07:02:04.048 > Publishing 110580 to heap
+07:02:04.051 > PANG:1: NOTIFY e=8 inf=0
+07:02:05.533 > Publishing 0 to uptime
+07:02:05.535 > PANG:1: NOTIFY e=8 inf=0
+07:02:05.537 > Publishing Hello from uiinputs to hello
+07:02:05.541 > PANG:1: NOTIFY e=8 inf=0
+07:02:05.543 > Publishing 212240 to millis
+07:02:05.545 > PANG:1: NOTIFY e=8 inf=0
+07:02:05.547 > Heap: 110580
+07:02:05.548 > PANG:1: NOTIFY e=8 inf=0
+07:02:09.049 > Publishing 110580 to heap
+07:02:09.052 > PANG:1: NOTIFY e=8 inf=0
+07:02:10.545 > Publishing 0 to uptime
+07:02:10.548 > PANG:1: NOTIFY e=8 inf=0
+07:02:10.550 > Publishing Hello from uiinputs to hello
+07:02:10.553 > PANG:1: NOTIFY e=8 inf=0
+07:02:10.556 > Publishing 217253 to millis
+07:02:10.558 > PANG:1: NOTIFY e=8 inf=0
+07:02:10.560 > Heap: 110580
+07:02:10.561 > PANG:1: NOTIFY e=8 inf=0
+07:02:10.693 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+07:02:10.705 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+07:02:10.712 > AARD:1: ----> TX 51 bytes
+07:02:10.720 > AARD:1: <---- RX 3FFDB286 len=4 PSH=1 stored=0 FH=110580
+07:02:10.726 > PANG:1: MQTT CONNACK
+07:02:10.728 > PANG:2:  Data @ 0x3ffdb286 len=4 RL=2
+07:02:10.731 > AARD:1: ----> TX 1436 bytes
+07:02:10.734 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+07:02:10.740 > PANG:1: MQTT PUBLISH
+07:02:10.742 > PANG:2:  Data @ 0x3ffdaea4 len=66 RL=64
+07:02:10.752 > AARD:1: TCP onError -14
+07:02:10.755 > PANG:1: NOTIFY e=7 inf=1
+07:02:10.757 > AARD:1: TCP onDisconnect
+07:02:10.760 > AARD:1: ON DISCONNECT FH=110580 r=0
+07:02:10.763 > PANG:1: TCP CHOPPED US! 0
+07:02:14.050 > Publishing 110580 to heap
+07:02:14.053 > PANG:1: NOTIFY e=8 inf=0
+07:02:15.658 > Publishing 0 to uptime
+07:02:15.661 > PANG:1: NOTIFY e=8 inf=0
+07:02:15.664 > Publishing Hello from uiinputs to hello
+07:02:15.667 > PANG:1: NOTIFY e=8 inf=0
+07:02:15.669 > Publishing 222368 to millis
+07:02:15.672 > PANG:1: NOTIFY e=8 inf=0
+07:02:15.876 > Heap: 110580
+07:02:15.877 > PANG:1: NOTIFY e=8 inf=0
+07:02:19.051 > Publishing 110580 to heap
+07:02:19.054 > PANG:1: NOTIFY e=8 inf=0
+07:02:20.876 > Publishing 0 to uptime
+07:02:20.879 > PANG:1: NOTIFY e=8 inf=0
+07:02:20.880 > Publishing Hello from uiinputs to hello
+07:02:20.883 > PANG:1: NOTIFY e=8 inf=0
+07:02:20.887 > Publishing 227584 to millis
+07:02:20.889 > PANG:1: NOTIFY e=8 inf=0
+07:02:20.891 > Heap: 110580
+07:02:20.892 > PANG:1: NOTIFY e=8 inf=0
+07:02:24.055 > Publishing 110580 to heap
+07:02:24.065 > PANG:1: NOTIFY e=8 inf=0
+07:02:25.889 > Publishing 0 to uptime
+07:02:25.892 > PANG:1: NOTIFY e=8 inf=0
+07:02:25.893 > Publishing Hello from uiinputs to hello
+07:02:25.897 > PANG:1: NOTIFY e=8 inf=0
+07:02:25.899 > Publishing 232597 to millis
+07:02:25.902 > PANG:1: NOTIFY e=8 inf=0
+07:02:25.904 > Heap: 110580
+07:02:25.905 > PANG:1: NOTIFY e=8 inf=0
+07:02:29.063 > Publishing 110580 to heap
+07:02:29.066 > PANG:1: NOTIFY e=8 inf=0
+07:02:30.755 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+07:02:30.773 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+07:02:30.780 > AARD:1: ----> TX 51 bytes
+07:02:30.784 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+07:02:30.790 > PANG:1: MQTT CONNACK
+07:02:30.792 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+07:02:30.795 > AARD:1: ----> TX 1436 bytes
+07:02:30.798 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+07:02:30.805 > PANG:1: MQTT PUBLISH
+07:02:30.806 > PANG:2:  Data @ 0x3ffd493c len=66 RL=64
+07:02:30.810 > AARD:1: TCP onError -14
+07:02:30.812 > PANG:1: NOTIFY e=7 inf=1
+07:02:30.814 > AARD:1: TCP onDisconnect
+07:02:30.815 > AARD:1: ON DISCONNECT FH=110580 r=0
+07:02:30.819 > PANG:1: TCP CHOPPED US! 0
+07:02:30.901 > Publishing 0 to uptime
+07:02:30.903 > PANG:1: NOTIFY e=8 inf=0
+07:02:30.906 > Publishing Hello from uiinputs to hello
+07:02:30.910 > PANG:1: NOTIFY e=8 inf=0
+07:02:30.912 > Publishing 237609 to millis
+07:02:30.914 > PANG:1: NOTIFY e=8 inf=0
+07:02:30.915 > Heap: 110580
+07:02:30.916 > PANG:1: NOTIFY e=8 inf=0
+07:02:34.064 > Publishing 110580 to heap
+07:02:34.067 > PANG:1: NOTIFY e=8 inf=0
+07:02:35.913 > Publishing 0 to uptime
+07:02:35.916 > PANG:1: NOTIFY e=8 inf=0
+07:02:35.917 > Publishing Hello from uiinputs to hello
+07:02:35.921 > PANG:1: NOTIFY e=8 inf=0
+07:02:35.923 > Publishing 242621 to millis
+07:02:35.925 > PANG:1: NOTIFY e=8 inf=0
+07:02:35.927 > Heap: 110580
+07:02:35.929 > PANG:1: NOTIFY e=8 inf=0
+07:02:39.115 > Publishing 110580 to heap
+07:02:39.115 > PANG:1: NOTIFY e=8 inf=0
+07:02:40.925 > Publishing 0 to uptime
+07:02:40.927 > PANG:1: NOTIFY e=8 inf=0
+07:02:40.929 > Publishing Hello from uiinputs to hello
+07:02:40.934 > PANG:1: NOTIFY e=8 inf=0
+07:02:40.935 > Publishing 247633 to millis
+07:02:40.937 > PANG:1: NOTIFY e=8 inf=0
+07:02:40.939 > Heap: 110580
+07:02:40.940 > PANG:1: NOTIFY e=8 inf=0
+07:02:44.119 > Publishing 110580 to heap
+07:02:44.122 > PANG:1: NOTIFY e=8 inf=0
+07:02:45.943 > Publishing 0 to uptime
+07:02:46.015 > PANG:1: NOTIFY e=8 inf=0
+07:02:46.019 > Publishing Hello from uiinputs to hello
+07:02:46.022 > PANG:1: NOTIFY e=8 inf=0
+07:02:46.024 > Publishing 252723 to millis
+07:02:46.027 > PANG:1: NOTIFY e=8 inf=0
+07:02:46.029 > Heap: 110580
+07:02:46.030 > PANG:1: NOTIFY e=8 inf=0
+07:02:49.124 > Publishing 110580 to heap
+07:02:49.127 > PANG:1: NOTIFY e=8 inf=0
+07:02:50.916 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+07:02:51.029 > Publishing 0 to uptime
+07:02:51.031 > PANG:1: NOTIFY e=8 inf=0
+07:02:51.033 > Publishing Hello from uiinputs to hello
+07:02:51.037 > PANG:1: NOTIFY e=8 inf=0
+07:02:51.039 > Publishing 257737 to millis
+07:02:51.041 > PANG:1: NOTIFY e=8 inf=0
+07:02:51.043 > Heap: 110580
+07:02:51.045 > PANG:1: NOTIFY e=8 inf=0
+07:02:51.099 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+07:02:51.107 > AARD:1: ----> TX 51 bytes
+07:02:51.112 > AARD:1: <---- RX 3FFDB286 len=4 PSH=1 stored=0 FH=110580
+07:02:51.118 > PANG:1: MQTT CONNACK
+07:02:51.119 > PANG:2:  Data @ 0x3ffdb286 len=4 RL=2
+07:02:51.123 > AARD:1: ----> TX 1436 bytes
+07:02:51.125 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+07:02:51.131 > PANG:1: MQTT PUBLISH
+07:02:51.134 > PANG:2:  Data @ 0x3ffdaea4 len=66 RL=64
+07:02:51.141 > AARD:1: TCP onError -14
+07:02:51.143 > PANG:1: NOTIFY e=7 inf=1
+07:02:51.145 > AARD:1: TCP onDisconnect
+07:02:51.147 > AARD:1: ON DISCONNECT FH=110580 r=0
+07:02:51.150 > PANG:1: TCP CHOPPED US! 0
+07:02:54.124 > Publishing 110580 to heap
+07:02:54.127 > PANG:1: NOTIFY e=8 inf=0
+07:02:56.041 > Publishing 0 to uptime
+07:02:56.043 > PANG:1: NOTIFY e=8 inf=0
+07:02:56.045 > Publishing Hello from uiinputs to hello
+07:02:56.050 > PANG:1: NOTIFY e=8 inf=0
+07:02:56.051 > Publishing 262749 to millis
+07:02:56.053 > PANG:1: NOTIFY e=8 inf=0
+07:02:56.057 > Heap: 110580
+07:02:56.058 > PANG:1: NOTIFY e=8 inf=0
+07:02:59.124 > Publishing 110580 to heap
+07:02:59.125 > PANG:1: NOTIFY e=8 inf=0
+07:03:01.053 > Publishing 0 to uptime
+07:03:01.055 > PANG:1: NOTIFY e=8 inf=0
+07:03:01.057 > Publishing Hello from uiinputs to hello
+07:03:01.061 > PANG:1: NOTIFY e=8 inf=0
+07:03:01.063 > Publishing 267761 to millis
+07:03:01.066 > PANG:1: NOTIFY e=8 inf=0
+07:03:01.068 > Heap: 110580
+07:03:01.069 > PANG:1: NOTIFY e=8 inf=0
+07:03:04.125 > Publishing 110580 to heap
+07:03:04.127 > PANG:1: NOTIFY e=8 inf=0
+07:03:06.065 > Publishing 0 to uptime
+07:03:06.065 > PANG:1: NOTIFY e=8 inf=0
+07:03:06.069 > Publishing Hello from uiinputs to hello
+07:03:06.073 > PANG:1: NOTIFY e=8 inf=0
+07:03:06.075 > Publishing 272773 to millis
+07:03:06.078 > PANG:1: NOTIFY e=8 inf=0
+07:03:06.080 > Heap: 110580
+07:03:06.081 > PANG:1: NOTIFY e=8 inf=0
+07:03:09.125 > Publishing 110580 to heap
+07:03:09.128 > PANG:1: NOTIFY e=8 inf=0
+07:03:11.077 > Publishing 0 to uptime
+07:03:11.079 > PANG:1: NOTIFY e=8 inf=0
+07:03:11.082 > Publishing Hello from uiinputs to hello
+07:03:11.085 > PANG:1: NOTIFY e=8 inf=0
+07:03:11.087 > Publishing 277785 to millis
+07:03:11.090 > PANG:1: NOTIFY e=8 inf=0
+07:03:11.092 > Heap: 110580
+07:03:11.093 > PANG:1: NOTIFY e=8 inf=0
+07:03:11.145 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+07:03:11.155 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+07:03:11.162 > AARD:1: ----> TX 51 bytes
+07:03:11.168 > AARD:1: <---- RX 3FFDA15A len=4 PSH=1 stored=0 FH=110580
+07:03:11.173 > PANG:1: MQTT CONNACK
+07:03:11.175 > PANG:2:  Data @ 0x3ffda15a len=4 RL=2
+07:03:11.179 > AARD:1: ----> TX 1436 bytes
+07:03:11.182 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+07:03:11.188 > PANG:1: MQTT PUBLISH
+07:03:11.190 > PANG:2:  Data @ 0x3ffd9acc len=66 RL=64
+07:03:11.193 > AARD:1: TCP onError -14
+07:03:11.195 > PANG:1: NOTIFY e=7 inf=1
+07:03:11.198 > AARD:1: TCP onDisconnect
+07:03:11.200 > AARD:1: ON DISCONNECT FH=110580 r=0
+07:03:11.203 > PANG:1: TCP CHOPPED US! 0
+07:03:14.126 > Publishing 110580 to heap
+07:03:14.128 > PANG:1: NOTIFY e=8 inf=0
+07:03:16.096 > Publishing 0 to uptime
+07:03:16.099 > PANG:1: NOTIFY e=8 inf=0
+07:03:16.105 > Publishing Hello from uiinputs to hello
+07:03:16.109 > PANG:1: NOTIFY e=8 inf=0
+07:03:16.111 > Publishing 282812 to millis
+07:03:16.113 > PANG:1: NOTIFY e=8 inf=0
+07:03:16.115 > Heap: 110580
+07:03:16.143 > PANG:1: NOTIFY e=8 inf=0
+07:03:19.126 > Publishing 110580 to heap
+07:03:19.129 > PANG:1: NOTIFY e=8 inf=0
+07:03:21.143 > Publishing 0 to uptime
+07:03:21.164 > PANG:1: NOTIFY e=8 inf=0
+07:03:21.167 > Publishing Hello from uiinputs to hello
+07:03:21.170 > PANG:1: NOTIFY e=8 inf=0
+07:03:21.172 > Publishing 287872 to millis
+07:03:21.175 > PANG:1: NOTIFY e=8 inf=0
+07:03:21.177 > Heap: 110580
+07:03:21.178 > PANG:1: NOTIFY e=8 inf=0
+07:03:24.127 > Publishing 110580 to heap
+07:03:24.130 > PANG:1: NOTIFY e=8 inf=0
+07:03:26.177 > Publishing 0 to uptime
+07:03:26.179 > PANG:1: NOTIFY e=8 inf=0
+07:03:26.181 > Publishing Hello from uiinputs to hello
+07:03:26.185 > PANG:1: NOTIFY e=8 inf=0
+07:03:26.187 > Publishing 292885 to millis
+07:03:26.189 > PANG:1: NOTIFY e=8 inf=0
+07:03:26.192 > Heap: 110580
+07:03:26.193 > PANG:1: NOTIFY e=8 inf=0
+07:03:29.175 > Publishing 110580 to heap
+07:03:29.180 > PANG:1: NOTIFY e=8 inf=0

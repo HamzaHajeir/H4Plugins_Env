@@ -1,0 +1,137 @@
+07:18:34.619 > Registered to start:
+07:18:34.619 >  ears
+07:18:34.619 >  upnp
+07:18:34.619 >  onof
+07:18:34.619 >  tick
+07:18:34.619 >  gpio
+07:18:34.619 >  mqtt
+07:18:34.619 >  cmd
+07:18:34.619 >  wifi
+07:18:34.619 >  wink
+07:18:34.619 >  beat
+07:18:34.619 > GPIOs defined:
+07:18:34.619 >  02 S=0 C=4 NPL=1
+07:18:34.619 > H4P_PinMachine::svcUp 1
+07:18:34.619 > START PINS:  P02 S=LO P=1 L=1 C=BLACK V=1 O=1 A=0
+07:18:34.619 > 
+07:18:34.619 > Brownout detector was triggered
+07:18:34.619 > 
+07:18:34.619 > ets Jun  8 2016 00:22:57
+07:18:34.619 > 
+07:18:34.619 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+07:18:34.619 > configsip: 0, SPIWP:0xee
+07:18:34.619 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+07:18:34.619 > mode:DIO, clock div:2
+07:18:34.619 > load:0x3fff0030,len:1184
+07:18:34.619 > load:0x40078000,len:13192
+07:18:34.619 > load:0x40080400,len:3028
+07:18:34.619 > entry 0x400805e4
+07:18:34.619 > Registered to start:
+07:18:34.619 >  ears
+07:18:34.619 >  upnp
+07:18:34.619 >  onof
+07:18:34.619 >  tick
+07:18:34.619 >  gpio
+07:18:34.619 >  mqtt
+07:18:34.619 >  cmd
+07:18:34.619 >  wifi
+07:18:34.619 >  wink
+07:18:34.619 >  beat
+07:18:34.619 > GPIOs defined:
+07:18:34.619 >  02 S=0 C=4 NPL=1
+07:18:34.619 > H4P_PinMachine::svcUp 1
+07:18:34.619 > START PINS:  P02 S=LO P=1 L=0 C=BLACK V=0 O=1 A=0
+07:18:34.619 > AARD:1: CONNECTING to 192.168.1.34:1883 secure=0 FH=110580
+07:18:34.619 > AARD:1: Connected Max packet size 51194 TCP_MSS=1436 SND_BUF=5744 TCP_WND=5744
+07:18:34.619 > AARD:1: ----> TX 51 bytes
+07:18:34.619 > AARD:1: <---- RX 3FFDADD2 len=4 PSH=1 stored=0 FH=110580
+07:18:34.619 > PANG:1: MQTT CONNACK
+07:18:34.619 > PANG:2:  Data @ 0x3ffdadd2 len=4 RL=2
+07:18:34.619 > PANG:1: CONNECTED FH=110580 MaxPL=53242 SESSION CLEAN
+07:18:34.619 > AARD:1: ----> TX 12 bytes
+07:18:34.619 > PANG:1: MQTT PUBLISH
+07:18:34.619 > PANG:2:  Data @ 0x3ffda5c4 len=66 RL=64
+07:18:34.619 > AARD:1: ----> TX 15 bytes
+07:18:34.619 > AARD:1: <---- RX 3FFDAED6 len=5 PSH=1 stored=0 FH=110580
+07:18:34.619 > PANG:1: MQTT SUBACK
+07:18:34.619 > PANG:2:  Data @ 0x3ffdaed6 len=5 RL=3
+07:18:34.619 > AARD:1: ----> TX 20 bytes
+07:18:34.619 > AARD:1: <---- RX 3FFDADC2 len=5 PSH=1 stored=0 FH=110580
+07:18:34.619 > PANG:1: MQTT SUBACK
+07:18:34.619 > PANG:2:  Data @ 0x3ffdadc2 len=5 RL=3
+07:18:34.619 > AARD:1: ----> TX 18 bytes
+07:18:34.619 > AARD:1: <---- RX 3FFDB65E len=5 PSH=1 stored=0 FH=110580
+07:18:34.619 > PANG:1: MQTT SUBACK
+07:18:34.619 > PANG:2:  Data @ 0x3ffdb65e len=5 RL=3
+07:18:34.619 > AARD:1: ----> TX 18 bytes
+07:18:34.619 > AARD:1: <---- RX 3FFDADC2 len=5 PSH=1 stored=0 FH=110580
+07:18:34.619 > PANG:1: MQTT SUBACK
+07:18:34.619 > PANG:2:  Data @ 0x3ffdadc2 len=5 RL=3
+07:18:34.619 > AARD:1: ----> TX 66 bytes
+07:18:34.619 > AARD:1: <---- RX 3FFDAEB2 len=5 PSH=1 stored=0 FH=110580
+07:18:34.619 > PANG:1: MQTT SUBACK
+07:18:34.619 > PANG:2:  Data @ 0x3ffdaeb2 len=5 RL=3
+07:18:36.954 > Publishing 5333 to millis
+07:18:36.964 > PANG:1: MQTT PUBLISH
+07:18:36.966 > PANG:2:  Data @ 0x3ffd52e0 len=28 RL=26
+07:18:36.968 > AARD:1: ----> TX 28 bytes
+07:18:36.972 > Heap: 110580
+07:18:36.973 > Publishing 110580 to heap
+07:18:36.975 > PANG:1: MQTT PUBLISH
+07:18:36.977 > PANG:2:  Data @ 0x3ffbc008 len=28 RL=26
+07:18:36.980 > AARD:1: <---- RX 3FFDA54E len=4 PSH=1 stored=0 FH=110580
+07:18:36.985 > PANG:1: MQTT PUBACK
+07:18:36.987 > PANG:2:  Data @ 0x3ffda54e len=4 RL=2
+07:18:36.990 > AARD:1: ----> TX 28 bytes
+07:18:36.996 > AARD:1: <---- RX 3FFDA54E len=4 PSH=1 stored=0 FH=110580
+07:18:37.002 > PANG:1: MQTT PUBACK
+07:18:37.004 > PANG:2:  Data @ 0x3ffda54e len=4 RL=2
+07:18:41.964 > Publishing 10338 to millis
+07:18:41.964 > PANG:1: MQTT PUBLISH
+07:18:41.971 > PANG:2:  Data @ 0x3ffcdf80 len=29 RL=27
+07:18:41.975 > AARD:1: ----> TX 29 bytes
+07:18:41.977 > Heap: 110580
+07:18:41.978 > AARD:1: <---- RX 3FFDA54E len=4 PSH=1 stored=0 FH=110580
+07:18:41.984 > PANG:1: MQTT PUBACK
+07:18:41.985 > PANG:2:  Data @ 0x3ffda54e len=4 RL=2
+07:18:41.991 > Publishing 110580 to heap
+07:18:41.994 > PANG:1: MQTT PUBLISH
+07:18:41.996 > PANG:2:  Data @ 0x3ffd536c len=28 RL=26
+07:18:41.999 > AARD:1: ----> TX 28 bytes
+07:18:42.010 > AARD:1: <---- RX 3FFDA54E len=4 PSH=1 stored=0 FH=110580
+07:18:42.016 > PANG:1: MQTT PUBACK
+07:18:42.018 > PANG:2:  Data @ 0x3ffda54e len=4 RL=2
+07:18:46.968 > Publishing 15343 to millis
+07:18:46.968 > PANG:1: MQTT PUBLISH
+07:18:46.976 > PANG:2:  Data @ 0x3ffcdf80 len=29 RL=27
+07:18:46.979 > AARD:1: ----> TX 29 bytes
+07:18:46.981 > Heap: 110580
+07:18:46.987 > AARD:1: <---- RX 3FFDA54E len=4 PSH=1 stored=0 FH=110580
+07:18:46.993 > PANG:1: MQTT PUBACK
+07:18:46.994 > PANG:2:  Data @ 0x3ffda54e len=4 RL=2
+07:18:46.998 > Publishing 110580 to heap
+07:18:47.000 > PANG:1: MQTT PUBLISH
+07:18:47.002 > PANG:2:  Data @ 0x3ffd37e0 len=28 RL=26
+07:18:47.005 > AARD:1: ----> TX 28 bytes
+07:18:47.007 > AARD:1: <---- RX 3FFDADC2 len=4 PSH=1 stored=0 FH=110580
+07:18:47.012 > PANG:1: MQTT PUBACK
+07:18:47.014 > PANG:2:  Data @ 0x3ffdadc2 len=4 RL=2
+07:18:47.464 > PANG:1: T=15840 PINGREQ
+07:18:47.472 > AARD:1: ----> TX 2 bytes
+07:18:47.480 > AARD:1: <---- RX 3FFDA54E len=2 PSH=1 stored=0 FH=110580
+07:18:47.486 > PANG:1: T=15852 PINGRESP
+07:18:51.974 > Publishing 20348 to millis
+07:18:51.974 > PANG:1: MQTT PUBLISH
+07:18:51.981 > PANG:2:  Data @ 0x3ffcdf80 len=29 RL=27
+07:18:51.985 > AARD:1: ----> TX 29 bytes
+07:18:51.987 > Heap: 110580
+07:18:51.990 > AARD:1: <---- RX 3FFDA54E len=4 PSH=1 stored=0 FH=110580
+07:18:51.995 > PANG:1: MQTT PUBACK
+07:18:51.996 > PANG:2:  Data @ 0x3ffda54e len=4 RL=2
+07:18:52.000 > Publishing 110580 to heap
+07:18:52.002 > PANG:1: MQTT PUBLISH
+07:18:52.003 > PANG:2:  Data @ 0x3ffd52e0 len=28 RL=26
+07:18:52.008 > AARD:1: ----> TX 28 bytes
+07:18:52.010 > AARD:1: <---- RX 3FFDA54E len=4 PSH=1 stored=0 FH=110580
+07:18:52.015 > PANG:1: MQTT PUBACK
+07:18:52.016 > PANG:2:  Data @ 0x3ffda54e len=4 RL=2

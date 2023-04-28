@@ -1,0 +1,43 @@
+00:52:54.874 > Registered to start:
+00:52:54.874 >  ears
+00:52:54.874 >  upnp
+00:52:54.874 >  onof
+00:52:54.874 >  tick
+00:52:54.874 >  gpio
+00:52:54.874 >  mqtt
+00:52:54.874 >  cmd
+00:52:54.874 >  wifi
+00:52:54.874 >  wink
+00:52:54.874 >  beat
+00:52:54.874 > GPIOs defined:
+00:52:54.874 >  02 S=0 C=4 NPL=1
+00:52:54.874 > H4P_PinMachine::svcUp 1
+00:52:54.874 > START PINS:  P02 S=LO P=1 L=1 C=BLACK V=1 O=1 A=0
+00:52:54.874 > 
+00:52:54.874 > Brownout detector was triggered
+00:52:54.874 > 
+00:52:54.874 > ets Jun  8 2016 00:22:57
+00:52:54.874 > 
+00:52:54.874 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+00:52:54.874 > configsip: 0, SPIWP:0xee
+00:52:54.874 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+00:52:54.874 > mode:DIO, clock div:2
+00:52:54.874 > load:0x3fff0030,len:1184
+00:52:54.874 > load:0x40078000,len:13192
+00:52:54.874 > load:0x40080400,len:3028
+00:52:54.874 > entry 0x400805e4
+00:52:54.874 > Registered to start:
+00:52:54.874 >  ears
+00:52:54.874 >  upnp
+00:52:54.874 >  onof
+00:52:54.874 >  tick
+00:52:54.874 >  gpio
+00:52:54.874 >  mqtt
+00:52:54.874 >  cmd
+00:52:54.874 >  wifi
+00:52:54.874 >  wink
+00:52:54.874 >  beat
+00:52:54.874 > GPIOs defined:
+00:52:54.874 >  02 S=0 C=4 NPL=1
+00:52:54.874 > H4P_PinMachine::svcUp 1
+00:52:54.874 > START PINS:  P02 S=LO P=1 L=0 C=BLACK V=0 O=1 A=0
