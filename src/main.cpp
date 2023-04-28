@@ -6,9 +6,6 @@ const char *WIFI_SSID = "XXXXXXXX";
 const char *WIFI_PASS = "XXXXXXXX";
 const char *MQTT_SERVER = "http://192.168.1.34:1883";
 //
-const char *USER_TEXT_NAME = "User Text";
-const char *myText = "Select";
-const char *usertext = "Upper Or Lower?";
 
 // const char* pload0="multi-line payload hex dumper which should split over several lines, with some left over";
 // const char* pload1="PAYLOAD QOS1";
@@ -24,7 +21,7 @@ const char *usertext = "Upper Or Lower?";
 H4P_PinMachine h4gm;
 H4P_WiFi h4wifi(WIFI_SSID, WIFI_PASS, "uiinputs");
 H4P_AsyncMQTT h4mqtt(MQTT_SERVER);
-// H4P_Heartbeat h4hb;
+H4P_Heartbeat h4hb;
 H4P_UPNPServer h4upnp("UI Input Tester");
 
 void publishDevice(const std::string &topic, const std::string &payload)
