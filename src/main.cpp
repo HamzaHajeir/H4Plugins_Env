@@ -87,12 +87,9 @@ void h4setup()
 
 #if H4P_SECURE
 	auto mqCert = reinterpret_cast<const uint8_t*>(const_cast<char*>(MQTT_CERT.c_str()));
-	Serial.printf("MQTT CERT Validation\n");
-	H4AsyncClient::isCertValid(mqCert,MQTT_CERT.length()+1);
-	Serial.printf("WEBSERVER CERT Validation\n");
-	H4AsyncClient::isCertValid((const uint8_t*)WEBSERVER_CERT.c_str(), WEBSERVER_CERT.length() + 1);
-	Serial.printf("WEBSERVER KEY Validation\n");
-	H4AsyncClient::isPrivKeyValid((const uint8_t*)WEBSERVER_PRIV_KEY.c_str(), WEBSERVER_PRIV_KEY.length() + 1);
+	Serial.printf("MQTT CERT Validation: %s\n", H4AsyncClient::isCertValid(mqCert,MQTT_CERT.length()+1) ? "SUCCEEDED" : "FAILED");
+	Serial.printf("WEBSERVER CERT Validation: %s\n", H4AsyncClient::isCertValid((const uint8_t*)WEBSERVER_CERT.c_str(), WEBSERVER_CERT.length() + 1) ? "SUCCEEDED" : "FAILED");
+	Serial.printf("WEBSERVER KEY Validation: %s\n", H4AsyncClient::isPrivKeyValid((const uint8_t*)WEBSERVER_PRIV_KEY.c_str(), WEBSERVER_PRIV_KEY.length() + 1) ? "SUCCEEDED" : "FAILED");
 
 #if USE_MQTT
 	h4mqtt.secureTLS(mqCert, MQTT_CERT.length()+1);
@@ -109,7 +106,7 @@ void h4setup()
 
 	h4.every(300, []()
 			 {
-				Serial.printf("H=%u M=%u S=%u\n", _HAL_freeHeap(), _HAL_maxHeapBlock(), uxTaskGetStackHighWaterMark(NULL));
+				Serial.printf("H=%u M=%u m=%u S=%u\n", _HAL_freeHeap(MALLOC_CAP_INTERNAL), _HAL_maxHeapBlock(MALLOC_CAP_INTERNAL), _HAL_minHeapBlock(MALLOC_CAP_INTERNAL), uxTaskGetStackHighWaterMark(NULL));
 				h4p["heap"] = _HAL_freeHeap();
 				// h4p["pool"] = mbx::pool.size();
 				});
