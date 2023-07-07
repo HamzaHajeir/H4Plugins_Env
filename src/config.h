@@ -6,14 +6,22 @@
 #endif
 
 #define USE_MQTT 1
-#define SECURE_WEBSERVER 1
+#define SECURE_WEBSERVER 0
+#define SECURE_HTTPREQ 1
 
+#if SECURE_HTTPREQ && !H4P_SECURE
+#error "Activate H4P_SECURE if attempting secure HTTP requests"
+#endif
+
+#if SECURE_WEBSERVER && !H4P_SECURE
+#error "Activate H4P_SECURE if attempting secure the webserver"
+#endif
 
 const char *WIFI_SSID = "XXXXXXXX";
 const char *WIFI_PASS = "XXXXXXXX";
 
-#if USE_MQTT
 #if H4P_SECURE
+#if USE_MQTT
 const char *MQTT_SERVER = "https://192.168.1.34:8883";
 std::string MQTT_CERT = R"(-----BEGIN CERTIFICATE-----
 MIIDgTCCAmmgAwIBAgIUQcIf6OLWUzmZb2mPVcyOMG1HRSkwDQYJKoZIhvcNAQEL
@@ -37,7 +45,11 @@ XyMIsWKOK7LJV2KP3y/kFrQo1cxq9FR6Mw0oSsbcyffBzaGRt0YJO06dYsPzp4k5
 l1Lth94UiX4BIGiaXx4FXRqpAzLQMwEWCS1XyJVrppom8Vo3WQ==
 -----END CERTIFICATE-----
 )";
+#else // USE_MQTT
+const char *MQTT_SERVER = "http://192.168.1.34:1883";
+#endif // USE_MQTT
 
+#if SECURE_WEBSERVER
 std::string WEBSERVER_CERT = R"(-----BEGIN CERTIFICATE-----
 MIIDczCCAlugAwIBAgIUTTk4lTotgitbnMP+Et/ehNdXOwEwDQYJKoZIhvcNAQEL
 BQAwSTELMAkGA1UEBhMCSk8xDDAKBgNVBAgMA0FNTTEMMAoGA1UEBwwDQU1NMQsw
@@ -89,7 +101,30 @@ yx1X4kTgIMK9wt96hW5lgZUyOZz/oSLO5YNuYT54DEs/HFWnX3s7HoeC0mC5qIIi
 C+rU6AEiQVPvNQVim9/+4g==
 -----END PRIVATE KEY-----
 )";
-#else
-const char *MQTT_SERVER = "http://192.168.1.34:1883";
+#endif // SECURE_WEBSERVER
+
+#if SECURE_HTTPREQ
+const char* test_root_ca= \
+     "-----BEGIN CERTIFICATE-----\n" \
+     "MIIDSjCCAjKgAwIBAgIQRK+wgNajJ7qJMDmGLvhAazANBgkqhkiG9w0BAQUFADA/\n" \
+     "MSQwIgYDVQQKExtEaWdpdGFsIFNpZ25hdHVyZSBUcnVzdCBDby4xFzAVBgNVBAMT\n" \
+     "DkRTVCBSb290IENBIFgzMB4XDTAwMDkzMDIxMTIxOVoXDTIxMDkzMDE0MDExNVow\n" \
+     "PzEkMCIGA1UEChMbRGlnaXRhbCBTaWduYXR1cmUgVHJ1c3QgQ28uMRcwFQYDVQQD\n" \
+     "Ew5EU1QgUm9vdCBDQSBYMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB\n" \
+     "AN+v6ZdQCINXtMxiZfaQguzH0yxrMMpb7NnDfcdAwRgUi+DoM3ZJKuM/IUmTrE4O\n" \
+     "rz5Iy2Xu/NMhD2XSKtkyj4zl93ewEnu1lcCJo6m67XMuegwGMoOifooUMM0RoOEq\n" \
+     "OLl5CjH9UL2AZd+3UWODyOKIYepLYYHsUmu5ouJLGiifSKOeDNoJjj4XLh7dIN9b\n" \
+     "xiqKqy69cK3FCxolkHRyxXtqqzTWMIn/5WgTe1QLyNau7Fqckh49ZLOMxt+/yUFw\n" \
+     "7BZy1SbsOFU5Q9D8/RhcQPGX69Wam40dutolucbY38EVAjqr2m7xPi71XAicPNaD\n" \
+     "aeQQmxkqtilX4+U9m5/wAl0CAwEAAaNCMEAwDwYDVR0TAQH/BAUwAwEB/zAOBgNV\n" \
+     "HQ8BAf8EBAMCAQYwHQYDVR0OBBYEFMSnsaR7LHH62+FLkHX/xBVghYkQMA0GCSqG\n" \
+     "SIb3DQEBBQUAA4IBAQCjGiybFwBcqR7uKGY3Or+Dxz9LwwmglSBd49lZRNI+DT69\n" \
+     "ikugdB/OEIKcdBodfpga3csTS7MgROSR6cz8faXbauX+5v3gTt23ADq1cEmv8uXr\n" \
+     "AvHRAosZy5Q6XkjEGB5YGV8eAlrwDPGxrancWYaLbumR9YbK+rlmM6pZW87ipxZz\n" \
+     "R8srzJmwN0jP41ZL9c8PDHIyh8bwRLtTcm1D9SZImlJnt1ir/md2cXjbDaJWFBM5\n" \
+     "JDGFoqgCWjBH4d1QB7wCCZAA62RjYJsWvIjJEubSfZGL+T0yjWW06XyxV3bqxbYo\n" \
+     "Ob8VZRzI9neWagqNdwvYkQsEjgfbKbYK7p2CNTUQ\n" \
+     "-----END CERTIFICATE-----\n";
+#endif // SECURE_HTTPREQ
 #endif // H4P_SECURE
-#endif // USE_MQTT
+

@@ -21,6 +21,8 @@ H4P_AsyncMQTT h4mqtt(MQTT_SERVER);
 H4P_Heartbeat h4hb;
 H4P_BinarySwitch h4onoff(4, ACTIVE_LOW, H4P_UILED_ORANGE, OFF, 10000);
 H4P_UPNPServer h4upnp("UI Input Tester");
+H4P_AsyncHTTP h4ah;
+H4_TIMER httpReqTimer;
 
 void publishDevice(const std::string &topic, const std::string &payload)
 {
@@ -37,6 +39,24 @@ H4_TIMER sender;
 
 void onWiFiConnect() {
 	Serial.printf("Connected, IP: %s\n",WiFi.localIP().toString().c_str());
+
+	httpReqTimer = h4.every(60000, [](){
+#if SECURE_HTTPREQ
+		h4ah.GET("https://www.howsmyssl.com/a/check", [](ARMA_HTTP_REPLY reply){
+#else
+		h4ah.GET("http://jsonplaceholder.typicode.com/todos/1", [](ARMA_HTTP_REPLY reply){
+#endif
+			auto rCode = reply.httpResponseCode;
+			auto response = reply.asJsonstring();
+			auto headers = reply.responseHeaders;
+
+			Serial.printf("code %d response %s\n", rCode, response.c_str());
+
+			for (auto &h:headers) {
+				Serial.printf("%s : %s\n", h.first.c_str(), h.second.c_str());
+			}
+		});
+	});
 }
 void onWiFiDisconnect() {
 	Serial.printf("WiFi Disconnected\n");
@@ -48,7 +68,7 @@ void onMQTTConnect() {
 	sender = h4.every(2000, []()
 					  {
 						  publishDevice("heap", _HAL_freeHeap());
-						  publishDevice("uptime",h4p.gvGetInt(upTimeTag()));
+						  publishDevice("uptime",h4p.gvGetstring(upTimeTag()));
 					  });
 
 }
@@ -85,16 +105,20 @@ void h4setup()
 	mbedtls_debug_set_threshold(1);
 #endif
 
+#if SECURE_HTTPREQ
+	h4ah.secureTLS((const u8_t*)test_root_ca, strlen(test_root_ca) + 1);
+	Serial.printf("HTTP CERT Validation: %s\n", H4AsyncClient::isCertValid((const u8_t*)test_root_ca, strlen(test_root_ca) + 1) ? "SUCCEEDED" : "FAILED");
+#endif
+
 #if H4P_SECURE
+#if USE_MQTT
 	auto mqCert = reinterpret_cast<const uint8_t*>(const_cast<char*>(MQTT_CERT.c_str()));
 	Serial.printf("MQTT CERT Validation: %s\n", H4AsyncClient::isCertValid(mqCert,MQTT_CERT.length()+1) ? "SUCCEEDED" : "FAILED");
-	Serial.printf("WEBSERVER CERT Validation: %s\n", H4AsyncClient::isCertValid((const uint8_t*)WEBSERVER_CERT.c_str(), WEBSERVER_CERT.length() + 1) ? "SUCCEEDED" : "FAILED");
-	Serial.printf("WEBSERVER KEY Validation: %s\n", H4AsyncClient::isPrivKeyValid((const uint8_t*)WEBSERVER_PRIV_KEY.c_str(), WEBSERVER_PRIV_KEY.length() + 1) ? "SUCCEEDED" : "FAILED");
-
-#if USE_MQTT
 	h4mqtt.secureTLS(mqCert, MQTT_CERT.length()+1);
 #endif
 #if SECURE_WEBSERVER
+	Serial.printf("WEBSERVER CERT Validation: %s\n", H4AsyncClient::isCertValid((const uint8_t*)WEBSERVER_CERT.c_str(), WEBSERVER_CERT.length() + 1) ? "SUCCEEDED" : "FAILED");
+	Serial.printf("WEBSERVER KEY Validation: %s\n", H4AsyncClient::isPrivKeyValid((const uint8_t*)WEBSERVER_PRIV_KEY.c_str(), WEBSERVER_PRIV_KEY.length() + 1) ? "SUCCEEDED" : "FAILED");
 	h4wifi.hookWebserver([](){
 		h4wifi.secureTLS((const uint8_t*)WEBSERVER_PRIV_KEY.c_str(), WEBSERVER_PRIV_KEY.length() + 1, 
 							NULL, 0,
@@ -102,6 +126,7 @@ void h4setup()
 		h4wifi.useSecurePort();
 	});
 #endif // SECURE_WEBSERVER
+
 #endif // H4P_SECURE
 
 	h4.every(300, []()
