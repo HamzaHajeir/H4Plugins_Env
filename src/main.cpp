@@ -23,40 +23,16 @@ H4P_BinarySwitch h4onoff(4, ACTIVE_LOW, H4P_UILED_ORANGE, OFF, 10000);
 H4P_UPNPServer h4upnp("UI Input Tester");
 H4P_AsyncHTTP h4ah;
 H4_TIMER httpReqTimer;
+H4_TIMER mqttSender;
 
-void publishDevice(const std::string &topic, const std::string &payload)
-{
-	Serial.printf("Publishing %s to %s\n", CSTR(payload), CSTR(topic));
-#if USE_MQTT
-	h4mqtt.publishDevice(topic, payload, 1);
-#endif
-}
-void publishDevice(const std::string &topic, long long payload)
-{
-	publishDevice(topic, stringFromInt(payload, "%lu"));
-}
-H4_TIMER sender;
+void HTTPRequest();
+void publishDevice(const std::string &topic, const std::string &payload);
+void publishDevice(const std::string &topic, long long payload);
 
 void onWiFiConnect() {
 	Serial.printf("Connected, IP: %s\n",WiFi.localIP().toString().c_str());
-
-	httpReqTimer = h4.every(60000, [](){
-#if SECURE_HTTPREQ
-		h4ah.GET("https://www.howsmyssl.com/a/check", [](ARMA_HTTP_REPLY reply){
-#else
-		h4ah.GET("http://jsonplaceholder.typicode.com/todos/1", [](ARMA_HTTP_REPLY reply){
-#endif
-			auto rCode = reply.httpResponseCode;
-			auto response = reply.asJsonstring();
-			auto headers = reply.responseHeaders;
-
-			Serial.printf("code %d response %s\n", rCode, response.c_str());
-
-			for (auto &h:headers) {
-				Serial.printf("%s : %s\n", h.first.c_str(), h.second.c_str());
-			}
-		});
-	});
+	h4.queueFunction(HTTPRequest);
+	httpReqTimer = h4.every(60000, HTTPRequest);
 }
 void onWiFiDisconnect() {
 	Serial.printf("WiFi Disconnected\n");
@@ -65,7 +41,7 @@ void onWiFiDisconnect() {
 #endif
 }
 void onMQTTConnect() {
-	sender = h4.every(2000, []()
+	mqttSender = h4.every(2000, []()
 					  {
 						  publishDevice("heap", _HAL_freeHeap());
 						  publishDevice("uptime",h4p.gvGetstring(upTimeTag()));
@@ -73,7 +49,7 @@ void onMQTTConnect() {
 
 }
 void onMQTTDisconnect() {
-	h4.cancel(sender);
+	h4.cancel(mqttSender);
 }
 void onViewersConnect() {
 	h4wifi.uiAddGlobal("heap");
@@ -106,8 +82,9 @@ void h4setup()
 #endif
 
 #if SECURE_HTTPREQ
-	h4ah.secureTLS((const u8_t*)test_root_ca, strlen(test_root_ca) + 1);
-	Serial.printf("HTTP CERT Validation: %s\n", H4AsyncClient::isCertValid((const u8_t*)test_root_ca, strlen(test_root_ca) + 1) ? "SUCCEEDED" : "FAILED");
+	auto testRootCA = reinterpret_cast<const uint8_t*>(const_cast<char*>(test_root_ca.c_str()));
+	h4ah.secureTLS(testRootCA, test_root_ca.length() + 1);
+	Serial.printf("HTTP CERT Validation: %s\n", H4AsyncClient::isCertValid(testRootCA, test_root_ca.length() + 1) ? "SUCCEEDED" : "FAILED");
 #endif
 
 #if H4P_SECURE
@@ -135,4 +112,36 @@ void h4setup()
 				h4p["heap"] = _HAL_freeHeap();
 				// h4p["pool"] = mbx::pool.size();
 				});
+}
+
+
+void publishDevice(const std::string &topic, const std::string &payload)
+{
+	Serial.printf("Publishing %s to %s\n", CSTR(payload), CSTR(topic));
+#if USE_MQTT
+	h4mqtt.publishDevice(topic, payload, 1);
+#endif
+}
+
+void publishDevice(const std::string &topic, long long payload)
+{
+	publishDevice(topic, stringFromInt(payload, "%lu"));
+}
+
+void HTTPRequest() {
+#if SECURE_HTTPREQ
+	h4ah.GET("https://www.howsmyssl.com/a/check", [](ARMA_HTTP_REPLY reply){
+#else
+	h4ah.GET("http://jsonplaceholder.typicode.com/todos/1", [](ARMA_HTTP_REPLY reply){
+#endif
+		auto rCode = reply.httpResponseCode;
+		auto response = reply.asJsonstring();
+		auto headers = reply.responseHeaders;
+
+		Serial.printf("code %d response %s\n", rCode, response.c_str());
+
+		for (auto &h:headers) {
+			Serial.printf("%s : %s\n", h.first.c_str(), h.second.c_str());
+		}
+	});
 }
