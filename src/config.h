@@ -10,11 +10,11 @@
 #define SECURE_HTTPREQ 1
 
 #if SECURE_HTTPREQ && !H4P_SECURE
-#error "Activate H4P_SECURE if attempting secure HTTP requests"
+#error "Activate H4P_SECURE if attempting to secure the HTTP requests"
 #endif
 
 #if SECURE_WEBSERVER && !H4P_SECURE
-#error "Activate H4P_SECURE if attempting secure the webserver"
+#error "Activate H4P_SECURE if attempting to secure the webserver"
 #endif
 
 const char *WIFI_SSID = "XXXXXXXX";
