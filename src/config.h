@@ -20,8 +20,8 @@
 const char *WIFI_SSID = "XXXXXXXX";
 const char *WIFI_PASS = "XXXXXXXX";
 
-#if H4P_SECURE
 #if USE_MQTT
+#if H4P_SECURE
 const char *MQTT_SERVER = "https://192.168.1.34:8883";
 std::string MQTT_CERT = R"(-----BEGIN CERTIFICATE-----
 MIIDgTCCAmmgAwIBAgIUQcIf6OLWUzmZb2mPVcyOMG1HRSkwDQYJKoZIhvcNAQEL
@@ -45,10 +45,12 @@ XyMIsWKOK7LJV2KP3y/kFrQo1cxq9FR6Mw0oSsbcyffBzaGRt0YJO06dYsPzp4k5
 l1Lth94UiX4BIGiaXx4FXRqpAzLQMwEWCS1XyJVrppom8Vo3WQ==
 -----END CERTIFICATE-----
 )";
-#else // USE_MQTT
+#else // H4P_SECURE
 const char *MQTT_SERVER = "http://192.168.1.34:1883";
+#endif // H4P_SECURE
 #endif // USE_MQTT
 
+#if H4P_SECURE
 #if SECURE_WEBSERVER
 std::string WEBSERVER_CERT = R"(-----BEGIN CERTIFICATE-----
 MIIDczCCAlugAwIBAgIUTTk4lTotgitbnMP+Et/ehNdXOwEwDQYJKoZIhvcNAQEL
