@@ -10,8 +10,10 @@ H4P_PinMachine h4gm;
 
 #ifdef ARDUINO_ARCH_ESP8266
 std::string name = "ESP8266";
+#define BIG_SIZE 500
 #else
 std::string name = "ESP32";
+#define BIG_SIZE 6000
 #endif
 
 #if H4P_USE_WIFI_AP
@@ -33,7 +35,10 @@ H4P_BinarySwitch h4onoff(4, ACTIVE_LOW, H4P_UILED_ORANGE, OFF, 10000);
 H4P_UPNPServer h4upnp("UI Input Tester");
 H4P_AsyncHTTP h4ah;
 H4_TIMER httpReqTimer;
+uint8_t big[BIG_SIZE];
+
 H4_TIMER mqttSender;
+H4_TIMER bigSender;
 
 void HTTPRequest();
 void publishDevice(const std::string &topic, const std::string &payload);
@@ -49,6 +54,7 @@ void onWiFiDisconnect() {
 #if USE_MQTT
 	h4mqtt.informNetworkState(H4AMC_NETWORK_DISCONNECTED); // [ ] Move to H4Plugins.
 #endif
+	h4.cancel(httpReqTimer);
 }
 void onMQTTConnect() {
 	mqttSender = h4.every(2000, []()
@@ -56,10 +62,17 @@ void onMQTTConnect() {
 						  publishDevice("heap", _HAL_freeHeap());
 						  publishDevice("uptime",h4p.gvGetstring(upTimeTag()));
 					  });
-
+	
+	bigSender = h4.every(6000,[]{
+#if USE_MQTT
+		Serial.printf("SENDING BIG\n");
+		h4mqtt.publish("big", &big[0], BIG_SIZE, 1);
+#endif
+	});
 }
 void onMQTTDisconnect() {
 	h4.cancel(mqttSender);
+	h4.cancel(bigSender);
 }
 void onViewersConnect() {
 	Serial.printf("onViewersConnect\n");
@@ -93,6 +106,12 @@ void h4setup()
 	mbedtls_debug_set_threshold(1);
 #endif
 
+#if USE_MQTT
+	h4p[brokerTag()]=MQTT_SERVER;
+	for (int i=0;i<BIG_SIZE;i++) {
+		big[i]=i;
+	}
+#endif
 
 #if H4P_SECURE
 #if SECURE_HTTPREQ
@@ -122,7 +141,11 @@ void h4setup()
 
 	h4.every(300, []()
 			 {
+#if defined(ARDUINO_ARCH_ESP32)
 				Serial.printf("H=%u M=%u m=%u S=%u\n", _HAL_freeHeap(MALLOC_CAP_INTERNAL), _HAL_maxHeapBlock(MALLOC_CAP_INTERNAL), _HAL_minHeapBlock(MALLOC_CAP_INTERNAL), uxTaskGetStackHighWaterMark(NULL));
+#else
+				Serial.printf("H=%u M=%u m=%u\n", _HAL_freeHeap(), _HAL_maxHeapBlock(), _HAL_minHeapBlock());
+#endif
 				h4p["heap"] = _HAL_freeHeap();
 				// h4p["pool"] = mbx::pool.size();
 				});

@@ -9,6 +9,17 @@
 #define SECURE_WEBSERVER 0
 #define SECURE_HTTPREQ 1
 
+// ESP8266 doesn't support TLS
+#ifdef ARDUINO_ARCH_ESP8266
+#undef H4P_SECURE
+#undef SECURE_WEBSERVER
+#undef SECURE_HTTPREQ
+#define H4P_SECURE 0
+#define SECURE_WEBSERVER 0
+#define SECURE_HTTPREQ 0
+#else
+#endif
+
 #if SECURE_HTTPREQ && !H4P_SECURE
 #error "Activate H4P_SECURE if attempting to secure the HTTP requests"
 #endif
