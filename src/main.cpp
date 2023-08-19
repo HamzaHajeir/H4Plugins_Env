@@ -17,7 +17,7 @@ std::string name = "ESP32";
 #endif
 
 #if H4P_USE_WIFI_AP
-H4P_WiFi h4wifi;
+H4P_WiFi h4wifi(name);
 #else
 H4P_WiFi h4wifi(WIFI_SSID, WIFI_PASS, name);
 #endif
@@ -32,7 +32,7 @@ H4P_AsyncMQTT h4mqtt(MQTT_SERVER);
 
 H4P_Heartbeat h4hb;
 H4P_BinarySwitch h4onoff(4, ACTIVE_LOW, H4P_UILED_ORANGE, OFF, 10000);
-H4P_UPNPServer h4upnp("UI Input Tester");
+H4P_UPNPServer h4upnp("H4Plugins Environment");
 H4P_AsyncHTTP h4ah;
 H4_TIMER httpReqTimer;
 uint8_t big[BIG_SIZE];
@@ -71,13 +71,14 @@ void onMQTTConnect() {
 	});
 }
 void onMQTTDisconnect() {
+	Serial.printf("onMQTTDisconnect()\n");
 	h4.cancel(mqttSender);
 	h4.cancel(bigSender);
 }
 void onViewersConnect() {
 	Serial.printf("onViewersConnect\n");
 	h4wifi.uiAddGlobal("heap");
-	// h4wifi.uiAddGlobal("pool");
+	h4wifi.uiAddGlobal("pool");
 }
 void onViewersDisconnect() {
 	Serial.printf("onViewersDisconnect\n");
@@ -137,6 +138,8 @@ void h4setup()
 	});
 #endif // SECURE_WEBSERVER
 
+	h4wifi.authenticate("admin","admin");
+
 #endif // H4P_SECURE
 
 	h4.every(300, []()
@@ -147,7 +150,7 @@ void h4setup()
 				Serial.printf("H=%u M=%u m=%u\n", _HAL_freeHeap(), _HAL_maxHeapBlock(), _HAL_minHeapBlock());
 #endif
 				h4p["heap"] = _HAL_freeHeap();
-				// h4p["pool"] = mbx::pool.size();
+				h4p["pool"] = mbx::pool.size();
 				});
 }
 
@@ -174,12 +177,12 @@ void HTTPRequest() {
 		auto rCode = reply.httpResponseCode;
 		auto response = reply.asJsonstring();
 		auto headers = reply.responseHeaders;
-
 		Serial.printf("code %d response %s\n", rCode, response.c_str());
 
 		for (auto &h:headers) {
 			Serial.printf("%s : %s\n", h.first.c_str(), h.second.c_str());
 		}
+		headers.clear();
 		publishDevice("response", response);
 	});
 }
