@@ -21,11 +21,15 @@
 #endif
 
 #if SECURE_HTTPREQ && !H4P_SECURE
-#error "Activate H4P_SECURE if attempting to secure the HTTP requests"
+#warning "Activate H4P_SECURE if attempting to secure the HTTP requests"
+#undef SECURE_HTTPREQ
+#define SECURE_HTTPREQ 0
 #endif
 
 #if SECURE_WEBSERVER && !H4P_SECURE
-#error "Activate H4P_SECURE if attempting to secure the webserver"
+#warning "Activate H4P_SECURE if attempting to secure the webserver"
+#undef SECURE_WEBSERVER
+#define SECURE_WEBSERVER 0
 #endif
 
 const char *WIFI_SSID = "XXXXXXXX";
@@ -33,7 +37,7 @@ const char *WIFI_PASS = "XXXXXXXX";
 
 #if USE_MQTT
 #if H4P_SECURE
-const char *MQTT_SERVER = "https://192.168.1.34:8883";
+const char *MQTT_SERVER = "https://192.168.100.4:8883";
 std::string MQTT_CERT = R"(-----BEGIN CERTIFICATE-----
 MIIDgTCCAmmgAwIBAgIUQcIf6OLWUzmZb2mPVcyOMG1HRSkwDQYJKoZIhvcNAQEL
 BQAwUDELMAkGA1UEBhMCSk8xDjAMBgNVBAgMBUFtbWFuMQ4wDAYDVQQHDAVBbW1h
@@ -57,7 +61,7 @@ l1Lth94UiX4BIGiaXx4FXRqpAzLQMwEWCS1XyJVrppom8Vo3WQ==
 -----END CERTIFICATE-----
 )";
 #else // H4P_SECURE
-const char *MQTT_SERVER = "http://192.168.1.34:1883";
+const char *MQTT_SERVER = "http://192.168.100.4:1883";
 #endif // H4P_SECURE
 #endif // USE_MQTT
 
