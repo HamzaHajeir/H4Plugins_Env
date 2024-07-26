@@ -13,7 +13,7 @@ std::string name = "ESP8266";
 #define BIG_SIZE 500
 #else
 std::string name = "ESP32";
-#define BIG_SIZE 6000
+#define BIG_SIZE 13000
 #endif
 
 #if H4P_USE_WIFI_AP
@@ -40,20 +40,21 @@ uint8_t big[BIG_SIZE];
 H4_TIMER mqttSender;
 H4_TIMER bigSender;
 
-void HTTPRequest();
+#if USE_HTTPREQ
+void HTTPClient();
+#endif
 void publishDevice(const std::string &topic, const std::string &payload);
 void publishDevice(const std::string &topic, long long payload);
 
 void onWiFiConnect() {
 	Serial.printf("Connected, IP: %s\n",WiFi.localIP().toString().c_str());
-	h4.queueFunction(HTTPRequest);
-	httpReqTimer = h4.every(60000, HTTPRequest);
+#if USE_HTTPREQ
+	h4.queueFunction(HTTPClient);
+	httpReqTimer = h4.every(60000, HTTPClient);
+#endif
 }
 void onWiFiDisconnect() {
 	Serial.printf("WiFi Disconnected\n");
-#if USE_MQTT
-	h4mqtt.informNetworkState(H4AMC_NETWORK_DISCONNECTED); // [ ] Move to H4Plugins.
-#endif
 	h4.cancel(httpReqTimer);
 }
 void onMQTTConnect() {
@@ -61,9 +62,10 @@ void onMQTTConnect() {
 					  {
 						  publishDevice("heap", _HAL_freeHeap());
 						  publishDevice("uptime",h4p.gvGetstring(upTimeTag()));
+						  publishDevice("maxbloc",_HAL_maxHeapBlock());
 					  });
 	
-	bigSender = h4.every(6000,[]{
+	bigSender = h4.every(3000,[]{
 #if USE_MQTT
 		Serial.printf("SENDING BIG\n");
 		h4mqtt.publish("big", &big[0], BIG_SIZE, 1);
@@ -115,13 +117,13 @@ void h4setup()
 #endif
 
 #if H4P_SECURE
-#if SECURE_HTTPREQ
+#if USE_HTTPREQ && SECURE_HTTPREQ
 	auto testRootCA = reinterpret_cast<const uint8_t*>(const_cast<char*>(test_root_ca.c_str()));
 	h4ah.secureTLS(testRootCA, test_root_ca.length() + 1);
 	Serial.printf("HTTP CERT Validation: %s\n", H4AsyncClient::isCertValid(testRootCA, test_root_ca.length() + 1) ? "SUCCEEDED" : "FAILED");
 #endif // SECURE_HTTPREQ
 
-#if USE_MQTT
+#if USE_MQTT && SECURE_MQTT
 	auto mqCert = reinterpret_cast<const uint8_t*>(const_cast<char*>(MQTT_CERT.c_str()));
 	Serial.printf("MQTT CERT Validation: %s\n", H4AsyncClient::isCertValid(mqCert,MQTT_CERT.length()+1) ? "SUCCEEDED" : "FAILED");
 	h4mqtt.secureTLS(mqCert, MQTT_CERT.length()+1);
@@ -168,7 +170,8 @@ void publishDevice(const std::string &topic, long long payload)
 	publishDevice(topic, stringFromInt(payload, "%lu"));
 }
 
-void HTTPRequest() {
+#if USE_HTTPREQ
+void HTTPClient() {
 #if SECURE_HTTPREQ
 	h4ah.GET("https://www.howsmyssl.com/a/check", [](ARMA_HTTP_REPLY reply){
 #else
@@ -186,3 +189,5 @@ void HTTPRequest() {
 		publishDevice("response", response);
 	});
 }
+#endif
+

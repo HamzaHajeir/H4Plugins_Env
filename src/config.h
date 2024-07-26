@@ -6,7 +6,11 @@
 #endif
 
 #define USE_MQTT 1
-#define SECURE_WEBSERVER 0
+#define USE_HTTPREQ 0
+
+
+#define SECURE_MQTT 1
+#define SECURE_WEBSERVER 1
 #define SECURE_HTTPREQ 1
 
 // ESP8266 doesn't support TLS
@@ -20,10 +24,12 @@
 #else
 #endif
 
+#if USE_HTTPREQ
 #if SECURE_HTTPREQ && !H4P_SECURE
 #warning "Activate H4P_SECURE if attempting to secure the HTTP requests"
 #undef SECURE_HTTPREQ
 #define SECURE_HTTPREQ 0
+#endif
 #endif
 
 #if SECURE_WEBSERVER && !H4P_SECURE
@@ -32,11 +38,17 @@
 #define SECURE_WEBSERVER 0
 #endif
 
+#if SECURE_MQTT && !H4P_SECURE
+#warning "Activate H4P_SECURE if attempting to secure the MQTT Client"
+#undef SECURE_MQTT
+#define SECURE_MQTT 0
+#endif
+
 const char *WIFI_SSID = "XXXXXXXX";
 const char *WIFI_PASS = "XXXXXXXX";
 
 #if USE_MQTT
-#if H4P_SECURE
+#if SECURE_MQTT
 const char *MQTT_SERVER = "https://192.168.100.4:8883";
 std::string MQTT_CERT = R"(-----BEGIN CERTIFICATE-----
 MIIDgTCCAmmgAwIBAgIUQcIf6OLWUzmZb2mPVcyOMG1HRSkwDQYJKoZIhvcNAQEL
@@ -65,7 +77,6 @@ const char *MQTT_SERVER = "http://192.168.100.4:1883";
 #endif // H4P_SECURE
 #endif // USE_MQTT
 
-#if H4P_SECURE
 #if SECURE_WEBSERVER
 std::string WEBSERVER_CERT = R"(-----BEGIN CERTIFICATE-----
 MIIDczCCAlugAwIBAgIUTTk4lTotgitbnMP+Et/ehNdXOwEwDQYJKoZIhvcNAQEL
@@ -120,7 +131,7 @@ C+rU6AEiQVPvNQVim9/+4g==
 )";
 #endif // SECURE_WEBSERVER
 
-#if SECURE_HTTPREQ
+#if USE_HTTPREQ && SECURE_HTTPREQ
 // ISRG Root X1 certificate, the CA of Let's Encrypt
 std::string test_root_ca = R"(-----BEGIN CERTIFICATE-----
 MIIFazCCA1OgAwIBAgIRAIIQz7DSQONZRGPgu2OCiwAwDQYJKoZIhvcNAQELBQAw
@@ -155,5 +166,4 @@ emyPxgcYxn/eR44/KJ4EBs+lVDR3veyJm+kXQ99b21/+jh5Xos1AnX5iItreGCc=
 -----END CERTIFICATE-----
 )";
 #endif // SECURE_HTTPREQ
-#endif // H4P_SECURE
 
