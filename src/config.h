@@ -6,11 +6,12 @@
 #endif
 
 #define USE_MQTT 1
-#define USE_HTTPREQ 0
-
+#define USE_HTTPREQ 1
+#define USE_BLESERVER 1
+#define USE_BLECLIENT 0
 
 #define SECURE_MQTT 1
-#define SECURE_WEBSERVER 1
+#define SECURE_WEBSERVER 0
 #define SECURE_HTTPREQ 1
 
 // ESP8266 doesn't support TLS

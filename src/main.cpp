@@ -1,9 +1,8 @@
 #include <Arduino.h>
 #include "config.h"
+// #define H4P_VERBOSE 1
 #include <H4Plugins.h>
 H4_USE_PLUGINS(PROJ_BAUD_RATE, H4_Q_CAPACITY, false) // Serial baud rate, Q size, SerialCmd autostop
-//
-
 
 H4P_SerialLogger h4sl;
 H4P_PinMachine h4gm;
@@ -22,25 +21,32 @@ H4P_WiFi h4wifi(name);
 H4P_WiFi h4wifi(WIFI_SSID, WIFI_PASS, name);
 #endif
 
+#if USE_BLESERVER
+H4P_BLEServer h4ble;
+bool bleConnected;
+#endif
+#if USE_BLECLIENT
+H4P_BLEClient h4bleclient;
+#endif
+
 #if USE_MQTT
 #if H4P_USE_WIFI_AP
 H4P_AsyncMQTT h4mqtt;
 #else
 H4P_AsyncMQTT h4mqtt(MQTT_SERVER);
 #endif // H4P_USE_WIFI_AP
+uint8_t big[BIG_SIZE];
+H4_TIMER mqttSender;
+H4_TIMER bigSender;
 #endif // USE_MQTT
 
 H4P_Heartbeat h4hb;
 H4P_BinarySwitch h4onoff(4, ACTIVE_LOW, H4P_UILED_ORANGE, OFF, 10000);
 H4P_UPNPServer h4upnp("H4Plugins Environment");
-H4P_AsyncHTTP h4ah;
-H4_TIMER httpReqTimer;
-uint8_t big[BIG_SIZE];
-
-H4_TIMER mqttSender;
-H4_TIMER bigSender;
 
 #if USE_HTTPREQ
+H4P_AsyncHTTP h4ah;
+H4_TIMER httpReqTimer;
 void HTTPClient();
 #endif
 void publishDevice(const std::string &topic, const std::string &payload);
@@ -55,8 +61,11 @@ void onWiFiConnect() {
 }
 void onWiFiDisconnect() {
 	Serial.printf("WiFi Disconnected\n");
+#if USE_HTTPREQ
 	h4.cancel(httpReqTimer);
+#endif
 }
+#if USE_MQTT
 void onMQTTConnect() {
 	mqttSender = h4.every(2000, []()
 					  {
@@ -66,10 +75,8 @@ void onMQTTConnect() {
 					  });
 	
 	bigSender = h4.every(3000,[]{
-#if USE_MQTT
 		Serial.printf("SENDING BIG\n");
 		h4mqtt.publish("big", &big[0], BIG_SIZE, 1);
-#endif
 	});
 }
 void onMQTTDisconnect() {
@@ -77,6 +84,7 @@ void onMQTTDisconnect() {
 	h4.cancel(mqttSender);
 	h4.cancel(bigSender);
 }
+#endif
 void onViewersConnect() {
 	Serial.printf("onViewersConnect\n");
 	h4wifi.uiAddGlobal("heap");
@@ -86,14 +94,42 @@ void onViewersDisconnect() {
 	Serial.printf("onViewersDisconnect\n");
 }
 
+#if USE_BLESERVER
+void onBLESrvConnect() {
+	Serial.printf("BLE Server -> Client Connected\n");
+	bleConnected = true;
+}
+void onBLESrvDisconnect() {
+	Serial.printf("BLE Server -> Client Disconnected\n");
+	bleConnected = false;
+}
+#endif
+
 void h4pGlobalEventHandler(const std::string& svc,H4PE_TYPE t,const std::string& msg)
 {
 	switch (t)
 	{
 		H4P_DEFAULT_SYSTEM_HANDLER;
+#if USE_BLESERVER
+	case H4PE_BLESINIT:
+		h4ble.elemAddBoolean("mybool");
+		h4.every(1000, []{
+			static bool val = false;
+			val = !val;
+			if (bleConnected) {
+				h4ble.elemSetValue("mybool", val);
+			}
+		});
+		break;
+#endif
 	case H4PE_SERVICE:
-		H4P_SERVICE_ADAPTER(MQTT);
 		H4P_SERVICE_ADAPTER(WiFi);
+#if USE_MQTT
+		H4P_SERVICE_ADAPTER(MQTT);
+#endif
+#if USE_BLESERVER
+		H4P_SERVICE_ADAPTER(BLESrv);
+#endif
 		break;
 	case H4PE_VIEWERS:
 		H4P_SERVICE_ADAPTER(Viewers);
@@ -101,12 +137,78 @@ void h4pGlobalEventHandler(const std::string& svc,H4PE_TYPE t,const std::string&
 	default:
 		break;
 	}
-
 }
+#if USE_BLECLIENT
+namespace H4BLEClient {
+bool bleClientConnected = false;
+BLERemoteCharacteristic* cmdCharacteristic = nullptr;
+BLERemoteCharacteristic* replyCharacteristic = nullptr;
+H4_TIMER requestor;
+void onNotify(BLERemoteCharacteristic *pBLERemoteCharacteristic, uint8_t *pData, size_t length, bool isNotify) {
+	Serial.printf("onNotify(%s, %s, is=%d)\n", pBLERemoteCharacteristic->getUUID().toString().c_str(), std::string(reinterpret_cast<char*>(pData), length).c_str(), isNotify);
+}
+void onConnect() {
+	Serial.printf("H4BLEClient::onConnect()\n");
+	bleClientConnected = true;
+	H4BLEClient::cmdCharacteristic = h4bleclient.getRemoteCharacteristic(BLEUUID("9652c3ca-1231-4607-9d40-6afd67609443"), BLEUUID("3c1eb836-4223-4f3e-9c9d-10c5dae1d9b1"));
+	H4BLEClient::replyCharacteristic = h4bleclient.getRemoteCharacteristic(BLEUUID("9652c3ca-1231-4607-9d40-6afd67609443"), BLEUUID("5f1c2e8d-f531-488e-8198-0132ec230a6f"));
+	Serial.printf("cmdChar %p {%s} replyChar %p {%s}\n", 
+								H4BLEClient::cmdCharacteristic, 
+								H4BLEClient::cmdCharacteristic ? H4BLEClient::cmdCharacteristic->getUUID().toString().c_str() : "", 
+								H4BLEClient::replyCharacteristic,
+								H4BLEClient::replyCharacteristic ? H4BLEClient::replyCharacteristic->getUUID().toString().c_str() : ""
+								);
+
+	requestor = h4.every(5000, []{
+		Serial.printf("Commanding/Requesting the H4 Server...\n");
+		if(cmdCharacteristic->canWrite()){
+			Serial.printf("Writing to command characteristic\n");
+			cmdCharacteristic->writeValue("h4/toggle");
+			cmdCharacteristic->writeValue("h4/dump/glob");
+			cmdCharacteristic->writeValue("help");
+			// h4.queueFunction([]{
+			// 	Serial.printf("Reading reply..\n");
+			// 	if (bleClientConnected){
+			// 		auto s = replyCharacteristic->readValue();
+			// 		Serial.printf("Reply: %s\n", s.c_str());
+			// 	}
+			// });
+		} else {
+			Serial.printf("Can not write! %d\n", cmdCharacteristic->canWrite());
+		}
+	});
+	Serial.printf("requestor %p\n", requestor);
+}
+void onDisconnect() {
+	Serial.printf("H4BLEClient::onDisconnect()\n");
+	bleClientConnected = false;
+
+	h4.cancel(requestor);
+	requestor = nullptr;
+}
+}
+#endif
 void h4setup()
 {
 #ifdef MBEDTLS_DEBUG_C
 	mbedtls_debug_set_threshold(1);
+#endif
+
+#if USE_BLECLIENT
+	h4bleclient.add({BLEUUID("9652c3ca-1231-4607-9d40-6afd67609443"), true},	  // H4_SERVICE_UUID 	, mandatory=true
+					 {
+						 {BLEUUID("3c1eb836-4223-4f3e-9c9d-10c5dae1d9b1"), true}, // CMD_CHAR_UUID 		, mandatory=true
+						 {BLEUUID("5f1c2e8d-f531-488e-8198-0132ec230a6f"), true}, // REPLY_CHAR_UUID 	, mandatory=true
+						 {BLEUUID("d684fb38-8fdc-484f-a3a5-15233de0dd9d"), true}, // ELEMENTS_CHAR_UUID , mandatory=true
+						 {BLEUUID("53922702-8a3a-41c2-9e5e-d8c90609855e"), true}, // H4UIDATA_CHAR_UUID , mandatory=true
+					 },
+					 H4BLEClient::onNotify);
+	h4bleclient.setCallbacks(H4BLEClient::onConnect, H4BLEClient::onDisconnect);
+	h4.queueFunction([]{h4bleclient.start();});
+	
+	Serial.printf("Invoking cmd h4/dump/glob\n");
+	auto res= h4p.invokeCmd("h4/dump/glob");
+	Serial.printf("result=%d", res);
 #endif
 
 #if USE_MQTT
@@ -144,6 +246,7 @@ void h4setup()
 
 #endif // H4P_SECURE
 
+#if USE_MQTT
 	h4.every(300, []()
 			 {
 #if defined(ARDUINO_ARCH_ESP32)
@@ -154,6 +257,7 @@ void h4setup()
 				h4p["heap"] = _HAL_freeHeap();
 				h4p["pool"] = mbx::pool.size();
 				});
+#endif
 }
 
 
