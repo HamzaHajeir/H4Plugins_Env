@@ -14,14 +14,18 @@
 #define SECURE_WEBSERVER 0
 #define SECURE_HTTPREQ 1
 
-// ESP8266 doesn't support TLS
-#ifdef ARDUINO_ARCH_ESP8266
+// ESP8266/RP2040 don't support TLS and BLE
+#if defined(ARDUINO_ARCH_ESP8266) || defined(ARDUINO_ARCH_RP2040)
 #undef H4P_SECURE
 #undef SECURE_WEBSERVER
 #undef SECURE_HTTPREQ
-#define H4P_SECURE 0
+#undef USE_BLECLIENT
+#undef USE_BLESERVER
+#define H4P_SECURE 		0
 #define SECURE_WEBSERVER 0
-#define SECURE_HTTPREQ 0
+#define SECURE_HTTPREQ  0
+#define USE_BLECLIENT 	0
+#define USE_BLESERVER 	0
 #else
 #endif
 
