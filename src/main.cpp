@@ -10,6 +10,9 @@ H4P_PinMachine h4gm;
 #ifdef ARDUINO_ARCH_ESP8266
 std::string name = "ESP8266";
 #define BIG_SIZE 500
+#elif defined(ARDUINO_ARCH_RP2040)
+std::string name = "RPiPicoW";
+#define BIG_SIZE 13000
 #else
 std::string name = "ESP32";
 #define BIG_SIZE 13000
