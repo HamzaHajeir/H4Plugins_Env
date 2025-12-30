@@ -5,6 +5,8 @@
 #define H4P_SECURE 1
 #endif
 
+#define DEBUG_MEMORY 0
+
 #define USE_MQTT 1
 #define USE_HTTPREQ 1
 #define USE_BLESERVER 1

@@ -215,7 +215,8 @@ void h4setup()
 #endif
 
 #if USE_MQTT
-	h4p[brokerTag()]=MQTT_SERVER;
+	if (!h4p.gvExists(brokerTag()) || h4p.gvGetstring(brokerTag()).empty())
+		h4p[brokerTag()]=MQTT_SERVER;
 	for (int i=0;i<BIG_SIZE;i++) {
 		big[i]=i;
 	}
@@ -252,10 +253,12 @@ void h4setup()
 #if USE_MQTT
 	h4.every(300, []()
 			 {
+#if DEBUG_MEMORY
 #if defined(ARDUINO_ARCH_ESP32)
 				Serial.printf("H=%u M=%u m=%u S=%u\n", _HAL_freeHeap(MALLOC_CAP_INTERNAL), _HAL_maxHeapBlock(MALLOC_CAP_INTERNAL), _HAL_minHeapBlock(MALLOC_CAP_INTERNAL), uxTaskGetStackHighWaterMark(NULL));
 #else
 				Serial.printf("H=%u M=%u m=%u\n", _HAL_freeHeap(), _HAL_maxHeapBlock(), _HAL_minHeapBlock());
+#endif
 #endif
 				h4p["heap"] = _HAL_freeHeap();
 				h4p["pool"] = mbx::pool.size();
